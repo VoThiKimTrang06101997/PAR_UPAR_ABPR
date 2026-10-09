@@ -75,6 +75,7 @@ def main():
     p.add_argument('--smoke-timeout',type=int,default=900)
     p.add_argument('--smoke-device',choices=['auto','cpu'],default='auto')
     p.add_argument('--ranker-checkpoint',type=Path,default=None)
+    p.add_argument('--contrastive-checkpoint',type=Path,default=None)
     a=p.parse_args()
     out=Path(a.result_dir).resolve();out.mkdir(parents=True,exist_ok=True)
     source=Path(a.source_root).resolve(); official=Path(a.official_root).resolve()
@@ -100,6 +101,19 @@ def main():
         shutil.copy2(source/'abpr'/'retrieval_reranker.py',temp/'retrieval_reranker.py')
         ranker_applied=r.blend>0
         print('Ranker blend selected by VAL:',r.blend,flush=True)
+    contrastive_applied=False
+    if a.contrastive_checkpoint is not None:
+        contrastive_path=a.contrastive_checkpoint.resolve()
+        if not contrastive_path.is_file():raise FileNotFoundError(contrastive_path)
+        from importlib.util import spec_from_file_location,module_from_spec
+        spec=spec_from_file_location('contrastive_reranker',source/'abpr'/'contrastive_reranker.py')
+        module=module_from_spec(spec);spec.loader.exec_module(module)
+        ranker=module.ContrastiveRanker.load(contrastive_path)
+        (temp/'assets').mkdir(exist_ok=True,parents=True)
+        shutil.copy2(contrastive_path,temp/'assets'/'contrastive.npz')
+        shutil.copy2(source/'abpr'/'contrastive_reranker.py',temp/'contrastive_reranker.py')
+        contrastive_applied=ranker.blend>0
+        print('Contrastive blend selected by public VAL:',ranker.blend,flush=True)
     for f in REQUIRED:
         if not (temp/f).is_file():raise FileNotFoundError('Missing in submission: '+f)
     # Do not package unrelated prior-only or prior-jitter assets.
@@ -123,6 +137,8 @@ def main():
         'official_metadata_match':True,
         'ranker_packaged':a.ranker_checkpoint is not None,
         'ranker_active':ranker_applied,
+        'contrastive_packaged':a.contrastive_checkpoint is not None,
+        'contrastive_active':contrastive_applied,
         'critical':'No prior fallback. Failure in worker will be visible in ingestion logs.'
     }
     (out/(a.name+'_manifest.json')).write_text(json.dumps(manifest,indent=2),encoding='utf-8')

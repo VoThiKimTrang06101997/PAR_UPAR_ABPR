@@ -161,6 +161,24 @@ def rank_gallery(sample):
             _log(f'Learned attribute-ranker applied (blend={ranker.blend:.2f})')
         else:
             _log('Ranker public-VAL gate preferred baseline; blend=0')
+    # TRAIN-supervised multi-label contrastive retrieval head. The weights were
+    # fit on public TRAIN; its blend was selected using public VAL only.
+    contrastive_file=HERE/'assets'/'contrastive.npz'
+    if contrastive_file.is_file():
+        from contrastive_reranker import ContrastiveRanker, fuse_distances as fuse_contrastive
+        contrastive=ContrastiveRanker.load(contrastive_file)
+        if contrastive.blend>0:
+            if embeddings is None:
+                raise RuntimeError('Contrastive ranker requires image embeddings from trained model')
+            if hasattr(embeddings,'detach'):
+                np_embeddings=embeddings.detach().cpu().numpy()
+            else:
+                np_embeddings=np.asarray(embeddings,dtype=np.float32)
+            enhanced=contrastive.distance(queries_model,np_embeddings)
+            scores=fuse_contrastive(scores,enhanced,contrastive.blend)
+            _log(f'TRAIN-supervised contrastive ranking applied (blend={contrastive.blend:.2f})')
+        else:
+            _log('Contrastive public-VAL gate preferred baseline; blend=0')
     expected=(len(queries),len(gallery))
     if scores.shape!=expected: raise RuntimeError(f'Unexpected distance shape {scores.shape}, expected {expected}')
     if not np.isfinite(scores).all(): raise RuntimeError('Non-finite retrieval distance')

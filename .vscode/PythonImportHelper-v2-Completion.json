@@ -120,6 +120,223 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
         "label": "dataclass",
         "importPath": "dataclasses",
         "description": "dataclasses",
@@ -133,166 +350,6 @@
         "description": "dataclasses",
         "isExtraImport": true,
         "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -353,15 +410,6 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
         "documentation": {}
     },
     {
@@ -1003,12 +1051,144 @@
         "documentation": {}
     },
     {
+        "label": "sys,unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.unittest",
+        "description": "sys.unittest",
+        "detail": "sys.unittest",
+        "documentation": {}
+    },
+    {
+        "label": "ContrastiveRanker",
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContrastiveRanker",
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContrastiveRanker",
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "train_contrastive",
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "isExtraImport": true,
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "contrastive_losses",
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "isExtraImport": true,
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "ContrastiveHead",
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "isExtraImport": true,
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "synth_queries",
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "isExtraImport": true,
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
         "label": "tempfile",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "tempfile",
         "description": "tempfile",
         "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "TemporaryDirectory",
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "isExtraImport": true,
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.util",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.util",
+        "description": "importlib.util",
+        "detail": "importlib.util",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeRanker",
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.retrieval_reranker",
         "documentation": {}
     },
     {
@@ -1095,6 +1275,14 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
         "documentation": {}
     },
     {
@@ -1363,15 +1551,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -1381,12 +1560,87 @@
         "documentation": {}
     },
     {
+        "label": "load_data",
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "isExtraImport": true,
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "select_evenly",
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "isExtraImport": true,
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "create_gallery_runtime",
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "isExtraImport": true,
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "encode_images",
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "isExtraImport": true,
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "exact_validation_queries",
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "isExtraImport": true,
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_exact_retrieval",
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "isExtraImport": true,
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
         "label": "argparse,csv,json,os,subprocess,sys,time",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "argparse.csv.json.os.subprocess.sys.time",
         "description": "argparse.csv.json.os.subprocess.sys.time",
         "detail": "argparse.csv.json.os.subprocess.sys.time",
+        "documentation": {}
+    },
+    {
+        "label": "ContrastiveRanker",
+        "kind": 6,
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "peekOfCode": "class ContrastiveRanker:\n    def __init__(self, projection, pos_proto, neg_proto, blend=0.0,\n                 temperature=0.08, source='public_train',\n                 best_val_map=None):\n        self.projection = np.asarray(projection, dtype=np.float32)\n        self.pos_proto = np.asarray(pos_proto, dtype=np.float32)\n        self.neg_proto = np.asarray(neg_proto, dtype=np.float32)\n        self.blend = float(blend)\n        self.temperature = float(temperature)\n        self.source = str(source)",
+        "detail": "abpr.contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "kind": 2,
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "peekOfCode": "def fuse_distances(base, contrastive, blend):\n    base=np.asarray(base,dtype=np.float32)\n    if blend <= 0.0:return base  # EXACT baseline, including the ranking scale.\n    contrastive=np.asarray(contrastive,dtype=np.float32)\n    if base.shape!=contrastive.shape:raise ValueError('Distance shape mismatch')\n    if blend >= 1.0:return contrastive\n    def norm(x):\n        return (x-np.median(x,axis=1,keepdims=True)) / np.maximum(x.std(axis=1,keepdims=True),1e-5)\n    ans=((1.0-blend)*norm(base)+blend*norm(contrastive)).astype(np.float32)\n    if not np.isfinite(ans).all():raise RuntimeError('Nonfinite fused distances')",
+        "detail": "abpr.contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "N_ATTR",
+        "kind": 5,
+        "importPath": "abpr.contrastive_reranker",
+        "description": "abpr.contrastive_reranker",
+        "peekOfCode": "N_ATTR = 40\nclass ContrastiveRanker:\n    def __init__(self, projection, pos_proto, neg_proto, blend=0.0,\n                 temperature=0.08, source='public_train',\n                 best_val_map=None):\n        self.projection = np.asarray(projection, dtype=np.float32)\n        self.pos_proto = np.asarray(pos_proto, dtype=np.float32)\n        self.neg_proto = np.asarray(neg_proto, dtype=np.float32)\n        self.blend = float(blend)\n        self.temperature = float(temperature)",
+        "detail": "abpr.contrastive_reranker",
         "documentation": {}
     },
     {
@@ -2245,6 +2499,24 @@
         "documentation": {}
     },
     {
+        "label": "TestContrastive",
+        "kind": 6,
+        "importPath": "tests.test_contrastive_reranker",
+        "description": "tests.test_contrastive_reranker",
+        "peekOfCode": "class TestContrastive(unittest.TestCase):\n    def test_training_and_save_load(self):\n        rng=np.random.default_rng(7)\n        labels=rng.integers(0,2,size=(180,40)).astype(np.float32)\n        labels[rng.random((180,40))<0.12]=-1\n        attr_vectors=rng.normal(size=(40,64)).astype(np.float32)\n        feat=np.clip(labels,0,1)@attr_vectors+rng.normal(0,0.5,size=(180,64))\n        model,logs=train_contrastive(feat.astype(np.float32),labels,np.arange(180)%3,\n                      steps=3,batch_size=32,output_dim=32,device='cpu')\n        q=synth_queries(labels[:5],rng)",
+        "detail": "tests.test_contrastive_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "test_rank_gallery_contrastive_integration",
+        "kind": 2,
+        "importPath": "tests.test_contrastive_submission",
+        "description": "tests.test_contrastive_submission",
+        "peekOfCode": "def test_rank_gallery_contrastive_integration():\n    spec=importlib.util.spec_from_file_location('abpr_contrastive_submission_test',ROOT/'submission_run.py')\n    sub=importlib.util.module_from_spec(spec)\n    spec.loader.exec_module(sub)\n    class FakeRuntime:\n        attribute_names=sub.CANONICAL_NAMES\n        def encode_gallery(self,gallery):\n            g=len(gallery)\n            return (np.tile(np.linspace(.1,.9,40,dtype=np.float32),(g,1)) + np.arange(g)[:,None]*.003),np.eye(g,8,dtype=np.float32)\n        def distance(self,query,probs,embed):",
+        "detail": "tests.test_contrastive_submission",
+        "documentation": {}
+    },
+    {
         "label": "test_ranker_shapes_mask_and_roundtrip",
         "kind": 2,
         "importPath": "tests.test_retrieval_reranker",
@@ -2602,6 +2874,51 @@
         "description": "train_abpr",
         "peekOfCode": "def main():\n    args=parse_args(); seed_everything(args.seed)\n    repo=Path(args.repo_root); data_root=repo/'data'\n    ckdir=Path(args.checkpoint_dir); outdir=Path(args.result_dir); ckdir.mkdir(parents=True,exist_ok=True); outdir.mkdir(parents=True,exist_ok=True)\n    train_csv=discover_labeled_csv(repo,'train')\n    try: val_csv=discover_labeled_csv(repo,'val')\n    except FileNotFoundError: val_csv=None\n    train_df=pd.read_csv(train_csv)\n    if val_csv is not None: val_df=pd.read_csv(val_csv)\n    else: train_df,val_df=split_train_val(train_df,args.val_fraction,args.seed)",
         "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "ContrastiveHead",
+        "kind": 6,
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "peekOfCode": "class ContrastiveHead(torch.nn.Module):\n    def __init__(self, input_dim, output_dim=128):\n        super().__init__()\n        self.proj=torch.nn.Linear(input_dim,output_dim,bias=False)\n        torch.nn.init.orthogonal_(self.proj.weight)\n        self.positive=torch.nn.Parameter(torch.randn(40,output_dim)*0.02)\n        self.negative=torch.nn.Parameter(torch.randn(40,output_dim)*0.02)\n    def image(self,x):\n        return F.normalize(self.proj(F.normalize(x,dim=-1)),dim=-1)\n    def query(self,q):",
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "synth_queries",
+        "kind": 2,
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "peekOfCode": "def synth_queries(labels, rng, min_known=3, max_known=9):\n    \"\"\"Make masked positive/negative queries from public TRAIN labels only.\"\"\"\n    q=np.full(labels.shape,-1.0,dtype=np.float32)\n    for i in range(len(q)):\n        known=np.flatnonzero((labels[i]>=0)&(labels[i]<=1))\n        if len(known)<min_known:continue\n        count=min(len(known),int(rng.integers(min_known,max_known+1)))\n        cols=rng.choice(known,size=count,replace=False)\n        q[i,cols]=labels[i,cols]\n    return q",
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "contrastive_losses",
+        "kind": 2,
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "peekOfCode": "def contrastive_losses(head, feats, labels, query, domains, temperature=0.10,\n                       use_image_supcon=True):\n    \"\"\"Masked multi-positive InfoNCE + query-aware hard negatives + label SupCon.\n    Unknown training labels (-1) never create a supervised negative.\n    Other true positives in a batch are not treated as negatives.\n    \"\"\"\n    device=feats.device\n    n=len(feats)\n    img=head.image(feats)\n    qemb=head.query(query)",
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "train_contrastive",
+        "kind": 2,
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "peekOfCode": "def train_contrastive(emb, labels, domains, steps=1400, seed=42,\n                      output_dim=128,batch_size=128,lr=0.001,device='cpu',\n                      resume_path=None,save_every=200,fingerprint=None):\n    torch.manual_seed(seed)\n    rng=np.random.default_rng(seed)\n    labels=np.asarray(labels,dtype=np.float32)\n    eligible=np.flatnonzero(((labels>=0)&(labels<=1)).sum(1)>=3)\n    if len(eligible)<batch_size:raise RuntimeError('Not enough public TRAIN attribute-labeled images')\n    inp=torch.as_tensor(np.asarray(emb,dtype=np.float32),device=device)\n    labs=torch.as_tensor(labels,device=device)",
+        "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train_contrastive_retrieval",
+        "description": "train_contrastive_retrieval",
+        "peekOfCode": "def main():\n    parser=argparse.ArgumentParser()\n    parser.add_argument('--repo-root',type=Path,required=True)\n    parser.add_argument('--source-root',type=Path,required=True)\n    parser.add_argument('--runtime-zip',type=Path,required=True)\n    parser.add_argument('--output',type=Path,required=True)\n    parser.add_argument('--cache-dir',type=Path,required=True)\n    parser.add_argument('--reliability-checkpoint',type=Path,default=None)\n    parser.add_argument('--extra-data-root',type=Path,action='append',default=[])\n    parser.add_argument('--batch-size',type=int,default=48)",
+        "detail": "train_contrastive_retrieval",
         "documentation": {}
     },
     {
