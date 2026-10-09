@@ -1,138 +1,131 @@
+"""Package trained Track-2 runtime and execute the exact ZIP using REAL public images.
+No simulated fallback check can pass for a missing/broken trained network.
+"""
 from __future__ import annotations
-
-"""
-Build the final Codabench Track-2 code-submission ZIP.
-
-The ZIP root is guaranteed to contain:
-  run.py
-  metadata.yaml
-  abpr_runtime.py
-  assets/model.pt
-
-It also refuses to package the organizer's prior-only baseline run.py.
-"""
-
+import argparse, hashlib, json, os, shutil, subprocess, sys, tempfile, zipfile
 from pathlib import Path
-import argparse
-import ast
-import json
-import shutil
-import zipfile
+
+REQUIRED=('run.py','metadata.yaml','abpr_runtime.py','assets/model.pt')
+
+def safe_extract(zf,destination):
+    destination=Path(destination).resolve()
+    for info in zf.infolist():
+        dest=(destination/info.filename).resolve()
+        if not dest.is_relative_to(destination): raise ValueError(f'Unsafe ZIP member: {info.filename}')
+    zf.extractall(destination)
+
+
+def get_sample_gallery(official_root, source_root, count=4):
+    import pandas as pd
+    sys.path.insert(0,str(source_root))
+    from abpr.core import ImageResolver, detect_image_column, ATTRIBUTE_NAMES
+    csv=official_root/'data/annotations/task2/val/gt.csv'
+    if not csv.exists(): raise FileNotFoundError(f'Missing organizer VAL annotations {csv}')
+    frame=pd.read_csv(csv)
+    col=detect_image_column(frame)
+    resolver=ImageResolver(official_root/'data',official_root,extra_roots=[source_root,source_root/'data'])
+    # Spread the sample across the table instead of drawing neighboring near-identical frames.
+    indices=[(i*(len(frame)-1))//max(count-1,1) for i in range(count)]
+    paths=[]
+    for i in indices:
+        paths.append(str(resolver.resolve(str(frame.iloc[i][col]))))
+    names=list(ATTRIBUTE_NAMES)
+    row=frame.iloc[indices[0]]
+    query=[float(row.get(n, 0)) for n in names]
+    query=[float(v) if v in (0,1,0.0,1.0) else 0.0 for v in query]
+    return {'gallery':[{'image_path':p} for p in paths], 'queries':[query,query[::-1]], 'attribute_names':names}
+
+
+def smoke(package, sample, timeout, device):
+    runner=r'''
+import importlib.util,json,numpy as np,os,sys
+from pathlib import Path
+sys.path.insert(0,os.getcwd())
+from pathlib import Path
+spec=importlib.util.spec_from_file_location('run',Path('run.py').resolve())
+m=importlib.util.module_from_spec(spec);sys.modules['run']=m;spec.loader.exec_module(m)
+sample=json.loads(Path(sys.argv[1]).read_text())
+res=m.rank_gallery(sample)
+assert isinstance(res,dict) and 'distances' in res
+s=np.asarray(res['distances'],dtype=np.float32)
+assert s.shape==(len(sample['queries']),len(sample['gallery'])),s.shape
+assert np.isfinite(s).all()
+assert float(np.std(s,axis=1).max())>1e-7,'Constant ranking'
+print(json.dumps({'passed':True,'shape':list(s.shape),'min':float(s.min()),'max':float(s.max()),'std':float(s.std())}))
+'''
+    with tempfile.TemporaryDirectory(prefix='abpr_packaged_') as tmp:
+        tmp=Path(tmp)
+        with zipfile.ZipFile(package) as zf: safe_extract(zf,tmp)
+        (tmp/'smoke_sample.json').write_text(json.dumps(sample),encoding='utf-8')
+        (tmp/'smoke.py').write_text(runner,encoding='utf-8')
+        env=os.environ.copy(); env['ABPR_FORCE_FALLBACK']='0'; env['PYTHONUNBUFFERED']='1'
+        if device=='cpu': env['CUDA_VISIBLE_DEVICES']=''
+        p=subprocess.run([sys.executable,'-u','smoke.py','smoke_sample.json'],cwd=str(tmp),env=env,capture_output=True,text=True,timeout=timeout)
+        if p.returncode!=0: raise RuntimeError('Packaged inference FAILED\nSTDOUT:\n'+p.stdout[-3000:]+'\nSTDERR:\n'+p.stderr[-7000:])
+        return {'status':'passed','stdout_tail':p.stdout[-1000:],'stderr_tail':p.stderr[-1500:],'device_test':device}
 
 
 def main():
-    p = argparse.ArgumentParser()
-    p.add_argument(
-        '--runtime-zip',
-        default='/content/drive/MyDrive/PedestrianAttributeRecognition/ABPR_Results/UPAR2027_Track2_ABPR_Runtime.zip',
-    )
-    p.add_argument(
-        '--result-dir',
-        default='/content/drive/MyDrive/PedestrianAttributeRecognition/ABPR_Results',
-    )
-    p.add_argument('--name', default='Submission_ABPR_SCORE_BOOST')
-    args = p.parse_args()
-
-    runtime_zip = Path(args.runtime_zip)
-    result_dir = Path(args.result_dir)
-    result_dir.mkdir(parents=True, exist_ok=True)
-    if not runtime_zip.exists():
-        raise FileNotFoundError(runtime_zip)
-
-    folder = result_dir / args.name
-    final_zip = result_dir / f'{args.name}.zip'
-    if folder.exists():
-        shutil.rmtree(folder)
-    if final_zip.exists():
-        final_zip.unlink()
-    folder.mkdir(parents=True)
-
-    with zipfile.ZipFile(runtime_zip, 'r') as zf:
-        zf.extractall(folder)
-
-    required = [
-        folder / 'run.py',
-        folder / 'metadata.yaml',
-        folder / 'abpr_runtime.py',
-        folder / 'assets' / 'model.pt',
-    ]
-    missing = [str(p) for p in required if not p.is_file()]
-    if missing:
-        raise RuntimeError(f'Runtime package is missing required files: {missing}')
-
-    run_text = (folder / 'run.py').read_text(encoding='utf-8')
-    tree = ast.parse(run_text)
-    funcs = [
-        n.name for n in tree.body
-        if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef))
-    ]
-    if 'rank_gallery' not in funcs:
-        raise RuntimeError('run.py does not define rank_gallery().')
-    if 'ABPRRuntime' not in run_text or 'model.pt' not in run_text:
-        raise RuntimeError(
-            'run.py is not connected to the trained model. Refusing to build ZIP.'
-        )
-    forbidden = ['attribute_prior.json', '_PRIOR']
-    found = [x for x in forbidden if x in run_text]
-    if found:
-        raise RuntimeError(
-            f'Prior-only organizer baseline detected in final run.py: {found}'
-        )
-
-    # Remove any stale sample-baseline assets if present.
-    stale = folder / 'assets' / 'attribute_prior.json'
-    if stale.exists():
-        stale.unlink()
-
-    # ZIP CONTENTS, not the wrapper folder.
-    with zipfile.ZipFile(
-        final_zip,
-        'w',
-        zipfile.ZIP_DEFLATED,
-        compresslevel=1,
-        allowZip64=True,
-    ) as zf:
-        for f in sorted(folder.rglob('*')):
-            if f.is_file():
-                zf.write(f, f.relative_to(folder).as_posix())
-
-    with zipfile.ZipFile(final_zip, 'r') as zf:
-        names = [n for n in zf.namelist() if not n.endswith('/')]
-
-    for required_name in (
-        'run.py',
-        'metadata.yaml',
-        'abpr_runtime.py',
-        'assets/model.pt',
-    ):
-        if required_name not in names:
-            raise RuntimeError(f'{required_name} is not at the expected ZIP path.')
-
-    if any(n.startswith(folder.name + '/') for n in names):
-        raise RuntimeError('The wrapper folder was accidentally included in the ZIP.')
-
-    manifest = {
-        'submission_zip': str(final_zip),
-        'runtime_zip': str(runtime_zip),
-        'run_functions': funcs,
-        'zip_files': names,
-        'critical_checks': {
-            'run_py_at_root': True,
-            'run_py_uses_ABPRRuntime': True,
-            'run_py_uses_model_pt': True,
-            'organizer_prior_baseline_removed': True,
-        },
+    p=argparse.ArgumentParser()
+    p.add_argument('--runtime-zip',required=True)
+    p.add_argument('--result-dir',required=True)
+    p.add_argument('--name',default='Submission_ABPR')
+    p.add_argument('--official-root',required=True)
+    p.add_argument('--source-root',required=True)
+    p.add_argument('--smoke-timeout',type=int,default=900)
+    p.add_argument('--smoke-device',choices=['auto','cpu'],default='auto')
+    p.add_argument('--ranker-checkpoint',type=Path,default=None)
+    a=p.parse_args()
+    out=Path(a.result_dir).resolve();out.mkdir(parents=True,exist_ok=True)
+    source=Path(a.source_root).resolve(); official=Path(a.official_root).resolve()
+    runtime=Path(a.runtime_zip).resolve()
+    if not runtime.exists():raise FileNotFoundError(runtime)
+    temp=out/a.name;shutil.rmtree(temp,ignore_errors=True);temp.mkdir()
+    with zipfile.ZipFile(runtime) as zf: safe_extract(zf,temp)
+    # Current official competition contract, not guessed metadata.
+    metadata=official/'examples/task2/sample_code_submission/metadata.yaml'
+    if not metadata.is_file():raise FileNotFoundError(metadata)
+    shutil.copy2(metadata,temp/'metadata.yaml')
+    shutil.copy2(source/'submission_run.py',temp/'run.py')
+    ranker_applied=False
+    if a.ranker_checkpoint is not None:
+        ranker_path=a.ranker_checkpoint.resolve()
+        if not ranker_path.is_file():raise FileNotFoundError(ranker_path)
+        from importlib.util import spec_from_file_location,module_from_spec
+        spec=spec_from_file_location('retrieval_reranker',source/'abpr'/'retrieval_reranker.py')
+        helper=module_from_spec(spec);spec.loader.exec_module(helper)
+        r=helper.AttributeRanker.load(ranker_path)
+        (temp/'assets').mkdir(exist_ok=True,parents=True)
+        shutil.copy2(ranker_path,temp/'assets'/'ranker.npz')
+        shutil.copy2(source/'abpr'/'retrieval_reranker.py',temp/'retrieval_reranker.py')
+        ranker_applied=r.blend>0
+        print('Ranker blend selected by VAL:',r.blend,flush=True)
+    for f in REQUIRED:
+        if not (temp/f).is_file():raise FileNotFoundError('Missing in submission: '+f)
+    # Do not package unrelated prior-only or prior-jitter assets.
+    for f in (temp/'assets').glob('*prior*.json'): f.unlink()
+    archive=out/(a.name+'.zip')
+    if archive.exists(): archive.unlink()
+    with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,allowZip64=True) as zf:
+        for item in sorted(temp.rglob('*')):
+            if item.is_file() and '__pycache__' not in item.parts:
+                zf.write(item,arcname=item.relative_to(temp).as_posix())
+    with zipfile.ZipFile(archive) as zf:
+        if zf.testzip() is not None:raise RuntimeError('Invalid ZIP CRC')
+        for f in REQUIRED:assert f in zf.namelist(),f
+        assert zf.read('metadata.yaml')==metadata.read_bytes()
+    sample=get_sample_gallery(official,source)
+    check=smoke(archive,sample,a.smoke_timeout,a.smoke_device)
+    manifest={
+        'submission_zip':str(archive),'sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+        'size_mib':round(archive.stat().st_size/1048576,2),
+        'runtime_zip':str(runtime),'trained_model_inference_smoke_test':check,
+        'official_metadata_match':True,
+        'ranker_packaged':a.ranker_checkpoint is not None,
+        'ranker_active':ranker_applied,
+        'critical':'No prior fallback. Failure in worker will be visible in ingestion logs.'
     }
-    (result_dir / f'{args.name}_manifest.json').write_text(
-        json.dumps(manifest, indent=2),
-        encoding='utf-8',
-    )
+    (out/(a.name+'_manifest.json')).write_text(json.dumps(manifest,indent=2),encoding='utf-8')
+    print(json.dumps(manifest,indent=2),flush=True)
 
-    print(json.dumps(manifest, indent=2))
-    print('\nUPLOAD THIS FILE DIRECTLY:')
-    print(final_zip)
-    print(f'Size: {final_zip.stat().st_size / 1024**2:.2f} MiB')
-
-
-if __name__ == '__main__':
-    main()
+if __name__=='__main__':main()

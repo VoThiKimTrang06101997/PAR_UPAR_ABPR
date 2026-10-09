@@ -1,140 +1,170 @@
-"""
-UPAR Challenge 2027 Track 2 — model-backed ABPR inference adapter.
+"""Track-2 submission. Uses trained pixels, never a prior/hash fallback.
 
-The organizer imports this file and calls rank_gallery(sample).  Unlike the
-official sample baseline, this adapter actually loads assets/model.pt and uses
-the gallery pixels.
+Official public contract:
+  load_model() -> None
+  predict_attributes(gallery, attribute_names) -> probabilities [G, A]
+  rank_gallery(sample) -> {'distances': float32 ndarray [Q, G]}
+
+A submission that cannot execute the model must FAIL with its actual exception,
+not silently emit a constant/gallery-name ranking that lowers the score.
 """
 from __future__ import annotations
-
-from pathlib import Path
-from typing import Any
+import os
 import re
-
+import sys
+import time
+from pathlib import Path
 import numpy as np
 
-from abpr_runtime import ABPRRuntime
-
-
 HERE = Path(__file__).resolve().parent
-MODEL_PATH = HERE / "assets" / "model.pt"
+MODEL_PATH = HERE / 'assets' / 'model.pt'
+_MODEL = None
 
-_RUNTIME: ABPRRuntime | None = None
-
-
-def _key(name: str) -> str:
-    """Normalize attribute spelling enough to survive punctuation/case changes."""
-    s = str(name).strip().lower().replace("&", "and")
-    return re.sub(r"[^a-z0-9]+", "", s)
-
-
-def load_model() -> None:
-    global _RUNTIME
-    if _RUNTIME is None:
-        if not MODEL_PATH.exists():
-            raise FileNotFoundError(f"Missing model asset: {MODEL_PATH}")
-        _RUNTIME = ABPRRuntime(MODEL_PATH)
+CANONICAL_NAMES = [
+    'Age-Young','Age-Adult','Age-Old','Gender-Female',
+    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',
+    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',
+    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',
+    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',
+    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',
+    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',
+    'LowerBody-Color-Purple','LowerBody-Color-Red','LowerBody-Color-White','LowerBody-Color-Yellow',
+    'LowerBody-Color-Other','LowerBody-Type-Trousers&Shorts','LowerBody-Type-Skirt&Dress',
+    'Accessory-Backpack','Accessory-Bag','Accessory-Glasses-Normal','Accessory-Glasses-Sun','Accessory-Hat',
+]
 
 
-def _model_indices_for_incoming(attribute_names: list[str]) -> list[int]:
-    """
-    For each incoming challenge attribute, return its position in model output.
-    """
-    assert _RUNTIME is not None
-    model_map = {_key(n): i for i, n in enumerate(_RUNTIME.attribute_names)}
-    indices = []
-    missing = []
-    for name in attribute_names:
-        k = _key(name)
-        if k not in model_map:
-            missing.append(name)
+def _log(message):
+    print('[ABPR inference] ' + str(message), file=sys.stderr, flush=True)
+
+
+def _norm(s):
+    return re.sub(r'[^a-z0-9]+', '', str(s).lower().replace('&','and'))
+
+
+def _gallery_records(items):
+    if items is None:
+        raise ValueError('sample.gallery is missing')
+    if hasattr(items, 'to_dict') and not isinstance(items, (dict, list, tuple, np.ndarray)):
+        try: items=items.to_dict('records')
+        except TypeError: pass
+    records=[]
+    for item in items:
+        if isinstance(item, dict):
+            d=dict(item)
+            if not d.get('image_path'):
+                for key in ('path','image','filename','file','img_path'):
+                    if d.get(key) is not None:
+                        d['image_path']=os.fspath(d[key]);break
+            if not d.get('image_path'):
+                raise ValueError(f'Gallery dict lacks image path keys: {list(item)[:12]}')
+        elif isinstance(item,(str,os.PathLike)):
+            d={'image_path':os.fspath(item)}
         else:
-            indices.append(model_map[k])
-    if missing:
-        raise ValueError(
-            "Challenge attribute names do not match the trained model. "
-            f"Missing mappings: {missing}"
-        )
-    if len(indices) != len(attribute_names):
-        raise RuntimeError("Attribute mapping produced wrong number of columns.")
-    return indices
+            raise TypeError(f'Unsupported gallery entry: {type(item).__name__}')
+        records.append(d)
+    return records
 
 
-def _queries_to_model_order(
-    queries: np.ndarray,
-    attribute_names: list[str],
-) -> np.ndarray:
-    """
-    Organizer queries are ordered by sample['attribute_names']; reorder them to
-    the 40-column order used while training the model.
-    """
-    assert _RUNTIME is not None
-    incoming_map = {_key(n): i for i, n in enumerate(attribute_names)}
-    cols = []
-    missing = []
-    for model_name in _RUNTIME.attribute_names:
-        k = _key(model_name)
-        if k not in incoming_map:
-            missing.append(model_name)
+def _cols(names, target):
+    names=[str(n) for n in names]
+    if len(names)!=len(set(map(_norm,names))):
+        raise ValueError('Duplicate normalized attribute names in incoming sample')
+    lookup={_norm(n):i for i,n in enumerate(names)}
+    missing=[n for n in target if _norm(n) not in lookup]
+    if missing: raise ValueError(f'Missing challenge attributes: {missing}')
+    return [lookup[_norm(n)] for n in target]
+
+
+def load_model():
+    global _MODEL
+    if _MODEL is not None: return
+    if os.environ.get('ABPR_FORCE_FALLBACK')=='1':
+        raise RuntimeError('Prior/hash fallback is prohibited; trained model required')
+    if not MODEL_PATH.is_file(): raise FileNotFoundError(f'Trained checkpoint missing: {MODEL_PATH}')
+    # Lazy import: if dependencies fail on worker, report real traceback.
+    from abpr_runtime import ABPRRuntime
+    _MODEL=ABPRRuntime(MODEL_PATH)
+    device=str(getattr(_MODEL,'device','unknown'))
+    _log(f'TRAINED checkpoint loaded; device={device}; weights={MODEL_PATH.stat().st_size/1024**2:.1f} MiB')
+
+
+def _predict_model(gallery):
+    load_model()
+    if len(gallery)==0: raise ValueError('Empty gallery')
+    start=time.monotonic()
+    output=_MODEL.encode_gallery(gallery)
+    if isinstance(output, tuple):
+        probs, embeddings = output[:2]
+    else: raise TypeError('ABPRRuntime.encode_gallery must return (probabilities, embeddings)')
+    if hasattr(probs,'detach'): probs=probs.detach().cpu().numpy()
+    probs=np.asarray(probs,dtype=np.float32)
+    if probs.shape!=(len(gallery),len(CANONICAL_NAMES)):
+        raise ValueError(f'Bad probabilities shape {probs.shape} expected ({len(gallery)},40)')
+    if not np.isfinite(probs).all(): raise ValueError('Non-finite probabilities')
+    spread=float(np.std(probs,axis=0).mean())
+    if len(gallery)>=4 and spread<1e-7:
+        raise RuntimeError('DEGENERATE model: predicted attributes are constant over gallery')
+    _log(f'Encoded {len(gallery)} REAL gallery images in {time.monotonic()-start:.1f}s; avg per-attribute std={spread:.5f}')
+    return probs,embeddings
+
+
+def predict_attributes(gallery, attribute_names):
+    records=_gallery_records(gallery)
+    probs,_=_predict_model(records)
+    model_names=list(getattr(_MODEL,'attribute_names', CANONICAL_NAMES))
+    if len(model_names)!=probs.shape[1]: raise ValueError('Runtime attribute_names length mismatch')
+    return probs[:,_cols(model_names,attribute_names)]
+
+
+def rank_gallery(sample):
+    if not isinstance(sample,dict): raise TypeError('rank_gallery expects a dict sample')
+    gallery=_gallery_records(sample.get('gallery'))
+    names=sample.get('attribute_names',CANONICAL_NAMES)
+    names=list(names)
+    queries=np.asarray(sample['queries'],dtype=np.float32)
+    if queries.ndim==1: queries=queries[None,:]
+    if queries.ndim!=2 or queries.shape[1]!=len(names):
+        raise ValueError(f'Query shape {queries.shape} incompatible with {len(names)} names')
+    probs,embeddings=_predict_model(gallery)
+    model_names=list(getattr(_MODEL,'attribute_names',CANONICAL_NAMES))
+    indices=_cols(names,model_names)
+    queries_model=queries[:,indices]
+    # Runtime expects tensors; encode_gallery returns NumPy after our validation.
+    # Previous submissions failed on numpy.ndarray.float() without this bridge.
+    import torch
+    tensor_probs=torch.as_tensor(probs,dtype=torch.float32,device='cpu')
+    tensor_embeddings=(torch.as_tensor(embeddings,dtype=torch.float32,device='cpu')
+                       if embeddings is not None else None)
+    try:
+        scores=_MODEL.distance(queries_model,tensor_probs,tensor_embeddings)
+    except TypeError as exc:
+        # Some provider runtimes use NumPy matrix multiplication rather than
+        # tensor APIs. Retry NumPy only for an explicit NumPy/Tensor mixing
+        # exception; never swallow genuine model errors.
+        msg=str(exc)
+        if 'numpy.ndarray' not in msg or 'Tensor' not in msg:
+            raise
+        scores=_MODEL.distance(queries_model,probs,embeddings)
+    if hasattr(scores,'detach'): scores=scores.detach().cpu().numpy()
+    scores=np.asarray(scores,dtype=np.float32)
+
+    # Optional TRAIN-supervised attribute-ranker. If public VAL does not show a
+    # measurable gain, artifact has blend=0 and the baseline remains exact.
+    ranker_file=HERE/'assets'/'ranker.npz'
+    if ranker_file.is_file():
+        from retrieval_reranker import AttributeRanker, fuse_distances
+        ranker=AttributeRanker.load(ranker_file)
+        if ranker.blend>0:
+            learned=ranker.distance(queries_model,probs)
+            scores=fuse_distances(scores,learned,ranker.blend)
+            _log(f'Learned attribute-ranker applied (blend={ranker.blend:.2f})')
         else:
-            cols.append(incoming_map[k])
-    if missing:
-        raise ValueError(
-            "Cannot reorder challenge queries into model attribute order. "
-            f"Missing: {missing}"
-        )
-    return np.asarray(queries, dtype=np.float32)[:, cols]
-
-
-def predict_attributes(
-    gallery: list[dict[str, Any]],
-    attribute_names: list[str],
-) -> np.ndarray:
-    """
-    Predict gallery attribute probabilities in the exact order requested by the
-    organizer.  This helper mirrors the official starter signature.
-    """
-    load_model()
-    assert _RUNTIME is not None
-    probs, _ = _RUNTIME.encode_gallery(gallery)
-    model_cols = _model_indices_for_incoming(attribute_names)
-    return probs[:, model_cols].numpy().astype(np.float32, copy=False)
-
-
-def rank_gallery(sample: dict[str, Any]) -> dict[str, Any]:
-    """
-    Return a [num_queries, num_gallery] float32 distance matrix.
-    Smaller is better, exactly as required by the official Track-2 starter.
-    """
-    load_model()
-    assert _RUNTIME is not None
-
-    gallery = sample["gallery"]
-    incoming_names = list(sample["attribute_names"])
-    queries_in = np.asarray(sample["queries"], dtype=np.float32)
-
-    if queries_in.ndim != 2:
-        raise ValueError(f"Expected 2-D queries, got shape={queries_in.shape}")
-    if queries_in.shape[1] != len(incoming_names):
-        raise ValueError(
-            f"Query width {queries_in.shape[1]} != "
-            f"len(attribute_names) {len(incoming_names)}"
-        )
-
-    queries_model = _queries_to_model_order(queries_in, incoming_names)
-    probs, emb = _RUNTIME.encode_gallery(gallery)
-    distances = _RUNTIME.distance(
-        queries_model,
-        probs,
-        emb,
-    ).numpy().astype(np.float32, copy=False)
-
-    expected = (len(queries_in), len(gallery))
-    if distances.shape != expected:
-        raise RuntimeError(
-            f"Bad distance shape {distances.shape}; expected {expected}"
-        )
-    if not np.isfinite(distances).all():
-        raise RuntimeError("Non-finite distances produced by submission model.")
-
-    return {"distances": distances}
+            _log('Ranker public-VAL gate preferred baseline; blend=0')
+    expected=(len(queries),len(gallery))
+    if scores.shape!=expected: raise RuntimeError(f'Unexpected distance shape {scores.shape}, expected {expected}')
+    if not np.isfinite(scores).all(): raise RuntimeError('Non-finite retrieval distance')
+    if len(gallery)>=4 and float(scores.std(axis=1).max())<1e-7:
+        raise RuntimeError('DEGENERATE rankings: every image receives the same score')
+    _log(f'Non-degenerate model ranking returned shape={scores.shape}, distance range [{scores.min():.4f},{scores.max():.4f}]')
+    return {'distances':scores}

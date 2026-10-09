@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+from contextlib import nullcontext
+import io
 import os
 
 import numpy as np
@@ -27,6 +29,34 @@ ATTRIBUTE_NAMES = [
     'Accessory-Backpack','Accessory-Bag','Accessory-Glasses-Normal','Accessory-Glasses-Sun','Accessory-Hat'
 ]
 NUM_ATTRIBUTES = len(ATTRIBUTE_NAMES)
+
+
+def _make_torchvision_model(factory):
+    """Construct torchvision models across old/new torchvision APIs."""
+    try:
+        return factory(weights=None)
+    except TypeError:
+        return factory(pretrained=False)
+
+
+def _safe_torch_load(path):
+    """Support both modern and older torch.load signatures."""
+    try:
+        return torch.load(path, map_location='cpu', weights_only=False)
+    except TypeError:
+        return torch.load(path, map_location='cpu')
+
+
+def _autocast_context(device):
+    if device.type != 'cuda':
+        return nullcontext()
+    try:
+        return torch.autocast(device_type='cuda', dtype=torch.float16, enabled=True)
+    except Exception:
+        try:
+            return torch.cuda.amp.autocast(enabled=True)
+        except Exception:
+            return nullcontext()
 
 
 class QueryEncoder(nn.Module):
@@ -91,15 +121,15 @@ class RuntimeNet(nn.Module):
     def __init__(self,backbone='convnext_small',embed_dim=320):
         super().__init__()
         if backbone=='efficientnet_b0':
-            base=efficientnet_b0(weights=None); feat=base.classifier[1].in_features
+            base=_make_torchvision_model(efficientnet_b0); feat=base.classifier[1].in_features
         elif backbone=='convnext_tiny':
-            base=convnext_tiny(weights=None); feat=base.classifier[2].in_features
+            base=_make_torchvision_model(convnext_tiny); feat=base.classifier[2].in_features
         elif backbone=='convnext_small':
-            base=convnext_small(weights=None); feat=base.classifier[2].in_features
+            base=_make_torchvision_model(convnext_small); feat=base.classifier[2].in_features
         elif backbone=='convnext_base':
-            base=convnext_base(weights=None); feat=base.classifier[2].in_features
+            base=_make_torchvision_model(convnext_base); feat=base.classifier[2].in_features
         elif backbone=='efficientnet_v2_s':
-            base=efficientnet_v2_s(weights=None); feat=base.classifier[-1].in_features
+            base=_make_torchvision_model(efficientnet_v2_s); feat=base.classifier[-1].in_features
         else:
             raise ValueError(backbone)
         self.features=base.features; self.avgpool=base.avgpool
@@ -121,14 +151,14 @@ class RuntimeNet(nn.Module):
 
 class ABPRRuntime:
     """Self-contained Track-2 runtime used inside the Codabench submission."""
-    def __init__(self,model_path: str|Path,config_path: str|Path|None=None):
+    def __init__(self, model_path, config_path=None):
         self.model_path=Path(model_path); self.device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.models=[]; self.attribute_names=list(ATTRIBUTE_NAMES); self.height=384; self.width=192
         self.embedding_mix=0.; self.prototype_mix=0.; self.distance_kind='match'; self.positive_rarity_power=0.; self.negative_weight=1.; self.tta_flip=False
         self.attribute_weights=torch.ones(NUM_ATTRIBUTES); self.calibration_scale=torch.ones(NUM_ATTRIBUTES); self.calibration_bias=torch.zeros(NUM_ATTRIBUTES); self.priors=torch.full((NUM_ATTRIBUTES,),.5)
-        self.batch_size=28 if self.device.type=='cuda' else 8; self.io_workers=min(8,max(2,os.cpu_count() or 2)); self._load()
+        self.batch_size=24 if self.device.type=='cuda' else 4; self.io_workers=min(4,max(1,os.cpu_count() or 1)); self._load()
     def _load(self):
-        pkg=torch.load(self.model_path,map_location='cpu',weights_only=False)
+        pkg=_safe_torch_load(self.model_path)
         self.height=int(pkg.get('image_height',384)); self.width=int(pkg.get('image_width',192))
         self.embedding_mix=float(np.clip(pkg.get('embedding_mix',0.),0.,0.20)); self.prototype_mix=float(np.clip(pkg.get('prototype_mix',0.),0.,0.95)); self.distance_kind=str(pkg.get('distance_kind','match')).lower()
         self.positive_rarity_power=float(pkg.get('positive_rarity_power',0.)); self.negative_weight=float(pkg.get('negative_weight',1.)); self.tta_flip=bool(pkg.get('tta_flip',False))
@@ -149,21 +179,55 @@ class ABPRRuntime:
             critical=[k for k in missing if k.startswith(('features.','global_attr_head.','spatial_attr_head.','stripe_attr_head.','prototype_head.','attr_fusion_logits'))]
             if critical: raise RuntimeError(f'Missing critical state keys: {critical[:10]}')
             self.models.append(m.to(self.device).eval())
+        # Conservative CPU fallback: Codabench ingestion may not allocate a GPU.
+        # A single model without flip-TTA is much more likely to finish within time limits.
+        if self.device.type == 'cpu' and len(self.models) > 1:
+            self.models = self.models[:1]
+            self.tta_flip = False
         self.transform=transforms.Compose([transforms.Resize((self.height,self.width)),transforms.ToTensor(),transforms.Normalize([.485,.456,.406],[.229,.224,.225])])
         self.pool=ThreadPoolExecutor(max_workers=self.io_workers)
         if self.device.type=='cpu': torch.set_num_threads(min(8,max(1,os.cpu_count() or 1)))
-    def _load_one(self,p):
-        with Image.open(p) as im: return self.transform(im.convert('RGB'))
+    def _load_one(self, sample):
+        src = sample
+        if isinstance(sample, dict):
+            src = (sample.get('image_path') or sample.get('image') or sample.get('path')
+                   or sample.get('filepath') or sample.get('file'))
+        if src is None:
+            raise ValueError('Gallery item missing image data/path')
+        if isinstance(src, Image.Image):
+            return self.transform(src.convert('RGB'))
+        if torch.is_tensor(src):
+            arr = src.detach().cpu()
+            if arr.ndim == 3 and arr.shape[0] in (1,3,4):
+                arr = arr.permute(1,2,0)
+            arr = arr.numpy()
+            if arr.dtype != np.uint8:
+                arr = np.clip(arr,0,1) if float(np.nanmax(arr)) <= 1.5 else np.clip(arr,0,255)
+                arr = (arr*255).astype(np.uint8) if float(np.nanmax(arr)) <= 1.5 else arr.astype(np.uint8)
+            return self.transform(Image.fromarray(arr).convert('RGB'))
+        if isinstance(src, np.ndarray):
+            arr = src
+            if arr.dtype != np.uint8:
+                arr = np.nan_to_num(arr)
+                if arr.size and float(arr.max()) <= 1.5:
+                    arr = (np.clip(arr,0,1)*255).astype(np.uint8)
+                else:
+                    arr = np.clip(arr,0,255).astype(np.uint8)
+            return self.transform(Image.fromarray(arr).convert('RGB'))
+        if isinstance(src, (bytes, bytearray)):
+            with Image.open(io.BytesIO(src)) as im:
+                return self.transform(im.convert('RGB'))
+        with Image.open(str(src)) as im:
+            return self.transform(im.convert('RGB'))
     @torch.inference_mode()
     def encode_gallery(self,samples):
-        paths=[s.get('image_path') or s.get('image') or s.get('path') for s in samples]
-        if any(p is None for p in paths): raise ValueError('Gallery item missing image_path/image/path')
+        items=list(samples)
         ps,zs=[],[]
-        for st in range(0,len(paths),self.batch_size):
-            ch=paths[st:st+self.batch_size]; xs=list(self.pool.map(self._load_one,ch)); x=torch.stack(xs).to(self.device,non_blocking=True)
+        for st in range(0,len(items),self.batch_size):
+            ch=items[st:st+self.batch_size]; xs=list(self.pool.map(self._load_one,ch)); x=torch.stack(xs).to(self.device,non_blocking=True)
             pp=[]; pr=[]; zz=[]
             for m in self.models:
-                with torch.autocast(device_type=self.device.type,dtype=torch.float16,enabled=self.device.type=='cuda'):
+                with _autocast_context(self.device):
                     logits,z,proto_logits=m.encode_images(x)
                     if self.tta_flip:
                         lf,zf,pf=m.encode_images(torch.flip(x,dims=[3])); logits=(logits+lf)*.5; proto_logits=(proto_logits+pf)*.5; z=F.normalize((z+zf)*.5,dim=-1)

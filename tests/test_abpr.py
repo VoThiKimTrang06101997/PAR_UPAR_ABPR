@@ -96,3 +96,14 @@ def test_probability_blend_endpoints():
     assert torch.allclose(blend_attribute_probabilities(a,b,0.0),a)
     mid=blend_attribute_probabilities(a,b,0.5)
     assert torch.allclose(mid,torch.full_like(mid,.5))
+
+
+def test_submission_run_python38_compatible_syntax():
+    """Guard against PEP-604 annotations that break older ingestion images."""
+    import ast
+    from pathlib import Path
+    root=Path(__file__).resolve().parents[1]
+    text=(root/'submission_run.py').read_text(encoding='utf-8')
+    ast.parse(text)
+    assert 'ABPRRuntime | None' not in text
+    assert 'str|Path' not in text

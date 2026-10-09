@@ -27,11 +27,13 @@ def main():
         'distance_kind','embedding_mix','prototype_mix','positive_rarity_power','negative_weight','tta_flip','priors','validation','retrieval_calibration','source_checkpoints'
     ] if k in ck}
     package['format']='upar2027-track2-abpr-prototype-runtime'
+    package['runtime_compatibility']={'python_min':'3.8','cpu_fallback_single_model':True,'safe_torch_load':True}
 
     work=Path('/content/UPAR2027_Track2_ABPR_runtime') if Path('/content').exists() else out/'runtime_tmp'
     if work.exists(): shutil.rmtree(work)
     (work/'assets').mkdir(parents=True); torch.save(package,work/'assets'/'model.pt')
     here=Path(__file__).resolve().parent; shutil.copy2(here/'abpr'/'runtime.py',work/'abpr_runtime.py'); shutil.copy2(here/'submission_run.py',work/'run.py')
+    if (here/'requirements.txt').is_file(): shutil.copy2(here/'requirements.txt',work/'requirements.txt')
     metadata=locate_metadata(official)
     if metadata is None: raise FileNotFoundError('Could not locate official Task-2 metadata.yaml')
     shutil.copy2(metadata,work/'metadata.yaml')

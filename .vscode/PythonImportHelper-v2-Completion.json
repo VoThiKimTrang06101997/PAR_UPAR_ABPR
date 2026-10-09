@@ -1,0 +1,2724 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "WeightedRandomSampler",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "efficientnet_b0",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "EfficientNet_B0_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_tiny",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConvNeXt_Tiny_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "efficientnet_b0",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "EfficientNet_B0_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_tiny",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConvNeXt_Tiny_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_small",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConvNeXt_Small_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_base",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConvNeXt_Base_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "efficientnet_v2_s",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "EfficientNet_V2_S_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "efficientnet_b0",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_tiny",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_small",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_base",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "efficientnet_v2_s",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "nullcontext",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "sample_sparse_queries",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "probability_degree_match_loss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "degree_match_listwise_loss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "calibrated_attribute_distances",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "apply_affine_calibration",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRNet",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "UPARDataset",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "build_eval_transform",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "find_task2_split_files",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "fit_affine_calibration",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "calibrated_attribute_distances",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "UPARDataset",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "build_eval_transform",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "find_task2_split_files",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "calibrated_attribute_distances",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "find_task2_split_files",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRNet",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "UPARDataset",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "TrainConfig",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "build_train_transform",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "build_eval_transform",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "find_task2_split_files",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "sample_sparse_queries",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "MaskedFocalLoss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "group_consistency_loss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "alignment_loss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "degree_of_match_contrastive_loss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "probability_degree_match_loss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "degree_match_listwise_loss",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "calibrated_attribute_distances",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "csv,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv.",
+        "description": "csv.",
+        "detail": "csv.",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeRanker",
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeRanker",
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "isExtraImport": true,
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.util,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.util.",
+        "description": "importlib.util.",
+        "detail": "importlib.util.",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "argparse,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse.",
+        "description": "argparse.",
+        "detail": "argparse.",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.util,json,numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.util.json.numpy",
+        "description": "importlib.util.json.numpy",
+        "detail": "importlib.util.json.numpy",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "attribute_error_weights",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "seed_everything",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "discover_labeled_csv",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "split_train_val",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "make_domain_balanced_sampler",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ModelEMA",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "domain_loss",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "estimate_attribute_priors",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "attribute_error_weights",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "seed_everything",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "grad_reverse",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "blend_attribute_probabilities",
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "isExtraImport": true,
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "blend_attribute_probabilities",
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "isExtraImport": true,
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "masked_prototype_bce",
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "isExtraImport": true,
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "prototype_domain_alignment_loss",
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "isExtraImport": true,
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "prototype_separation_loss",
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "isExtraImport": true,
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "blend_attribute_probabilities",
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "isExtraImport": true,
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRRuntime",
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "isExtraImport": true,
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRRuntime",
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "isExtraImport": true,
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "argparse,csv,json,os,subprocess,sys,time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse.csv.json.os.subprocess.sys.time",
+        "description": "argparse.csv.json.os.subprocess.sys.time",
+        "detail": "argparse.csv.json.os.subprocess.sys.time",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class ImageResolver:\n    \"\"\"Resolve UPAR image paths across the official repo and optional extra roots.\n    The organizer annotations and the user data-preparation script may live in\n    different checkouts in Colab.  This resolver therefore searches all known\n    roots and only falls back to a basename index as a last resort.\n    \"\"\"\n    def __init__(self, data_root: str | Path, repo_root: str | Path, extra_roots=None):\n        self.data_root = Path(data_root)\n        self.repo_root = Path(repo_root)\n        # Search the current 2027 layout plus legacy UPAR/phase1 layouts.",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "UPARAttributeDataset",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class UPARAttributeDataset(Dataset):\n    def __init__(self, dataframe: pd.DataFrame, resolver: ImageResolver, transform):\n        self.df = dataframe.reset_index(drop=True).copy()\n        self.image_col = detect_image_column(self.df)\n        self.paths = self.df[self.image_col].astype(str).tolist()\n        self.targets = self.df[ATTRIBUTE_NAMES].to_numpy(dtype=np.float32)\n        self.domains = np.asarray([infer_domain_id(p) for p in self.paths], dtype=np.int64)\n        self.resolver = resolver\n        self.transform = transform\n    def __len__(self):",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "MixStyle",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class MixStyle(nn.Module):\n    def __init__(self, p: float = 0.5, alpha: float = 0.1, eps: float = 1e-6):\n        super().__init__()\n        self.p, self.alpha, self.eps = float(p), float(alpha), float(eps)\n    def forward(self, x):\n        if not self.training or x.ndim != 4 or x.size(0) < 2:\n            return x\n        if torch.rand(1, device=x.device).item() > self.p:\n            return x\n        # AMP-safe: compute feature statistics in FP32.",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "_GradientReverse",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class _GradientReverse(torch.autograd.Function):\n    @staticmethod\n    def forward(ctx, x, lambd):\n        ctx.lambd = float(lambd)\n        return x.view_as(x)\n    @staticmethod\n    def backward(ctx, grad_output):\n        return -ctx.lambd * grad_output, None\ndef grad_reverse(x, lambd: float = 1.0):\n    return _GradientReverse.apply(x, lambd)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "QueryEncoder",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class QueryEncoder(nn.Module):\n    \"\"\"Encodes a 40-state attribute query into the same space as image embeddings.\"\"\"\n    def __init__(self, embed_dim: int = 192, negative_token_scale: float = 0.20):\n        super().__init__()\n        self.embed_dim = int(embed_dim)\n        self.negative_token_scale = float(negative_token_scale)\n        self.pos_basis = nn.Parameter(torch.randn(NUM_ATTRIBUTES, embed_dim) * 0.02)\n        self.neg_basis = nn.Parameter(torch.randn(NUM_ATTRIBUTES, embed_dim) * 0.02)\n        self.mlp = nn.Sequential(\n            nn.LayerNorm(embed_dim),",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRNet",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class ABPRNet(nn.Module):\n    \"\"\"\n    Hybrid PAR + retrieval model.\n    The classification head keeps the strong PAR signal from the user's existing\n    PAR_UPAR work. The projection/query heads optimize the actual Track-2 task.\n    \"\"\"\n    def __init__(self, backbone: str = 'efficientnet_b0', embed_dim: int = 192, pretrained: bool = True):\n        super().__init__()\n        self.backbone_name = backbone\n        self.embed_dim = int(embed_dim)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "MaskedAsymmetricLoss",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class MaskedAsymmetricLoss(nn.Module):\n    def __init__(self, gamma_neg: float = 4.0, gamma_pos: float = 1.0, clip: float = 0.05, eps: float = 1e-6):\n        super().__init__()\n        self.gamma_neg, self.gamma_pos, self.clip, self.eps = map(float, (gamma_neg, gamma_pos, clip, eps))\n    def forward(self, logits, targets, valid):\n        # AMP-safe: probability/log arithmetic stays in FP32.\n        logits = logits.float(); targets = targets.float(); valid = valid.float()\n        p = torch.sigmoid(logits).clamp(self.eps, 1.0-self.eps)\n        pn = 1.0 - p\n        if self.clip > 0:",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "MaskedBalancedBCELoss",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class MaskedBalancedBCELoss(nn.Module):\n    \"\"\"Weighted BCE + label smoothing for calibrated cross-domain PAR.\n    The UPAR challenge baseline family is classification-centric.  For ABPR we\n    want useful probabilities rather than only hard labels, so this loss keeps\n    BCE geometry while balancing rare attributes. Unknown labels are masked.\n    \"\"\"\n    def __init__(self, priors, label_smoothing: float = 0.08, max_weight: float = 4.0):\n        super().__init__()\n        priors = torch.as_tensor(priors, dtype=torch.float32).clamp(0.01, 0.99)\n        # Equalize positive/negative contributions per attribute, then normalize.",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ModelEMA",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class ModelEMA:\n    def __init__(self, model: nn.Module, decay: float = 0.9995):\n        self.module = copy.deepcopy(model).eval()\n        self.decay = float(decay)\n        for p in self.module.parameters():\n            p.requires_grad_(False)\n    @torch.no_grad()\n    def update(self, model: nn.Module):\n        ema_state = self.module.state_dict()\n        model_state = model.state_dict()",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "TrainConfig",
+        "kind": 6,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "class TrainConfig:\n    image_height: int = 256\n    image_width: int = 128\n    backbone: str = 'convnext_tiny'\n    embed_dim: int = 192\n    batch_size: int = 48\n    eval_batch_size: int = 96\n    epochs: int = 14\n    lr: float = 1e-4\n    weight_decay: float = 5e-4",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "seed_everything",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def seed_everything(seed: int = 42) -> None:\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed_all(seed)\ndef infer_domain_id(path: str) -> int:\n    s = str(path).replace('\\\\', '/').lower()\n    if 'market1501' in s or 'market-1501' in s or '/market/' in s:\n        return 0",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "infer_domain_id",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def infer_domain_id(path: str) -> int:\n    s = str(path).replace('\\\\', '/').lower()\n    if 'market1501' in s or 'market-1501' in s or '/market/' in s:\n        return 0\n    if 'pa100k' in s or 'pa-100k' in s:\n        return 1\n    if 'peta' in s:\n        return 2\n    return -1\ndef detect_image_column(df: pd.DataFrame) -> str:",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def detect_image_column(df: pd.DataFrame) -> str:\n    for candidate in ('# image', 'image', 'image_path', 'path', 'filename', 'img', 'file'):\n        if candidate in df.columns:\n            return candidate\n    for col in df.columns:\n        sample = df[col].astype(str).head(100).str.lower()\n        if sample.str.endswith(('.jpg', '.jpeg', '.png', '.bmp', '.webp')).any():\n            return col\n    raise RuntimeError('Could not detect an image-path column.')\ndef _is_labeled_csv(path: Path) -> bool:",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "discover_labeled_csv",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def discover_labeled_csv(repo_root: str | Path, split: str = 'train') -> Path:\n    \"\"\"Find a labeled UPAR CSV without assuming one exact 2027 directory layout.\"\"\"\n    repo_root = Path(repo_root)\n    data = repo_root / 'data'\n    split = split.lower()\n    prioritized = []\n    if split == 'train':\n        prioritized = [\n            data / 'annotations' / 'task2' / 'train' / 'gt.csv',\n            data / 'annotations' / 'task1' / 'train' / 'gt.csv',",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "find_task2_files",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def find_task2_files(repo_root: str | Path) -> tuple[Optional[Path], Optional[Path]]:\n    \"\"\"Locate Track-2 public gallery/query CSVs across UPAR layouts.\n    The 2027 repository may expose ``annotations/task2/val/queries.csv`` and\n    use the sibling labeled ``gt.csv`` as the public gallery table rather than\n    a separately named ``val_imgs.csv``.  Older starter kits use\n    ``val_task2/val_imgs.csv`` + ``val_queries.csv``.  Support both.\n    \"\"\"\n    repo_root = Path(repo_root)\n    data = repo_root / 'data'\n    gallery_names = {",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "build_train_transform",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def build_train_transform(height: int = 256, width: int = 128):\n    return transforms.Compose([\n        transforms.RandomResizedCrop(\n            (height, width), scale=(0.72, 1.0), ratio=(0.38, 0.58),\n            interpolation=transforms.InterpolationMode.BILINEAR,\n        ),\n        transforms.RandomHorizontalFlip(p=0.5),\n        transforms.RandomApply([\n            transforms.ColorJitter(brightness=0.30, contrast=0.30, saturation=0.25, hue=0.06)\n        ], p=0.8),",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "build_eval_transform",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def build_eval_transform(height: int = 256, width: int = 128):\n    return transforms.Compose([\n        transforms.Resize((height, width), interpolation=transforms.InterpolationMode.BILINEAR),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485,0.456,0.406], [0.229,0.224,0.225]),\n    ])\nclass UPARAttributeDataset(Dataset):\n    def __init__(self, dataframe: pd.DataFrame, resolver: ImageResolver, transform):\n        self.df = dataframe.reset_index(drop=True).copy()\n        self.image_col = detect_image_column(self.df)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "split_train_val",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def split_train_val(df: pd.DataFrame, val_fraction: float = 0.12, seed: int = 42):\n    \"\"\"Domain-aware holdout when the starter has no labeled validation CSV.\"\"\"\n    image_col = detect_image_column(df)\n    domains = np.asarray([infer_domain_id(x) for x in df[image_col].astype(str)], dtype=np.int64)\n    rng = np.random.default_rng(seed)\n    train_idx, val_idx = [], []\n    unique = sorted(set(domains.tolist()))\n    for d in unique:\n        idx = np.where(domains == d)[0]\n        rng.shuffle(idx)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "make_domain_balanced_sampler",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def make_domain_balanced_sampler(domains: np.ndarray, seed: int = 42):\n    domains = np.asarray(domains, dtype=np.int64)\n    weights = np.ones(len(domains), dtype=np.float64)\n    known = domains >= 0\n    for d in sorted(set(domains[known].tolist())):\n        count = max(int((domains == d).sum()), 1)\n        weights[domains == d] = 1.0 / count\n    if (~known).any():\n        weights[~known] = 1.0 / max(int((~known).sum()), 1)\n    g = torch.Generator().manual_seed(seed)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "grad_reverse",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def grad_reverse(x, lambd: float = 1.0):\n    return _GradientReverse.apply(x, lambd)\nclass QueryEncoder(nn.Module):\n    \"\"\"Encodes a 40-state attribute query into the same space as image embeddings.\"\"\"\n    def __init__(self, embed_dim: int = 192, negative_token_scale: float = 0.20):\n        super().__init__()\n        self.embed_dim = int(embed_dim)\n        self.negative_token_scale = float(negative_token_scale)\n        self.pos_basis = nn.Parameter(torch.randn(NUM_ATTRIBUTES, embed_dim) * 0.02)\n        self.neg_basis = nn.Parameter(torch.randn(NUM_ATTRIBUTES, embed_dim) * 0.02)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "domain_loss",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def domain_loss(domain_logits, domains):\n    valid = domains >= 0\n    if valid.sum() == 0:\n        return domain_logits.sum() * 0.0\n    return F.cross_entropy(domain_logits[valid], domains[valid].long())\ndef alignment_loss(image_emb, query_emb):\n    return (1.0 - (image_emb * query_emb).sum(-1)).mean()\ndef multi_positive_contrastive_loss(image_emb, query_emb, query_states, temperature: float = 0.08):\n    \"\"\"InfoNCE with exact-query duplicates treated as additional positives.\"\"\"\n    logits = image_emb @ query_emb.t() / float(temperature)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "alignment_loss",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def alignment_loss(image_emb, query_emb):\n    return (1.0 - (image_emb * query_emb).sum(-1)).mean()\ndef multi_positive_contrastive_loss(image_emb, query_emb, query_states, temperature: float = 0.08):\n    \"\"\"InfoNCE with exact-query duplicates treated as additional positives.\"\"\"\n    logits = image_emb @ query_emb.t() / float(temperature)\n    q = query_states.detach()\n    same = (q[:, None, :] == q[None, :, :]).all(dim=-1)\n    eye = torch.eye(q.size(0), device=q.device, dtype=torch.bool)\n    positives = same | eye\n    def one_direction(scores, pos_mask):",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "multi_positive_contrastive_loss",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def multi_positive_contrastive_loss(image_emb, query_emb, query_states, temperature: float = 0.08):\n    \"\"\"InfoNCE with exact-query duplicates treated as additional positives.\"\"\"\n    logits = image_emb @ query_emb.t() / float(temperature)\n    q = query_states.detach()\n    same = (q[:, None, :] == q[None, :, :]).all(dim=-1)\n    eye = torch.eye(q.size(0), device=q.device, dtype=torch.bool)\n    positives = same | eye\n    def one_direction(scores, pos_mask):\n        all_lse = torch.logsumexp(scores, dim=1)\n        pos_scores = scores.masked_fill(~pos_mask, float('-inf'))",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "estimate_attribute_priors",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def estimate_attribute_priors(targets: np.ndarray, valid: np.ndarray) -> np.ndarray:\n    targets, valid = np.asarray(targets), np.asarray(valid)\n    pos = (targets * valid).sum(0)\n    den = valid.sum(0)\n    return ((pos + 1.0) / (den + 2.0)).astype(np.float32)\ndef build_queries_from_labels(labels: np.ndarray, max_queries: int = 600, seed: int = 42):\n    labels = np.asarray(labels, dtype=np.int16)\n    uniq, inverse = np.unique(labels, axis=0, return_inverse=True)\n    if len(uniq) > max_queries:\n        rng = np.random.default_rng(seed)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "build_queries_from_labels",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def build_queries_from_labels(labels: np.ndarray, max_queries: int = 600, seed: int = 42):\n    labels = np.asarray(labels, dtype=np.int16)\n    uniq, inverse = np.unique(labels, axis=0, return_inverse=True)\n    if len(uniq) > max_queries:\n        rng = np.random.default_rng(seed)\n        # Prefer recurring queries, then add random singletons.\n        counts = np.bincount(inverse, minlength=len(uniq))\n        recurring = np.where(counts >= 2)[0]\n        singleton = np.where(counts < 2)[0]\n        chosen = recurring.tolist()",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "semantic_match_scores",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def semantic_match_scores(probs: torch.Tensor, queries: torch.Tensor, priors: torch.Tensor,\n                          negative_weight: float = 0.15, eps: float = 1e-6):\n    \"\"\"\n    Bernoulli attribute agreement. Positive query attributes receive rarity-aware\n    weights; negatives are deliberately weaker so the many zero attributes do not\n    swamp the discriminative positives.\n    \"\"\"\n    probs = probs.clamp(eps, 1-eps)\n    queries = queries.float()\n    valid = queries >= 0",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "hybrid_retrieval_scores",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def hybrid_retrieval_scores(gallery_probs: torch.Tensor, gallery_emb: torch.Tensor,\n                            queries: torch.Tensor, query_emb: torch.Tensor,\n                            priors: torch.Tensor, blend: float = 0.65,\n                            negative_weight: float = 0.15):\n    sem = semantic_match_scores(gallery_probs, queries, priors, negative_weight=negative_weight)\n    emb = query_emb @ gallery_emb.t()\n    sem_z, emb_z = _row_zscore(sem), _row_zscore(emb)\n    return float(blend) * sem_z + (1.0-float(blend)) * emb_z\ndef relevance_matrix(queries: np.ndarray, gallery_labels: np.ndarray) -> np.ndarray:\n    queries = np.asarray(queries)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "relevance_matrix",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def relevance_matrix(queries: np.ndarray, gallery_labels: np.ndarray) -> np.ndarray:\n    queries = np.asarray(queries)\n    gallery_labels = np.asarray(gallery_labels)\n    out = np.zeros((len(queries), len(gallery_labels)), dtype=bool)\n    for i, q in enumerate(queries):\n        valid = q >= 0\n        if valid.sum() == 0:\n            continue\n        out[i] = (gallery_labels[:, valid] == q[valid]).all(axis=1)\n    return out",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def retrieval_metrics(scores: np.ndarray, relevance: np.ndarray) -> dict:\n    scores = np.asarray(scores)\n    relevance = np.asarray(relevance, dtype=bool)\n    aps, r1s = [], []\n    for i in range(scores.shape[0]):\n        rel = relevance[i]\n        n_rel = int(rel.sum())\n        if n_rel == 0:\n            continue\n        order = np.argsort(-scores[i], kind='stable')",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "calibrate_probabilities",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def calibrate_probabilities(probs: torch.Tensor, temperature: float = 1.0) -> torch.Tensor:\n    \"\"\"Apply scalar temperature to probabilities through the logit domain.\"\"\"\n    p = probs.float().clamp(1e-6, 1.0 - 1e-6)\n    t = max(float(temperature), 1e-4)\n    if abs(t - 1.0) < 1e-8:\n        return p\n    logits = torch.log(p / (1.0 - p)) / t\n    return torch.sigmoid(logits)\ndef attribute_reliability_weights(\n    probs: torch.Tensor | np.ndarray,",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "attribute_reliability_weights",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def attribute_reliability_weights(\n    probs: torch.Tensor | np.ndarray,\n    labels: np.ndarray,\n    valid: np.ndarray | None = None,\n    power: float = 1.0,\n) -> np.ndarray:\n    \"\"\"\n    Estimate per-attribute reliability from validation balanced accuracy.\n    The returned weights are normalized to mean 1.  power=0 gives uniform\n    weights.  This is an inference calibration aid; the challenge metric still",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "expected_hamming_distances",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def expected_hamming_distances(\n    gallery_probs: torch.Tensor,\n    queries: torch.Tensor | np.ndarray,\n    attribute_weights: torch.Tensor | np.ndarray | None = None,\n    temperature: float = 1.0,\n    gallery_emb: torch.Tensor | None = None,\n    query_emb: torch.Tensor | None = None,\n    embedding_mix: float = 0.0,\n) -> torch.Tensor:\n    \"\"\"",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "madm_metric",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def madm_metric(\n    distances: np.ndarray | torch.Tensor,\n    queries: np.ndarray,\n    gallery_labels: np.ndarray,\n) -> dict:\n    \"\"\"\n    Mean Average Degree of Match (mADM), following the UPAR definition.\n    For each query:\n      DoM@k = fraction of matching attributes at rank k\n      DoM_norm = max(0, (DoM - mean_gallery_DoM) / (1 - mean_gallery_DoM))",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "madm_aligned_metrics",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def madm_aligned_metrics(\n    distances: np.ndarray | torch.Tensor,\n    queries: np.ndarray,\n    gallery_labels: np.ndarray,\n) -> dict:\n    \"\"\"Convenience diagnostic: mADM + legacy mAP/Rank-1 for the same ranking.\"\"\"\n    d = distances.detach().cpu().numpy() if torch.is_tensor(distances) else np.asarray(distances)\n    rel = relevance_matrix(queries, gallery_labels)\n    legacy = retrieval_metrics(-d, rel)  # retrieval_metrics expects higher score = better\n    out = dict(legacy)",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "fit_attribute_temperatures",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def fit_attribute_temperatures(\n    probs: torch.Tensor | np.ndarray,\n    labels: np.ndarray,\n    valid: np.ndarray | None = None,\n    grid=(0.60, 0.75, 0.90, 1.00, 1.15, 1.35, 1.60, 2.00),\n) -> np.ndarray:\n    \"\"\"Fit one monotone temperature per attribute by validation Brier loss.\"\"\"\n    p = probs.detach().cpu().numpy() if torch.is_tensor(probs) else np.asarray(probs)\n    y = np.asarray(labels, dtype=np.float32)\n    if valid is None:",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "apply_attribute_temperatures",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def apply_attribute_temperatures(\n    probs: torch.Tensor,\n    temperatures: torch.Tensor | np.ndarray | None,\n) -> torch.Tensor:\n    p=probs.float().clamp(1e-6,1-1e-6)\n    if temperatures is None:\n        return p\n    t=torch.as_tensor(temperatures,dtype=torch.float32).flatten().cpu().clamp_min(1e-4)\n    if len(t)!=p.shape[1]:\n        raise ValueError(f'Expected {p.shape[1]} temperatures, got {len(t)}')",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "attribute_error_weights",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def attribute_error_weights(\n    probs: torch.Tensor | np.ndarray,\n    labels: np.ndarray,\n    valid: np.ndarray | None = None,\n    tau: float = 0.10,\n) -> np.ndarray:\n    \"\"\"Error weighting: more reliable attributes get more retrieval weight.\n    We estimate per-attribute MSE after calibration and convert -MSE to a\n    softmax-like weight. tau controls how aggressively unreliable attributes are\n    suppressed. Weights are normalized to mean 1 for stable distance scales.",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "calibrated_attribute_distances",
+        "kind": 2,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "def calibrated_attribute_distances(\n    gallery_probs: torch.Tensor,\n    queries: torch.Tensor | np.ndarray,\n    attribute_weights: torch.Tensor | np.ndarray | None = None,\n    attribute_temperatures: torch.Tensor | np.ndarray | None = None,\n    distance_kind: str = 'l2',\n    gallery_emb: torch.Tensor | None = None,\n    query_emb: torch.Tensor | None = None,\n    embedding_mix: float = 0.0,\n) -> torch.Tensor:",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "kind": 5,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "ATTRIBUTE_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald',\n    'UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown',\n    'UpperBody-Color-Green','UpperBody-Color-Grey','UpperBody-Color-Orange',\n    'UpperBody-Color-Pink','UpperBody-Color-Purple','UpperBody-Color-Red',\n    'UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short',\n    'LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "NUM_ATTRIBUTES",
+        "kind": 5,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "NUM_ATTRIBUTES = len(ATTRIBUTE_NAMES)\nDOMAIN_NAMES = ['Market1501', 'PA100k', 'PETA']\ndef seed_everything(seed: int = 42) -> None:\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed_all(seed)\ndef infer_domain_id(path: str) -> int:\n    s = str(path).replace('\\\\', '/').lower()",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "DOMAIN_NAMES",
+        "kind": 5,
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "peekOfCode": "DOMAIN_NAMES = ['Market1501', 'PA100k', 'PETA']\ndef seed_everything(seed: int = 42) -> None:\n    random.seed(seed)\n    np.random.seed(seed)\n    torch.manual_seed(seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed_all(seed)\ndef infer_domain_id(path: str) -> int:\n    s = str(path).replace('\\\\', '/').lower()\n    if 'market1501' in s or 'market-1501' in s or '/market/' in s:",
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "UPARDataset",
+        "kind": 6,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "class UPARDataset(Dataset):\n    def __init__(self, dataframe: pd.DataFrame, resolver: ImageResolver, transform):\n        self.df = dataframe.reset_index(drop=True).copy()\n        self.image_col = detect_image_column(self.df)\n        self.paths = self.df[self.image_col].astype(str).tolist()\n        self.targets = self.df[ATTRIBUTE_NAMES].to_numpy(dtype=np.float32)\n        self.domains = np.asarray([infer_domain_id(p) for p in self.paths], dtype=np.int64)\n        self.resolver = resolver\n        self.transform = transform\n    def __len__(self):",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "QueryEncoder",
+        "kind": 6,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "class QueryEncoder(nn.Module):\n    def __init__(self, embed_dim: int = 256, negative_token_scale: float = 0.35):\n        super().__init__()\n        self.negative_token_scale = float(negative_token_scale)\n        self.pos_basis = nn.Parameter(torch.randn(NUM_ATTRIBUTES, embed_dim) * 0.02)\n        self.neg_basis = nn.Parameter(torch.randn(NUM_ATTRIBUTES, embed_dim) * 0.02)\n        self.count_embed = nn.Sequential(\n            nn.Linear(2, embed_dim), nn.GELU(), nn.Linear(embed_dim, embed_dim)\n        )\n        self.mlp = nn.Sequential(",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "SpatialAttributeHead",
+        "kind": 6,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "class SpatialAttributeHead(nn.Module):\n    \"\"\"Attribute-specific spatial attention head for local clothing/accessory cues.\"\"\"\n    def __init__(self, in_dim: int, value_dim: int = 256, num_attributes: int = NUM_ATTRIBUTES):\n        super().__init__()\n        self.attn = nn.Conv2d(in_dim, num_attributes, kernel_size=1, bias=True)\n        self.value = nn.Conv2d(in_dim, value_dim, kernel_size=1, bias=False)\n        self.attr_weight = nn.Parameter(torch.randn(num_attributes, value_dim) * 0.02)\n        self.attr_bias = nn.Parameter(torch.zeros(num_attributes))\n    def forward(self, fmap: torch.Tensor) -> torch.Tensor:\n        b, _, h, w = fmap.shape",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "StripeAttributeHead",
+        "kind": 6,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "class StripeAttributeHead(nn.Module):\n    \"\"\"Attribute-specific soft selection over horizontal body stripes.\n    Pedestrian attributes are strongly localized (head, torso, legs, accessories).\n    This head keeps the implementation lightweight while preserving location cues.\n    \"\"\"\n    def __init__(self, in_dim: int, num_attributes: int = NUM_ATTRIBUTES, stripes: int = 4):\n        super().__init__()\n        self.stripes = int(stripes)\n        self.attr_stripe_logits = nn.Parameter(torch.zeros(num_attributes, self.stripes))\n        self.attr_weight = nn.Parameter(torch.randn(num_attributes, in_dim) * 0.02)",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRNet",
+        "kind": 6,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "class ABPRNet(nn.Module):\n    def __init__(self, backbone: str = 'convnext_tiny', embed_dim: int = 256, pretrained: bool = True):\n        super().__init__()\n        self.backbone_name = str(backbone)\n        self.embed_dim = int(embed_dim)\n        if backbone == 'efficientnet_b0':\n            weights = EfficientNet_B0_Weights.DEFAULT if pretrained else None\n            try:\n                base = efficientnet_b0(weights=weights)\n            except Exception:",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "MaskedFocalLoss",
+        "kind": 6,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "class MaskedFocalLoss(nn.Module):\n    \"\"\"Masked focal BCE without inverse-frequency class weighting.\n    UPAR retrieval is sensitive to probability calibration. Heavy positive-class\n    reweighting can improve classification balance while degrading retrieval score\n    calibration. Focal modulation emphasizes hard examples without permanently\n    changing the positive/negative base cost.\n    \"\"\"\n    def __init__(self, gamma: float = 2.0, label_smoothing: float = 0.0):\n        super().__init__()\n        self.gamma = float(gamma)",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "TrainConfig",
+        "kind": 6,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "class TrainConfig:\n    backbone: str = 'convnext_small'\n    embed_dim: int = 320\n    image_height: int = 384\n    image_width: int = 192\n    batch_size: int = 16\n    eval_batch_size: int = 40\n    epochs: int = 24\n    backbone_lr: float = 4e-5\n    head_lr: float = 2e-4",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "find_task2_split_files",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def find_task2_split_files(repo_root: str | Path, split: str = 'val') -> tuple[Path, Path]:\n    repo_root = Path(repo_root)\n    data = repo_root / 'data'\n    split = split.lower()\n    explicit = []\n    if split == 'val':\n        explicit = [\n            (data / 'annotations' / 'task2' / 'val' / 'gt.csv', data / 'annotations' / 'task2' / 'val' / 'queries.csv'),\n            (data / 'phase1' / 'val_task2' / 'val_imgs.csv', data / 'phase1' / 'val_task2' / 'val_queries.csv'),\n        ]",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def load_query_csv(path: str | Path) -> tuple[pd.DataFrame, np.ndarray]:\n    path = Path(path)\n    df = pd.read_csv(path)\n    if all(c in df.columns for c in ATTRIBUTE_NAMES):\n        q = df[ATTRIBUTE_NAMES].apply(pd.to_numeric, errors='coerce').fillna(-1).to_numpy(np.float32)\n        return df, q\n    excluded = {'id', 'query_id', 'index', '#', 'name', 'query'}\n    numeric = []\n    for c in df.columns:\n        if str(c).strip().lower() in excluded:",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "build_train_transform",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def build_train_transform(height: int = 320, width: int = 160):\n    # Preserve the full pedestrian body; large random crops can remove fine attributes.\n    # fine clothing/accessory attributes are easily lost by large random crops.\n    pad_h = max(8, int(round(height * 0.05)))\n    pad_w = max(4, int(round(width * 0.05)))\n    return transforms.Compose([\n        transforms.Resize((height + pad_h, width + pad_w), interpolation=transforms.InterpolationMode.BILINEAR),\n        transforms.RandomCrop((height, width)),\n        transforms.RandomHorizontalFlip(p=0.5),\n        transforms.RandomApply([",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "build_eval_transform",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def build_eval_transform(height: int = 320, width: int = 160):\n    return transforms.Compose([\n        transforms.Resize((height, width), interpolation=transforms.InterpolationMode.BILINEAR),\n        transforms.ToTensor(),\n        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),\n    ])\nclass UPARDataset(Dataset):\n    def __init__(self, dataframe: pd.DataFrame, resolver: ImageResolver, transform):\n        self.df = dataframe.reset_index(drop=True).copy()\n        self.image_col = detect_image_column(self.df)",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "sample_sparse_queries",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def sample_sparse_queries(\n    full_queries: torch.Tensor,\n    min_known: int = 2,\n    max_known: int = 10,\n) -> torch.Tensor:\n    \"\"\"Randomly hide known labels so query training matches sparse ABPR queries.\n    Earlier training aligned image embeddings with almost-complete 40-attribute label\n    vectors. Track-2 queries are sparse. This augmentation trains the same query\n    encoder on the input geometry it sees at inference.\n    \"\"\"",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "group_consistency_loss",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def group_consistency_loss(logits, targets, valid):\n    losses = []\n    for group in GROUPS:\n        idx = torch.as_tensor(group, device=logits.device)\n        y = targets[:, idx]\n        v = valid[:, idx] > 0.5\n        eligible = v.all(dim=1) & ((y > 0.5).sum(dim=1) == 1)\n        if eligible.any():\n            cls = torch.argmax(y[eligible], dim=1)\n            losses.append(F.cross_entropy(logits[eligible][:, idx], cls))",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "alignment_loss",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def alignment_loss(image_emb, query_emb):\n    return (1.0 - (image_emb * query_emb).sum(-1)).mean()\ndef degree_of_match_contrastive_loss(\n    image_emb: torch.Tensor,\n    query_emb: torch.Tensor,\n    query_states: torch.Tensor,\n    gallery_targets: torch.Tensor,\n    gallery_valid: torch.Tensor,\n    temperature: float = 0.07,\n    beta: float = 7.0,",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "degree_of_match_contrastive_loss",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def degree_of_match_contrastive_loss(\n    image_emb: torch.Tensor,\n    query_emb: torch.Tensor,\n    query_states: torch.Tensor,\n    gallery_targets: torch.Tensor,\n    gallery_valid: torch.Tensor,\n    temperature: float = 0.07,\n    beta: float = 7.0,\n):\n    \"\"\"Soft retrieval loss: target mass follows in-batch degree-of-match.",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "probability_degree_match_loss",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def probability_degree_match_loss(\n    logits: torch.Tensor,\n    query_states: torch.Tensor,\n    gallery_targets: torch.Tensor,\n    gallery_valid: torch.Tensor,\n) -> torch.Tensor:\n    \"\"\"Directly regress probabilistic query/gallery match toward ground-truth DoM.\n    For a known query bit q and predicted gallery probability p, the expected\n    match is p for q=1 and (1-p) for q=0. Averaging over known query attributes\n    gives a differentiable approximation of Degree-of-Match. We supervise the",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "degree_match_listwise_loss",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def degree_match_listwise_loss(\n    logits: torch.Tensor,\n    query_states: torch.Tensor,\n    gallery_targets: torch.Tensor,\n    gallery_valid: torch.Tensor,\n    temperature: float = 0.10,\n    target_beta: float = 8.0,\n) -> torch.Tensor:\n    \"\"\"Listwise ranking loss that orders gallery samples by Degree-of-Match.\"\"\"\n    p = torch.sigmoid(logits.float())",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "relevance_matrix",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def relevance_matrix(queries: np.ndarray, gallery_labels: np.ndarray) -> np.ndarray:\n    queries = np.asarray(queries)\n    gallery_labels = np.asarray(gallery_labels)\n    out = np.zeros((len(queries), len(gallery_labels)), dtype=bool)\n    for i, q in enumerate(queries):\n        valid = q >= 0\n        if not valid.any():\n            continue\n        y = gallery_labels[:, valid]\n        qv = q[valid]",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def track2_metrics(distances: np.ndarray | torch.Tensor, queries: np.ndarray, gallery_labels: np.ndarray) -> dict:\n    d = distances.detach().cpu().numpy() if torch.is_tensor(distances) else np.asarray(distances)\n    rel = relevance_matrix(queries, gallery_labels)\n    aps=[]; r1=[]; r5=[]; r10=[]; inps=[]\n    for i in range(len(queries)):\n        n_rel = int(rel[i].sum())\n        if n_rel == 0:\n            continue\n        order = np.argsort(d[i], kind='stable')\n        rr = rel[i][order]",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "apply_affine_calibration",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def apply_affine_calibration(\n    probs: torch.Tensor,\n    scale: torch.Tensor | np.ndarray | None = None,\n    bias: torch.Tensor | np.ndarray | None = None,\n) -> torch.Tensor:\n    p = probs.float().cpu().clamp(1e-6, 1.0 - 1e-6)\n    if scale is None and bias is None:\n        return p\n    s = torch.ones(p.shape[1]) if scale is None else torch.as_tensor(scale, dtype=torch.float32).flatten().cpu()\n    b = torch.zeros(p.shape[1]) if bias is None else torch.as_tensor(bias, dtype=torch.float32).flatten().cpu()",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "fit_affine_calibration",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def fit_affine_calibration(\n    probs: torch.Tensor,\n    labels: np.ndarray,\n    valid: np.ndarray,\n    steps: int = 160,\n    lr: float = 0.04,\n) -> tuple[np.ndarray, np.ndarray]:\n    \"\"\"Fit one positive scale and one bias per attribute using masked BCE.\"\"\"\n    p = probs.float().cpu().clamp(1e-5, 1.0 - 1e-5)\n    base_logits = torch.log(p / (1.0 - p))",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "calibrated_attribute_distances",
+        "kind": 2,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "def calibrated_attribute_distances(\n    gallery_probs: torch.Tensor,\n    queries: torch.Tensor | np.ndarray,\n    attribute_weights: torch.Tensor | np.ndarray | None = None,\n    attribute_temperatures: torch.Tensor | np.ndarray | None = None,\n    distance_kind: str = 'nll',\n    gallery_emb: torch.Tensor | None = None,\n    query_emb: torch.Tensor | None = None,\n    embedding_mix: float = 0.0,\n    priors: torch.Tensor | np.ndarray | None = None,",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "GROUPS",
+        "kind": 5,
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "peekOfCode": "GROUPS = [\n    [0, 1, 2],          # age\n    [4, 5, 6],          # hair length/bald\n    list(range(8, 20)),  # upper color\n    list(range(21, 33)), # lower color\n    [33, 34],           # trousers/shorts vs skirt/dress when exactly one is annotated positive\n]\ndef group_consistency_loss(logits, targets, valid):\n    losses = []\n    for group in GROUPS:",
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "AttributePrototypeHead",
+        "kind": 6,
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "peekOfCode": "class AttributePrototypeHead(nn.Module):\n    \"\"\"Positive/negative visual prototypes for each pedestrian attribute.\n    The head builds an attribute-specific visual feature from a spatially attended\n    feature map and the global backbone feature. For each attribute ``a`` it learns\n    two normalized prototype vectors: ``P[a,+]`` and ``P[a,-]``. The prototype logit\n    is a scaled cosine-margin:\n        scale * (cos(h_a, P[a,+]) - cos(h_a, P[a,-]))\n    This is intentionally lightweight: it adds semantic structure to the Track-2\n    representation without replacing the existing global/spatial/stripe heads.\n    \"\"\"",
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "masked_prototype_bce",
+        "kind": 2,
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "peekOfCode": "def masked_prototype_bce(proto_logits, targets, valid):\n    proto_logits = proto_logits.float()\n    targets = targets.float()\n    valid = valid.float()\n    loss = F.binary_cross_entropy_with_logits(proto_logits, targets, reduction='none')\n    return (loss * valid).sum() / valid.sum().clamp_min(1.0)\ndef prototype_domain_alignment_loss(\n    attr_feat: torch.Tensor,\n    targets: torch.Tensor,\n    valid: torch.Tensor,",
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "prototype_domain_alignment_loss",
+        "kind": 2,
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "peekOfCode": "def prototype_domain_alignment_loss(\n    attr_feat: torch.Tensor,\n    targets: torch.Tensor,\n    valid: torch.Tensor,\n    domains: torch.Tensor,\n    pos_prototypes: torch.Tensor,\n    neg_prototypes: torch.Tensor,\n    min_count: int = 2,\n):\n    \"\"\"Align domain-specific positive/negative centroids to shared prototypes.",
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "prototype_separation_loss",
+        "kind": 2,
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "peekOfCode": "def prototype_separation_loss(pos_prototypes, neg_prototypes, max_cosine: float = 0.15):\n    \"\"\"Prevent the positive and negative prototype of the same attribute collapsing.\"\"\"\n    pos = F.normalize(pos_prototypes.float(), dim=-1)\n    neg = F.normalize(neg_prototypes.float(), dim=-1)\n    cos = (pos * neg).sum(-1)\n    return F.relu(cos - float(max_cosine)).mean()\ndef blend_attribute_probabilities(\n    fused_probs: torch.Tensor,\n    prototype_probs: torch.Tensor | None,\n    prototype_mix: float,",
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "blend_attribute_probabilities",
+        "kind": 2,
+        "importPath": "abpr.prototype",
+        "description": "abpr.prototype",
+        "peekOfCode": "def blend_attribute_probabilities(\n    fused_probs: torch.Tensor,\n    prototype_probs: torch.Tensor | None,\n    prototype_mix: float,\n) -> torch.Tensor:\n    if prototype_probs is None:\n        return fused_probs\n    mix = float(max(0.0, min(0.95, prototype_mix)))\n    if mix <= 0:\n        return fused_probs",
+        "detail": "abpr.prototype",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeRanker",
+        "kind": 6,
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "peekOfCode": "class AttributeRanker:\n    def __init__(self, weight, temperature, bias, blend=0., source=\"train\"):\n        self.weight = np.asarray(weight, dtype=np.float32)\n        self.temperature = np.asarray(temperature, dtype=np.float32)\n        self.bias = np.asarray(bias, dtype=np.float32)\n        self.blend = float(blend)\n        self.source = str(source)\n        if any(a.shape != (N_ATTR,) for a in (self.weight, self.temperature, self.bias)):\n            raise ValueError('ranker parameters must each have 40 values')\n        if not np.isfinite(self.weight).all() or np.any(self.weight <= 0):",
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "sigmoid",
+        "kind": 2,
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "peekOfCode": "def sigmoid(x):\n    x = np.clip(x, -35.0, 35.0)\n    return 1.0 / (1.0 + np.exp(-x))\nclass AttributeRanker:\n    def __init__(self, weight, temperature, bias, blend=0., source=\"train\"):\n        self.weight = np.asarray(weight, dtype=np.float32)\n        self.temperature = np.asarray(temperature, dtype=np.float32)\n        self.bias = np.asarray(bias, dtype=np.float32)\n        self.blend = float(blend)\n        self.source = str(source)",
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "kind": 2,
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "peekOfCode": "def fuse_distances(base, learned, blend):\n    \"\"\"Per-query scale normalization; blend=0 exactly preserves the baseline.\"\"\"\n    b = np.asarray(base, dtype=np.float32)\n    if blend <= 0:\n        return b\n    l = np.asarray(learned, dtype=np.float32)\n    if b.shape != l.shape:\n        raise ValueError(f'base vs ranker shapes differ: {b.shape}, {l.shape}')\n    if blend >= 1:\n        return l",
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "N_ATTR",
+        "kind": 5,
+        "importPath": "abpr.retrieval_reranker",
+        "description": "abpr.retrieval_reranker",
+        "peekOfCode": "N_ATTR = 40\ndef sigmoid(x):\n    x = np.clip(x, -35.0, 35.0)\n    return 1.0 / (1.0 + np.exp(-x))\nclass AttributeRanker:\n    def __init__(self, weight, temperature, bias, blend=0., source=\"train\"):\n        self.weight = np.asarray(weight, dtype=np.float32)\n        self.temperature = np.asarray(temperature, dtype=np.float32)\n        self.bias = np.asarray(bias, dtype=np.float32)\n        self.blend = float(blend)",
+        "detail": "abpr.retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "QueryEncoder",
+        "kind": 6,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "class QueryEncoder(nn.Module):\n    def __init__(self, embed_dim=320, negative_token_scale=.35):\n        super().__init__(); self.negative_token_scale=float(negative_token_scale)\n        self.pos_basis=nn.Parameter(torch.zeros(NUM_ATTRIBUTES,embed_dim)); self.neg_basis=nn.Parameter(torch.zeros(NUM_ATTRIBUTES,embed_dim))\n        self.count_embed=nn.Sequential(nn.Linear(2,embed_dim),nn.GELU(),nn.Linear(embed_dim,embed_dim))\n        self.mlp=nn.Sequential(nn.LayerNorm(embed_dim),nn.Linear(embed_dim,embed_dim*2),nn.GELU(),nn.Dropout(.10),nn.Linear(embed_dim*2,embed_dim))\n    def forward(self,q):\n        q=q.float(); valid=q>=0; pos=(q>.5)&valid; neg=(q<=.5)&valid\n        tok=pos.unsqueeze(-1)*self.pos_basis.unsqueeze(0)+self.negative_token_scale*neg.unsqueeze(-1)*self.neg_basis.unsqueeze(0)\n        den=(pos.float()+self.negative_token_scale*neg.float()).sum(1,keepdim=True).clamp_min(1.)",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "SpatialAttributeHead",
+        "kind": 6,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "class SpatialAttributeHead(nn.Module):\n    def __init__(self,in_dim,value_dim=320,num_attributes=NUM_ATTRIBUTES):\n        super().__init__(); self.attn=nn.Conv2d(in_dim,num_attributes,1,bias=True); self.value=nn.Conv2d(in_dim,value_dim,1,bias=False)\n        self.attr_weight=nn.Parameter(torch.zeros(num_attributes,value_dim)); self.attr_bias=nn.Parameter(torch.zeros(num_attributes))\n    def forward(self,fmap):\n        a=torch.softmax(self.attn(fmap).flatten(2),dim=-1); v=self.value(fmap).flatten(2); pooled=torch.einsum('ban,bdn->bad',a,v)\n        return (pooled*self.attr_weight.unsqueeze(0)).sum(-1)+self.attr_bias.unsqueeze(0)\nclass StripeAttributeHead(nn.Module):\n    def __init__(self,in_dim,num_attributes=NUM_ATTRIBUTES,stripes=4):\n        super().__init__(); self.stripes=int(stripes)",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "StripeAttributeHead",
+        "kind": 6,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "class StripeAttributeHead(nn.Module):\n    def __init__(self,in_dim,num_attributes=NUM_ATTRIBUTES,stripes=4):\n        super().__init__(); self.stripes=int(stripes)\n        self.attr_stripe_logits=nn.Parameter(torch.zeros(num_attributes,self.stripes))\n        self.attr_weight=nn.Parameter(torch.zeros(num_attributes,in_dim)); self.attr_bias=nn.Parameter(torch.zeros(num_attributes))\n    def forward(self,fmap):\n        pooled=F.adaptive_avg_pool2d(fmap,(self.stripes,1)).squeeze(-1).transpose(1,2)\n        weights=torch.softmax(self.attr_stripe_logits,dim=-1); attr_feat=torch.einsum('as,bsc->bac',weights,pooled)\n        return (attr_feat*self.attr_weight.unsqueeze(0)).sum(-1)+self.attr_bias.unsqueeze(0)\nclass AttributePrototypeHead(nn.Module):",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "AttributePrototypeHead",
+        "kind": 6,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "class AttributePrototypeHead(nn.Module):\n    def __init__(self,in_dim,prototype_dim=192,num_attributes=NUM_ATTRIBUTES,init_scale=8.0):\n        super().__init__(); self.num_attributes=int(num_attributes); self.prototype_dim=int(prototype_dim)\n        self.attn=nn.Conv2d(in_dim,self.num_attributes,1,bias=True)\n        self.value=nn.Conv2d(in_dim,self.prototype_dim,1,bias=False)\n        self.global_proj=nn.Linear(in_dim,self.prototype_dim,bias=False)\n        self.local_gate_logits=nn.Parameter(torch.zeros(self.num_attributes))\n        self.pos_prototypes=nn.Parameter(F.normalize(torch.randn(self.num_attributes,self.prototype_dim),dim=-1)*.10)\n        self.neg_prototypes=nn.Parameter(F.normalize(torch.randn(self.num_attributes,self.prototype_dim),dim=-1)*.10)\n        self.logit_scale=nn.Parameter(torch.tensor(float(init_scale)).log())",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "RuntimeNet",
+        "kind": 6,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "class RuntimeNet(nn.Module):\n    def __init__(self,backbone='convnext_small',embed_dim=320):\n        super().__init__()\n        if backbone=='efficientnet_b0':\n            base=_make_torchvision_model(efficientnet_b0); feat=base.classifier[1].in_features\n        elif backbone=='convnext_tiny':\n            base=_make_torchvision_model(convnext_tiny); feat=base.classifier[2].in_features\n        elif backbone=='convnext_small':\n            base=_make_torchvision_model(convnext_small); feat=base.classifier[2].in_features\n        elif backbone=='convnext_base':",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRRuntime",
+        "kind": 6,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "class ABPRRuntime:\n    \"\"\"Self-contained Track-2 runtime used inside the Codabench submission.\"\"\"\n    def __init__(self, model_path, config_path=None):\n        self.model_path=Path(model_path); self.device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n        self.models=[]; self.attribute_names=list(ATTRIBUTE_NAMES); self.height=384; self.width=192\n        self.embedding_mix=0.; self.prototype_mix=0.; self.distance_kind='match'; self.positive_rarity_power=0.; self.negative_weight=1.; self.tta_flip=False\n        self.attribute_weights=torch.ones(NUM_ATTRIBUTES); self.calibration_scale=torch.ones(NUM_ATTRIBUTES); self.calibration_bias=torch.zeros(NUM_ATTRIBUTES); self.priors=torch.full((NUM_ATTRIBUTES,),.5)\n        self.batch_size=24 if self.device.type=='cuda' else 4; self.io_workers=min(4,max(1,os.cpu_count() or 1)); self._load()\n    def _load(self):\n        pkg=_safe_torch_load(self.model_path)",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "kind": 5,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "ATTRIBUTE_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',\n    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',\n    'LowerBody-Color-Purple','LowerBody-Color-Red','LowerBody-Color-White','LowerBody-Color-Yellow',\n    'LowerBody-Color-Other','LowerBody-Type-Trousers&Shorts','LowerBody-Type-Skirt&Dress',",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "NUM_ATTRIBUTES",
+        "kind": 5,
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "peekOfCode": "NUM_ATTRIBUTES = len(ATTRIBUTE_NAMES)\ndef _make_torchvision_model(factory):\n    \"\"\"Construct torchvision models across old/new torchvision APIs.\"\"\"\n    try:\n        return factory(weights=None)\n    except TypeError:\n        return factory(pretrained=False)\ndef _safe_torch_load(path):\n    \"\"\"Support both modern and older torch.load signatures.\"\"\"\n    try:",
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "test_sparse_queries_preserve_shape_and_known_values",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_sparse_queries_preserve_shape_and_known_values():\n    q=torch.tensor([[1.,0.,1.,0.]+[-1.]*36,[0.,1.,0.,1.]+[-1.]*36])\n    out=sample_sparse_queries(q,min_known=2,max_known=3)\n    assert out.shape==q.shape\n    assert torch.all((out==-1) | (out==0) | (out==1))\n    keep=out>=0\n    assert torch.all(out[keep]==q[keep])\ndef test_degree_match_losses_are_finite():\n    logits=torch.randn(4,40,requires_grad=True)\n    q=torch.full((4,40),-1.); q[:,0]=torch.tensor([1.,0.,1.,0.]); q[:,1]=1.",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_degree_match_losses_are_finite",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_degree_match_losses_are_finite():\n    logits=torch.randn(4,40,requires_grad=True)\n    q=torch.full((4,40),-1.); q[:,0]=torch.tensor([1.,0.,1.,0.]); q[:,1]=1.\n    y=torch.randint(0,2,(4,40)).float(); valid=torch.ones_like(y)\n    a=probability_degree_match_loss(logits,q,y,valid)\n    b=degree_match_listwise_loss(logits,q,y,valid)\n    assert torch.isfinite(a) and torch.isfinite(b)\n    (a+b).backward()\n    assert logits.grad is not None\ndef test_match_distance_prefers_matching_probabilities():",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_match_distance_prefers_matching_probabilities",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_match_distance_prefers_matching_probabilities():\n    probs=torch.tensor([[.95,.05],[.05,.95]],dtype=torch.float32)\n    q=np.array([[1,0],[0,1]],dtype=np.float32)\n    d=calibrated_attribute_distances(probs,q,distance_kind='match')\n    assert d[0,0] < d[0,1]\n    assert d[1,1] < d[1,0]\ndef test_affine_calibration_identity():\n    p=torch.tensor([[.2,.8],[.7,.3]])\n    out=apply_affine_calibration(p,[1,1],[0,0])\n    assert torch.allclose(p,out,atol=1e-6)",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_affine_calibration_identity",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_affine_calibration_identity():\n    p=torch.tensor([[.2,.8],[.7,.3]])\n    out=apply_affine_calibration(p,[1,1],[0,0])\n    assert torch.allclose(p,out,atol=1e-6)\ndef test_track2_metrics_perfect_ranking():\n    labels=np.array([[1,0],[0,1],[1,1]],dtype=np.int16)\n    queries=np.array([[1,0],[0,1]],dtype=np.int16)\n    d=np.array([[0.,2.,1.],[2.,0.,1.]],dtype=np.float32)\n    m=track2_metrics(d,queries,labels)\n    assert m['Rank-1']==1.0",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_track2_metrics_perfect_ranking",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_track2_metrics_perfect_ranking():\n    labels=np.array([[1,0],[0,1],[1,1]],dtype=np.int16)\n    queries=np.array([[1,0],[0,1]],dtype=np.int16)\n    d=np.array([[0.,2.,1.],[2.,0.,1.]],dtype=np.float32)\n    m=track2_metrics(d,queries,labels)\n    assert m['Rank-1']==1.0\n    assert m['mAP']>0.99\n    assert m['mADM']>0.0\ndef test_unknown_query_bits_are_ignored():\n    probs=torch.tensor([[.9,.1],[.9,.9]],dtype=torch.float32)",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_unknown_query_bits_are_ignored",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_unknown_query_bits_are_ignored():\n    probs=torch.tensor([[.9,.1],[.9,.9]],dtype=torch.float32)\n    q=np.array([[1,-1]],dtype=np.float32)\n    d=calibrated_attribute_distances(probs,q,distance_kind='match')\n    assert abs(float(d[0,0]-d[0,1])) < 1e-6\ndef test_visual_prototype_head_shapes_and_gradients():\n    from abpr.prototype import AttributePrototypeHead, masked_prototype_bce\n    head=AttributePrototypeHead(in_dim=32,prototype_dim=16,num_attributes=40)\n    fmap=torch.randn(3,32,8,4,requires_grad=True)\n    global_feat=fmap.mean(dim=(2,3))",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_visual_prototype_head_shapes_and_gradients",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_visual_prototype_head_shapes_and_gradients():\n    from abpr.prototype import AttributePrototypeHead, masked_prototype_bce\n    head=AttributePrototypeHead(in_dim=32,prototype_dim=16,num_attributes=40)\n    fmap=torch.randn(3,32,8,4,requires_grad=True)\n    global_feat=fmap.mean(dim=(2,3))\n    logits,feat,sp,sn=head(fmap,global_feat)\n    assert logits.shape==(3,40)\n    assert feat.shape==(3,40,16)\n    y=torch.randint(0,2,(3,40)).float(); valid=torch.ones_like(y)\n    loss=masked_prototype_bce(logits,y,valid)",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_prototype_domain_alignment_is_finite",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_prototype_domain_alignment_is_finite():\n    from abpr.prototype import AttributePrototypeHead, prototype_domain_alignment_loss\n    head=AttributePrototypeHead(in_dim=24,prototype_dim=12,num_attributes=40)\n    fmap=torch.randn(9,24,6,3)\n    global_feat=fmap.mean(dim=(2,3))\n    _,feat,_,_=head(fmap,global_feat)\n    y=torch.randint(0,2,(9,40)).float(); valid=torch.ones_like(y)\n    domains=torch.tensor([0,0,0,1,1,1,2,2,2])\n    pos,neg=head.normalized_prototypes()\n    loss=prototype_domain_alignment_loss(feat,y,valid,domains,pos,neg,min_count=1)",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_probability_blend_endpoints",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_probability_blend_endpoints():\n    from abpr.prototype import blend_attribute_probabilities\n    a=torch.zeros(2,40)+.2; b=torch.zeros(2,40)+.8\n    assert torch.allclose(blend_attribute_probabilities(a,b,0.0),a)\n    mid=blend_attribute_probabilities(a,b,0.5)\n    assert torch.allclose(mid,torch.full_like(mid,.5))\ndef test_submission_run_python38_compatible_syntax():\n    \"\"\"Guard against PEP-604 annotations that break older ingestion images.\"\"\"\n    import ast\n    from pathlib import Path",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "test_submission_run_python38_compatible_syntax",
+        "kind": 2,
+        "importPath": "tests.test_abpr",
+        "description": "tests.test_abpr",
+        "peekOfCode": "def test_submission_run_python38_compatible_syntax():\n    \"\"\"Guard against PEP-604 annotations that break older ingestion images.\"\"\"\n    import ast\n    from pathlib import Path\n    root=Path(__file__).resolve().parents[1]\n    text=(root/'submission_run.py').read_text(encoding='utf-8')\n    ast.parse(text)\n    assert 'ABPRRuntime | None' not in text\n    assert 'str|Path' not in text",
+        "detail": "tests.test_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "kind": 6,
+        "importPath": "tests.test_builder_integration",
+        "description": "tests.test_builder_integration",
+        "peekOfCode": "class ImageResolver:\n def __init__(self,*args,**kwargs): self.root=Path(args[0])\n def resolve(self,value): return self.root/value\n''')\n    (source/'submission_run.py').write_bytes((Path(__file__).resolve().parents[1]/'submission_run.py').read_bytes())\n    official=tmp_path/'official'; meta=official/'examples/task2/sample_code_submission';meta.mkdir(parents=True)\n    (meta/'metadata.yaml').write_text('name: abpr')\n    val=official/'data/annotations/task2/val';val.mkdir(parents=True)\n    (official/'data/images').mkdir(parents=True)\n    import numpy as np",
+        "detail": "tests.test_builder_integration",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRRuntime",
+        "kind": 6,
+        "importPath": "tests.test_builder_integration",
+        "description": "tests.test_builder_integration",
+        "peekOfCode": "class ABPRRuntime:\n def __init__(self, ckpt):\n  assert Path(ckpt).is_file()\n  self.attribute_names=[f\"Attr-{i}\" for i in range(40)]\n  self.device='cpu'\n def encode_gallery(self, gallery):\n  from PIL import Image\n  p=np.stack([np.linspace(.1,.8,40,dtype=np.float32)+np.asarray(Image.open(g['image_path']),dtype=np.float32).mean()/2550 for g in gallery])\n  return p,np.zeros((len(gallery),8),dtype=np.float32)\n def distance(self,q,p,e): return np.asarray(-(q@p.T),np.float32)",
+        "detail": "tests.test_builder_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_builder_executable_zip",
+        "kind": 2,
+        "importPath": "tests.test_builder_integration",
+        "description": "tests.test_builder_integration",
+        "peekOfCode": "def test_builder_executable_zip(tmp_path):\n    source=tmp_path/'source';source.mkdir()\n    (source/'abpr').mkdir()\n    (source/'abpr/__init__.py').write_text('')\n    (source/'abpr/core.py').write_text('''from pathlib import Path\nATTRIBUTE_NAMES=[f\"Attr-{i}\" for i in range(40)]\ndef detect_image_column(df): return \"# image\"\nclass ImageResolver:\n def __init__(self,*args,**kwargs): self.root=Path(args[0])\n def resolve(self,value): return self.root/value",
+        "detail": "tests.test_builder_integration",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
+        "kind": 2,
+        "importPath": "tests.test_builder_integration",
+        "description": "tests.test_builder_integration",
+        "peekOfCode": "def detect_image_column(df): return \"# image\"\nclass ImageResolver:\n def __init__(self,*args,**kwargs): self.root=Path(args[0])\n def resolve(self,value): return self.root/value\n''')\n    (source/'submission_run.py').write_bytes((Path(__file__).resolve().parents[1]/'submission_run.py').read_bytes())\n    official=tmp_path/'official'; meta=official/'examples/task2/sample_code_submission';meta.mkdir(parents=True)\n    (meta/'metadata.yaml').write_text('name: abpr')\n    val=official/'data/annotations/task2/val';val.mkdir(parents=True)\n    (official/'data/images').mkdir(parents=True)",
+        "detail": "tests.test_builder_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_ranker_shapes_mask_and_roundtrip",
+        "kind": 2,
+        "importPath": "tests.test_retrieval_reranker",
+        "description": "tests.test_retrieval_reranker",
+        "peekOfCode": "def test_ranker_shapes_mask_and_roundtrip():\n    r=AttributeRanker(np.ones(40),np.ones(40),np.zeros(40),blend=0.5)\n    p=np.array([[.90]*40,[.10]*40,[.70]*40],dtype=np.float32)\n    q=np.array([[1]+[-1]*39,[0]+[-1]*39],dtype=np.float32)\n    dist=r.distance(q,p)\n    assert dist.shape==(2,3)\n    assert dist[0,0] < dist[0,1]\n    assert dist[1,0] > dist[1,1]\n    assert np.isfinite(dist).all()\n    f=fuse_distances(dist,dist,0.5)",
+        "detail": "tests.test_retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "test_exact_val_metric",
+        "kind": 2,
+        "importPath": "tests.test_retrieval_reranker",
+        "description": "tests.test_retrieval_reranker",
+        "peekOfCode": "def test_exact_val_metric():\n    from train_retrieval_ranker import evaluate_exact_retrieval\n    dist=np.array([[0.2,0.5,0.7],[0.9,0.4,0.1]],dtype=np.float32)\n    ids=np.array([10,20,30]); queries=np.array([10,30])\n    score=evaluate_exact_retrieval(dist,ids,queries)\n    assert score['val_subset_mAP']==1.\n    assert score['val_subset_R1']==1.",
+        "detail": "tests.test_retrieval_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "FakeABPRRuntime",
+        "kind": 6,
+        "importPath": "tests.test_submission_contract",
+        "description": "tests.test_submission_contract",
+        "peekOfCode": "class FakeABPRRuntime:\n    calls=0\n    def __init__(self, model_path):\n        assert Path(model_path).exists()\n        self.device='cpu'\n        self.attribute_names=[\n            'Age-Young','Age-Adult','Age-Old','Gender-Female',\n            'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n            'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n            'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',",
+        "detail": "tests.test_submission_contract",
+        "documentation": {}
+    },
+    {
+        "label": "load_runner",
+        "kind": 2,
+        "importPath": "tests.test_submission_contract",
+        "description": "tests.test_submission_contract",
+        "peekOfCode": "def load_runner(tmp_path, monkeypatch):\n    monkeypatch.setitem(sys.modules,'abpr_runtime',types.SimpleNamespace(ABPRRuntime=FakeABPRRuntime))\n    module_file=tmp_path/'run.py';module_file.write_bytes((ROOT/'submission_run.py').read_bytes())\n    asset=tmp_path/'assets';asset.mkdir(exist_ok=True)\n    (asset/'model.pt').write_bytes(b'test-only mock model')\n    spec=importlib.util.spec_from_file_location('subtest',module_file)\n    obj=importlib.util.module_from_spec(spec);sys.modules['subtest']=obj;spec.loader.exec_module(obj)\n    return obj\ndef test_large_cpu_gallery_no_prior_fallback(tmp_path,monkeypatch):\n    runner=load_runner(tmp_path,monkeypatch)",
+        "detail": "tests.test_submission_contract",
+        "documentation": {}
+    },
+    {
+        "label": "test_large_cpu_gallery_no_prior_fallback",
+        "kind": 2,
+        "importPath": "tests.test_submission_contract",
+        "description": "tests.test_submission_contract",
+        "peekOfCode": "def test_large_cpu_gallery_no_prior_fallback(tmp_path,monkeypatch):\n    runner=load_runner(tmp_path,monkeypatch)\n    monkeypatch.setenv('CUDA_VISIBLE_DEVICES','')\n    n=12001\n    gallery=[{'image_path':f'/test/{i}.jpg'} for i in range(n)]\n    query=np.zeros((2,40),dtype=np.float32)\n    query[0,:10]=1;query[1,20:30]=1\n    before=FakeABPRRuntime.calls\n    res=runner.rank_gallery({'gallery':gallery,'queries':query,'attribute_names':runner.CANONICAL_NAMES})['distances']\n    assert FakeABPRRuntime.calls==before+1, 'must use actual encode_gallery even on large CPU gallery'",
+        "detail": "tests.test_submission_contract",
+        "documentation": {}
+    },
+    {
+        "label": "test_image_dict_string_contract",
+        "kind": 2,
+        "importPath": "tests.test_submission_contract",
+        "description": "tests.test_submission_contract",
+        "peekOfCode": "def test_image_dict_string_contract(tmp_path,monkeypatch):\n    runner=load_runner(tmp_path,monkeypatch)\n    g=['a.jpg',{'path':'b.jpg'},{'image_path':'c.jpg'},{'filename':'d.jpg'}]\n    q=np.ones((1,40),np.float32)\n    out=runner.rank_gallery({'gallery':g,'queries':q,'attribute_names':runner.CANONICAL_NAMES})['distances']\n    assert out.shape==(1,4)\ndef test_missing_model_is_hard_error(tmp_path,monkeypatch):\n    import pytest\n    runner=load_runner(tmp_path,monkeypatch)\n    runner.MODEL_PATH.unlink()",
+        "detail": "tests.test_submission_contract",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_model_is_hard_error",
+        "kind": 2,
+        "importPath": "tests.test_submission_contract",
+        "description": "tests.test_submission_contract",
+        "peekOfCode": "def test_missing_model_is_hard_error(tmp_path,monkeypatch):\n    import pytest\n    runner=load_runner(tmp_path,monkeypatch)\n    runner.MODEL_PATH.unlink()\n    with pytest.raises(FileNotFoundError): runner.load_model()",
+        "detail": "tests.test_submission_contract",
+        "documentation": {}
+    },
+    {
+        "label": "test_submission_imports_learned_ranker_only_if_packaged",
+        "kind": 2,
+        "importPath": "tests.test_submission_ranking_head",
+        "description": "tests.test_submission_ranking_head",
+        "peekOfCode": "def test_submission_imports_learned_ranker_only_if_packaged():\n    src=(Path(__file__).resolve().parents[1]/'submission_run.py').read_text()\n    ast.parse(src)\n    assert 'ranker.npz' in src\n    assert 'fuse_distances' in src\n    assert 'torch.as_tensor(probs' in src\n    assert 'attribute_prior.json' not in src\ndef test_builder_packages_selected_ranker():\n    src=(Path(__file__).resolve().parents[1]/'build_codabench_submission.py').read_text()\n    ast.parse(src)",
+        "detail": "tests.test_submission_ranking_head",
+        "documentation": {}
+    },
+    {
+        "label": "test_builder_packages_selected_ranker",
+        "kind": 2,
+        "importPath": "tests.test_submission_ranking_head",
+        "description": "tests.test_submission_ranking_head",
+        "peekOfCode": "def test_builder_packages_selected_ranker():\n    src=(Path(__file__).resolve().parents[1]/'build_codabench_submission.py').read_text()\n    ast.parse(src)\n    assert '--ranker-checkpoint' in src\n    assert 'ranker.npz' in src",
+        "detail": "tests.test_submission_ranking_head",
+        "documentation": {}
+    },
+    {
+        "label": "safe_extract",
+        "kind": 2,
+        "importPath": "build_codabench_submission",
+        "description": "build_codabench_submission",
+        "peekOfCode": "def safe_extract(zf,destination):\n    destination=Path(destination).resolve()\n    for info in zf.infolist():\n        dest=(destination/info.filename).resolve()\n        if not dest.is_relative_to(destination): raise ValueError(f'Unsafe ZIP member: {info.filename}')\n    zf.extractall(destination)\ndef get_sample_gallery(official_root, source_root, count=4):\n    import pandas as pd\n    sys.path.insert(0,str(source_root))\n    from abpr.core import ImageResolver, detect_image_column, ATTRIBUTE_NAMES",
+        "detail": "build_codabench_submission",
+        "documentation": {}
+    },
+    {
+        "label": "get_sample_gallery",
+        "kind": 2,
+        "importPath": "build_codabench_submission",
+        "description": "build_codabench_submission",
+        "peekOfCode": "def get_sample_gallery(official_root, source_root, count=4):\n    import pandas as pd\n    sys.path.insert(0,str(source_root))\n    from abpr.core import ImageResolver, detect_image_column, ATTRIBUTE_NAMES\n    csv=official_root/'data/annotations/task2/val/gt.csv'\n    if not csv.exists(): raise FileNotFoundError(f'Missing organizer VAL annotations {csv}')\n    frame=pd.read_csv(csv)\n    col=detect_image_column(frame)\n    resolver=ImageResolver(official_root/'data',official_root,extra_roots=[source_root,source_root/'data'])\n    # Spread the sample across the table instead of drawing neighboring near-identical frames.",
+        "detail": "build_codabench_submission",
+        "documentation": {}
+    },
+    {
+        "label": "smoke",
+        "kind": 2,
+        "importPath": "build_codabench_submission",
+        "description": "build_codabench_submission",
+        "peekOfCode": "def smoke(package, sample, timeout, device):\n    runner=r'''\nimport importlib.util,json,numpy as np,os,sys\nfrom pathlib import Path\nsys.path.insert(0,os.getcwd())\nfrom pathlib import Path\nspec=importlib.util.spec_from_file_location('run',Path('run.py').resolve())\nm=importlib.util.module_from_spec(spec);sys.modules['run']=m;spec.loader.exec_module(m)\nsample=json.loads(Path(sys.argv[1]).read_text())\nres=m.rank_gallery(sample)",
+        "detail": "build_codabench_submission",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build_codabench_submission",
+        "description": "build_codabench_submission",
+        "peekOfCode": "def main():\n    p=argparse.ArgumentParser()\n    p.add_argument('--runtime-zip',required=True)\n    p.add_argument('--result-dir',required=True)\n    p.add_argument('--name',default='Submission_ABPR')\n    p.add_argument('--official-root',required=True)\n    p.add_argument('--source-root',required=True)\n    p.add_argument('--smoke-timeout',type=int,default=900)\n    p.add_argument('--smoke-device',choices=['auto','cpu'],default='auto')\n    p.add_argument('--ranker-checkpoint',type=Path,default=None)",
+        "detail": "build_codabench_submission",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "calibrate_retrieval",
+        "description": "calibrate_retrieval",
+        "peekOfCode": "def parse_args():\n    p=argparse.ArgumentParser(description='Calibrate retrieval on the organizer Track-2 validation split.')\n    p.add_argument('--repo-root',default='/content/UPAR-Challenge-2027')\n    p.add_argument('--checkpoint',action='append',required=True,help='Repeat for a probability ensemble.')\n    p.add_argument('--output',default='')\n    p.add_argument('--extra-data-root',action='append',default=[])\n    p.add_argument('--batch-size',type=int,default=40)\n    p.add_argument('--num-workers',type=int,default=2)\n    p.add_argument('--max-calib-gallery',type=int,default=16000)\n    p.add_argument('--max-calib-queries',type=int,default=420)",
+        "detail": "calibrate_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "encode_one",
+        "kind": 2,
+        "importPath": "calibrate_retrieval",
+        "description": "calibrate_retrieval",
+        "peekOfCode": "def encode_one(model, loader, device, tta_flip=False, desc='Encode validation'):\n    probs=[]; proto_probs=[]; emb=[]; labels=[]; valid=[]; domains=[]\n    model.eval()\n    for b in tqdm(loader,desc=desc,dynamic_ncols=True,leave=False):\n        x=b['image'].to(device,non_blocking=True)\n        with torch.autocast(device_type=device.type,dtype=torch.float16,enabled=device.type=='cuda'):\n            logits,z,_,proto_logits,_,_,_=model.encode_images(x,return_prototype=True)\n            if tta_flip:\n                lf,zf,_,pf,_,_,_=model.encode_images(torch.flip(x,dims=[3]),return_prototype=True)\n                logits=(logits+lf)*.5; proto_logits=(proto_logits+pf)*.5",
+        "detail": "calibrate_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "score_selection",
+        "kind": 2,
+        "importPath": "calibrate_retrieval",
+        "description": "calibrate_retrieval",
+        "peekOfCode": "def score_selection(m):\n    # Codabench primary metric is mADM; the others break ties and penalize degenerate ranking.\n    return float(.88*m['mADM']+.05*m['mAP']+.025*m['Rank-1']+.015*m['Rank-5']+.01*m['Rank-10']+.02*m['mINP'])\ndef select_calibration_subset(queries, labels, max_q, max_g, seed):\n    rng=np.random.default_rng(seed)\n    qidx=np.arange(len(queries))\n    if len(qidx)>max_q:\n        counts=(queries>=0).sum(1); chosen=[]\n        for k in sorted(np.unique(counts)):\n            idx=np.where(counts==k)[0]; share=max(1,int(round(max_q*len(idx)/len(queries))))",
+        "detail": "calibrate_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "select_calibration_subset",
+        "kind": 2,
+        "importPath": "calibrate_retrieval",
+        "description": "calibrate_retrieval",
+        "peekOfCode": "def select_calibration_subset(queries, labels, max_q, max_g, seed):\n    rng=np.random.default_rng(seed)\n    qidx=np.arange(len(queries))\n    if len(qidx)>max_q:\n        counts=(queries>=0).sum(1); chosen=[]\n        for k in sorted(np.unique(counts)):\n            idx=np.where(counts==k)[0]; share=max(1,int(round(max_q*len(idx)/len(queries))))\n            chosen.extend(rng.choice(idx,size=min(share,len(idx)),replace=False).tolist())\n        if len(chosen)>max_q: chosen=rng.choice(np.asarray(chosen),size=max_q,replace=False).tolist()\n        qidx=np.asarray(chosen,dtype=np.int64)",
+        "detail": "calibrate_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "load_checkpoint",
+        "kind": 2,
+        "importPath": "calibrate_retrieval",
+        "description": "calibrate_retrieval",
+        "peekOfCode": "def load_checkpoint(path, device):\n    ck=torch.load(path,map_location='cpu',weights_only=False)\n    model=ABPRNet(ck['backbone'],int(ck['embed_dim']),pretrained=False)\n    state=ck.get('inference_model_state') or ck.get('ema_model_state') or ck.get('model_state')\n    model.load_state_dict(state,strict=True)\n    return ck,model.to(device).eval()\ndef main():\n    args=parse_args(); seed_everything(args.seed)\n    root=Path(args.repo_root); ck_paths=[Path(x) for x in args.checkpoint]\n    device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')",
+        "detail": "calibrate_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "calibrate_retrieval",
+        "description": "calibrate_retrieval",
+        "peekOfCode": "def main():\n    args=parse_args(); seed_everything(args.seed)\n    root=Path(args.repo_root); ck_paths=[Path(x) for x in args.checkpoint]\n    device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n    gallery_csv,query_csv=find_task2_split_files(root,'val')\n    gdf=pd.read_csv(gallery_csv); _,queries=load_query_csv(query_csv)\n    print('Validation gallery:',gallery_csv,'rows=',len(gdf))\n    print('Validation queries:',query_csv,'rows=',len(queries))\n    checkpoints=[]; models=[]\n    for p in ck_paths:",
+        "detail": "calibrate_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "evaluate_abpr",
+        "description": "evaluate_abpr",
+        "peekOfCode": "def main():\n    p=argparse.ArgumentParser(); p.add_argument('--repo-root',default='/content/UPAR-Challenge-2027'); p.add_argument('--checkpoint',required=True)\n    p.add_argument('--extra-data-root',action='append',default=[]); p.add_argument('--batch-size',type=int,default=40); p.add_argument('--num-workers',type=int,default=2); a=p.parse_args()\n    root=Path(a.repo_root); ck=torch.load(a.checkpoint,map_location='cpu',weights_only=False)\n    gallery_csv,query_csv=find_task2_split_files(root,'val'); gdf=pd.read_csv(gallery_csv); _,queries=load_query_csv(query_csv)\n    from abpr.model import ABPRNet\n    device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n    resolver=ImageResolver(root/'data',root,extra_roots=a.extra_data_root)\n    h=int(ck.get('image_height',384)); w=int(ck.get('image_width',192)); ds=UPARDataset(gdf,resolver,build_eval_transform(h,w)); dl=DataLoader(ds,batch_size=a.batch_size,shuffle=False,num_workers=a.num_workers,pin_memory=device.type=='cuda',persistent_workers=a.num_workers>0)\n    probs_models=[]; proto_models=[]; emb_models=[]; labels=[]",
+        "detail": "evaluate_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "locate_metadata",
+        "kind": 2,
+        "importPath": "export_abpr_runtime",
+        "description": "export_abpr_runtime",
+        "peekOfCode": "def locate_metadata(official_root: Path):\n    preferred=official_root/'examples'/'task2'/'sample_code_submission'/'metadata.yaml'\n    if preferred.exists(): return preferred\n    candidates=[p for p in official_root.rglob('metadata.yaml') if 'task2' in p.as_posix().lower()]\n    return candidates[0] if candidates else None\ndef main():\n    p=argparse.ArgumentParser(); p.add_argument('--official-root',default='/content/UPAR-Challenge-2027'); p.add_argument('--checkpoint',required=True)\n    p.add_argument('--result-dir',default='/content/drive/MyDrive/PedestrianAttributeRecognition/ABPR_Results'); a=p.parse_args()\n    official=Path(a.official_root); ck_path=Path(a.checkpoint); out=Path(a.result_dir); out.mkdir(parents=True,exist_ok=True)\n    ck=torch.load(ck_path,map_location='cpu',weights_only=False)",
+        "detail": "export_abpr_runtime",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "export_abpr_runtime",
+        "description": "export_abpr_runtime",
+        "peekOfCode": "def main():\n    p=argparse.ArgumentParser(); p.add_argument('--official-root',default='/content/UPAR-Challenge-2027'); p.add_argument('--checkpoint',required=True)\n    p.add_argument('--result-dir',default='/content/drive/MyDrive/PedestrianAttributeRecognition/ABPR_Results'); a=p.parse_args()\n    official=Path(a.official_root); ck_path=Path(a.checkpoint); out=Path(a.result_dir); out.mkdir(parents=True,exist_ok=True)\n    ck=torch.load(ck_path,map_location='cpu',weights_only=False)\n    if not ck.get('models'): raise RuntimeError('Expected calibrated checkpoint containing one or more ensemble models.')\n    required40=('attribute_weights','calibration_scale','calibration_bias','priors','attribute_names')\n    for key in required40:\n        if len(ck.get(key,[]))!=40: raise RuntimeError(f'{key} must contain 40 values')\n    package={k:ck[k] for k in [",
+        "detail": "export_abpr_runtime",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "predict_task2",
+        "description": "predict_task2",
+        "peekOfCode": "def main():\n    p=argparse.ArgumentParser(); p.add_argument('--repo-root',required=True); p.add_argument('--model',required=True); p.add_argument('--gallery-csv',required=True); p.add_argument('--query-csv',required=True); p.add_argument('--output-dir',required=True); p.add_argument('--topk',type=int,default=100)\n    a=p.parse_args(); root=Path(a.repo_root); out=Path(a.output_dir); out.mkdir(parents=True,exist_ok=True)\n    gdf=pd.read_csv(a.gallery_csv); _,queries=load_query_csv(a.query_csv); image_col=detect_image_column(gdf); resolver=ImageResolver(root/'data',root)\n    samples=[]\n    for x in tqdm(gdf[image_col].astype(str).tolist(),desc='Resolve gallery',unit='image',dynamic_ncols=True):\n        samples.append({'image_path':str(resolver.resolve(x))})\n    runtime=ABPRRuntime(a.model); probs,emb=runtime.encode_gallery(samples); d=runtime.distance(queries,probs,emb).numpy()\n    topk=min(int(a.topk),d.shape[1]); ranking=np.argsort(d,axis=1,kind='stable')[:,:topk]\n    np.save(out/'rankings_topk.npy',ranking.astype(np.int32)); np.save(out/'distances.npy',d.astype(np.float32))",
+        "detail": "predict_task2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "score_task2_local",
+        "description": "score_task2_local",
+        "peekOfCode": "def main():\n    p=argparse.ArgumentParser(description='Score the exact exported runtime on labeled public Track-2 validation.')\n    p.add_argument('--repo-root',default='/content/UPAR-Challenge-2027'); p.add_argument('--model',required=True); p.add_argument('--output',default='')\n    a=p.parse_args(); root=Path(a.repo_root)\n    gallery_csv,query_csv=find_task2_split_files(root,'val'); gdf=pd.read_csv(gallery_csv); _,queries=load_query_csv(query_csv)\n    from abpr.core import ATTRIBUTE_NAMES, detect_image_column, ImageResolver\n    image_col=detect_image_column(gdf); resolver=ImageResolver(root/'data',root)\n    samples=[]\n    for x in tqdm(gdf[image_col].astype(str).tolist(),desc='Resolve public gallery',dynamic_ncols=True):\n        samples.append({'image_path':str(resolver.resolve(x))})",
+        "detail": "score_task2_local",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "submission_run",
+        "description": "submission_run",
+        "peekOfCode": "def load_model():\n    global _MODEL\n    if _MODEL is not None: return\n    if os.environ.get('ABPR_FORCE_FALLBACK')=='1':\n        raise RuntimeError('Prior/hash fallback is prohibited; trained model required')\n    if not MODEL_PATH.is_file(): raise FileNotFoundError(f'Trained checkpoint missing: {MODEL_PATH}')\n    # Lazy import: if dependencies fail on worker, report real traceback.\n    from abpr_runtime import ABPRRuntime\n    _MODEL=ABPRRuntime(MODEL_PATH)\n    device=str(getattr(_MODEL,'device','unknown'))",
+        "detail": "submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "predict_attributes",
+        "kind": 2,
+        "importPath": "submission_run",
+        "description": "submission_run",
+        "peekOfCode": "def predict_attributes(gallery, attribute_names):\n    records=_gallery_records(gallery)\n    probs,_=_predict_model(records)\n    model_names=list(getattr(_MODEL,'attribute_names', CANONICAL_NAMES))\n    if len(model_names)!=probs.shape[1]: raise ValueError('Runtime attribute_names length mismatch')\n    return probs[:,_cols(model_names,attribute_names)]\ndef rank_gallery(sample):\n    if not isinstance(sample,dict): raise TypeError('rank_gallery expects a dict sample')\n    gallery=_gallery_records(sample.get('gallery'))\n    names=sample.get('attribute_names',CANONICAL_NAMES)",
+        "detail": "submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "rank_gallery",
+        "kind": 2,
+        "importPath": "submission_run",
+        "description": "submission_run",
+        "peekOfCode": "def rank_gallery(sample):\n    if not isinstance(sample,dict): raise TypeError('rank_gallery expects a dict sample')\n    gallery=_gallery_records(sample.get('gallery'))\n    names=sample.get('attribute_names',CANONICAL_NAMES)\n    names=list(names)\n    queries=np.asarray(sample['queries'],dtype=np.float32)\n    if queries.ndim==1: queries=queries[None,:]\n    if queries.ndim!=2 or queries.shape[1]!=len(names):\n        raise ValueError(f'Query shape {queries.shape} incompatible with {len(names)} names')\n    probs,embeddings=_predict_model(gallery)",
+        "detail": "submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "HERE",
+        "kind": 5,
+        "importPath": "submission_run",
+        "description": "submission_run",
+        "peekOfCode": "HERE = Path(__file__).resolve().parent\nMODEL_PATH = HERE / 'assets' / 'model.pt'\n_MODEL = None\nCANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',",
+        "detail": "submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "kind": 5,
+        "importPath": "submission_run",
+        "description": "submission_run",
+        "peekOfCode": "MODEL_PATH = HERE / 'assets' / 'model.pt'\n_MODEL = None\nCANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',\n    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',",
+        "detail": "submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "_MODEL",
+        "kind": 5,
+        "importPath": "submission_run",
+        "description": "submission_run",
+        "peekOfCode": "_MODEL = None\nCANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',\n    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',\n    'LowerBody-Color-Purple','LowerBody-Color-Red','LowerBody-Color-White','LowerBody-Color-Yellow',",
+        "detail": "submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "CANONICAL_NAMES",
+        "kind": 5,
+        "importPath": "submission_run",
+        "description": "submission_run",
+        "peekOfCode": "CANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',\n    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',\n    'LowerBody-Color-Purple','LowerBody-Color-Red','LowerBody-Color-White','LowerBody-Color-Yellow',\n    'LowerBody-Color-Other','LowerBody-Type-Trousers&Shorts','LowerBody-Type-Skirt&Dress',",
+        "detail": "submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def parse_args():\n    p = argparse.ArgumentParser(description='Train Track-2 attribute-based person retrieval model.')\n    p.add_argument('--repo-root', default='/content/UPAR-Challenge-2027')\n    p.add_argument('--extra-data-root', action='append', default=[])\n    p.add_argument('--checkpoint-dir', default='/content/drive/MyDrive/PedestrianAttributeRecognition/ABPR_Checkpoints')\n    p.add_argument('--result-dir', default='/content/drive/MyDrive/PedestrianAttributeRecognition/ABPR_Results')\n    p.add_argument('--seed', type=int, default=42)\n    p.add_argument('--epochs', type=int, default=24)\n    p.add_argument('--batch-size', type=int, default=16)\n    p.add_argument('--eval-batch-size', type=int, default=40)",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "encode_loader",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def encode_loader(model, loader, device, tta_flip=False, desc='Encode validation'):\n    model.eval(); probs=[]; proto_probs=[]; emb=[]; labels=[]; valid_all=[]; domains=[]\n    for b in tqdm(loader, desc=desc, leave=False, dynamic_ncols=True):\n        x=b['image'].to(device, non_blocking=True)\n        with torch.autocast(device_type=device.type, dtype=torch.float16, enabled=device.type=='cuda'):\n            logits,z,_,proto_logits,_,_,_=model.encode_images(x, return_prototype=True)\n            if tta_flip:\n                lf,zf,_,pf,_,_,_=model.encode_images(torch.flip(x, dims=[3]), return_prototype=True)\n                logits=(logits+lf)*0.5\n                proto_logits=(proto_logits+pf)*0.5",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "select_query_subset",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def select_query_subset(queries: np.ndarray, max_queries: int, seed: int):\n    if len(queries) <= max_queries:\n        return queries\n    rng=np.random.default_rng(seed)\n    counts=(queries>=0).sum(1); chosen=[]\n    for k in sorted(np.unique(counts)):\n        idx=np.where(counts==k)[0]\n        share=max(1,int(round(max_queries*len(idx)/len(queries))))\n        chosen.extend(rng.choice(idx,size=min(share,len(idx)),replace=False).tolist())\n    if len(chosen)>max_queries:",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_retrieval",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def evaluate_retrieval(model, loader, device, queries, train_priors, max_queries=450, seed=42):\n    probs,proto_probs,emb,labels,valid,domains=encode_loader(model,loader,device,tta_flip=False)\n    q=select_query_subset(np.asarray(queries,dtype=np.float32),max_queries,seed)\n    with torch.inference_mode():\n        qz=model.query_encoder(torch.as_tensor(q,dtype=torch.float32,device=device)).float().cpu()\n    candidates=[]\n    for proto_mix in (0.0, 0.15, 0.30, 0.45, 0.60):\n        mixed=blend_attribute_probabilities(probs,proto_probs,proto_mix)\n        weights=attribute_error_weights(mixed,labels,valid,tau=.20)\n        d=calibrated_attribute_distances(",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "append_history",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def append_history(path: Path, row: dict):\n    path.parent.mkdir(parents=True,exist_ok=True)\n    frame=pd.DataFrame([row])\n    if path.exists():\n        old=pd.read_csv(path)\n        if 'epoch' in old.columns:\n            old=old[old['epoch']!=row['epoch']]\n        frame=pd.concat([old,frame],ignore_index=True)\n    frame.to_csv(path,index=False)\ndef capture_rng_state():",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "capture_rng_state",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def capture_rng_state():\n    state={'torch':torch.get_rng_state(),'numpy':np.random.get_state()}\n    if torch.cuda.is_available(): state['cuda']=torch.cuda.get_rng_state_all()\n    return state\ndef restore_rng_state(state):\n    if not state: return\n    try: torch.set_rng_state(state['torch'])\n    except Exception: pass\n    try: np.random.set_state(state['numpy'])\n    except Exception: pass",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "restore_rng_state",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def restore_rng_state(state):\n    if not state: return\n    try: torch.set_rng_state(state['torch'])\n    except Exception: pass\n    try: np.random.set_state(state['numpy'])\n    except Exception: pass\n    if torch.cuda.is_available() and state.get('cuda') is not None:\n        try: torch.cuda.set_rng_state_all(state['cuda'])\n        except Exception: pass\ndef make_scheduler(optimizer, total_steps: int, warmup_ratio: float):",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "make_scheduler",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def make_scheduler(optimizer, total_steps: int, warmup_ratio: float):\n    warmup=max(1,int(total_steps*warmup_ratio))\n    def fn(step):\n        if step < warmup: return max(step,1)/warmup\n        progress=(step-warmup)/max(total_steps-warmup,1)\n        return 0.5*(1.0+math.cos(math.pi*min(max(progress,0.0),1.0)))\n    return torch.optim.lr_scheduler.LambdaLR(optimizer,fn)\ndef main():\n    args=parse_args(); seed_everything(args.seed)\n    repo=Path(args.repo_root); data_root=repo/'data'",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train_abpr",
+        "description": "train_abpr",
+        "peekOfCode": "def main():\n    args=parse_args(); seed_everything(args.seed)\n    repo=Path(args.repo_root); data_root=repo/'data'\n    ckdir=Path(args.checkpoint_dir); outdir=Path(args.result_dir); ckdir.mkdir(parents=True,exist_ok=True); outdir.mkdir(parents=True,exist_ok=True)\n    train_csv=discover_labeled_csv(repo,'train')\n    try: val_csv=discover_labeled_csv(repo,'val')\n    except FileNotFoundError: val_csv=None\n    train_df=pd.read_csv(train_csv)\n    if val_csv is not None: val_df=pd.read_csv(val_csv)\n    else: train_df,val_df=split_train_val(train_df,args.val_fraction,args.seed)",
+        "detail": "train_abpr",
+        "documentation": {}
+    },
+    {
+        "label": "img_col",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def img_col(df):\n    for c in ('# image','image','image_path','path','filename'):\n        if c in df.columns: return c\n    raise ValueError(f'Image column missing: {df.columns.tolist()[:8]}')\ndef load_data(official, split, names):\n    path=official/'data'/'annotations'/'task2'/split/'gt.csv'\n    if not path.is_file(): raise FileNotFoundError(path)\n    df=pd.read_csv(path)\n    missing=[n for n in names if n not in df.columns]\n    if missing: raise ValueError(f'Missing attributes in {path}: {missing}')",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def load_data(official, split, names):\n    path=official/'data'/'annotations'/'task2'/split/'gt.csv'\n    if not path.is_file(): raise FileNotFoundError(path)\n    df=pd.read_csv(path)\n    missing=[n for n in names if n not in df.columns]\n    if missing: raise ValueError(f'Missing attributes in {path}: {missing}')\n    return df,df[names].to_numpy(dtype=np.float32),df[img_col(df)].astype(str).tolist()\ndef select_evenly(df, max_images, seed):\n    if max_images >= len(df): return np.arange(len(df))\n    # Domain-balanced sampling across Market1501 / PA100k / PETA.",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "select_evenly",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def select_evenly(df, max_images, seed):\n    if max_images >= len(df): return np.arange(len(df))\n    # Domain-balanced sampling across Market1501 / PA100k / PETA.\n    rng=np.random.default_rng(seed)\n    col=img_col(df)\n    groups=df[col].astype(str).str.split('/').str[0].str.lower().to_numpy()\n    unique=np.unique(groups)\n    chosen=[]\n    budget=max_images\n    for j,domain in enumerate(unique):",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "create_gallery_runtime",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def create_gallery_runtime(runtime_zip, output_dir):\n    output_dir.mkdir(parents=True,exist_ok=True)\n    needed=['abpr_runtime.py','assets/model.pt']\n    with zipfile.ZipFile(runtime_zip) as z:\n        for name in needed:\n            if name not in z.namelist():raise KeyError(f'{name} absent from {runtime_zip}')\n            target=output_dir/name;target.parent.mkdir(parents=True,exist_ok=True)\n            # avoid extracting ~200 MiB repeatedly if already present\n            if not target.is_file() or target.stat().st_size!=z.getinfo(name).file_size:\n                with z.open(name) as inp, target.open('wb') as out:",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "encode_images",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def encode_images(runtime, relpaths, resolver, batch, cache):\n    if cache.is_file():\n        with np.load(cache,allow_pickle=False) as z:\n            if len(z['probs'])==len(relpaths):\n                print(f'Cache hit: {cache}',flush=True)\n                return z['probs'].copy(), z['embeddings'].copy()\n    prob=[]\n    embeds=[]\n    for start in tqdm(range(0,len(relpaths),batch),desc=f'Encode real images ({cache.stem})',unit='batch'):\n        paths=[{'image_path':str(resolver.resolve(v))} for v in relpaths[start:start+batch]]",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "train_ranker",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def train_ranker(p, labels, steps=2000, seed=42, device='cpu'):\n    # Predictors are FROZEN; learn a small retrieval head instead of memorizing identities.\n    # Synthetic sparse queries are formed only from public TRAIN labels.\n    rng=np.random.default_rng(seed)\n    valid_labels=(labels>=0)&(labels<=1)\n    usable=np.flatnonzero(valid_labels.sum(axis=1)>=3)\n    if len(usable)<200: raise RuntimeError('Insufficient valid labeled training examples')\n    probs=torch.tensor(np.clip(p,1e-5,1-1e-5),dtype=torch.float32,device=device)\n    logits=torch.logit(probs)\n    y=torch.tensor(labels,dtype=torch.float32,device=device)",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "val_pairs",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def val_pairs(labels, count, known_min, known_max, seed):\n    rng=np.random.default_rng(seed)\n    eligible=np.flatnonzero(((labels>=0)&(labels<=1)).sum(1)>=known_min)\n    ids=rng.choice(eligible,size=min(count,len(eligible)),replace=False)\n    q=np.full((len(ids),40),-1,dtype=np.float32)\n    for i,j in enumerate(ids):\n        a=np.flatnonzero((labels[j]>=0)&(labels[j]<=1))\n        subset=rng.choice(a,size=min(len(a),int(rng.integers(known_min,known_max+1))),replace=False)\n        q[i,subset]=labels[j,subset]\n    return q,ids",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "exact_validation_queries",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def exact_validation_queries(official, val_selection, seed, n_queries):\n    \"\"\"Prefer organizer query/ids protocol. Never invent positives for official mAP.\"\"\"\n    split=official/'data/annotations/task2/val'\n    qpath=split/'queries.csv';ipath=split/'ids.csv'\n    if not (qpath.is_file() and ipath.is_file()):\n        raise FileNotFoundError('Official query/ids.csv files required for selecting learned blend')\n    from abpr.model import load_query_csv\n    query_names, q=load_query_csv(qpath)\n    q=np.asarray(q,dtype=np.float32)\n    from abpr.core import ATTRIBUTE_NAMES",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_exact_retrieval",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def evaluate_exact_retrieval(d, gallery_ids, query_ids):\n    AP=[];R1=[]\n    for row,qid in enumerate(query_ids):\n        relevant=(gallery_ids==qid)\n        if not relevant.any():continue\n        ranked=relevant[np.argsort(d[row],kind='stable')]\n        where=np.flatnonzero(ranked)\n        AP.append(float((np.cumsum(ranked)[where]/(where+1)).mean()))\n        R1.append(float(ranked[0]))\n    return {'val_subset_mAP':float(np.mean(AP)),'val_subset_R1':float(np.mean(R1)),",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "synthetic_rank_metric",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def synthetic_rank_metric(d,queries,ids,gt):\n    # Retrieval proxy, NOT official mADM. For each synthetic query compute AP\n    # against images matching its known attribute subset (ground truth).\n    AP=[];R1=[]\n    for row in range(len(queries)):\n        q=queries[row];valid=(q>=0)&(q<=1)\n        relevant=(gt[:,valid]==q[None,valid]).all(axis=1)\n        relevant[ids[row]]=True\n        if not relevant.any():continue\n        indices=np.argsort(d[row],kind='stable')",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train_retrieval_ranker",
+        "description": "train_retrieval_ranker",
+        "peekOfCode": "def main():\n    ap=argparse.ArgumentParser()\n    ap.add_argument('--repo-root',type=Path,required=True)\n    ap.add_argument('--source-root',type=Path,required=True)\n    ap.add_argument('--runtime-zip',type=Path,required=True)\n    ap.add_argument('--output',type=Path,required=True)\n    ap.add_argument('--cache-dir',type=Path,required=True)\n    ap.add_argument('--batch-size',type=int,default=48)\n    ap.add_argument('--max-train-images',type=int,default=18000)\n    ap.add_argument('--max-val-images',type=int,default=9000)",
+        "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "train_track2",
+        "description": "train_track2",
+        "peekOfCode": "def run(command,cwd,log_path):\n    log_path.parent.mkdir(parents=True,exist_ok=True)\n    print('\\n>>>',' '.join(map(str,command)),flush=True)\n    env=dict(os.environ,PYTHONUNBUFFERED='1')\n    proc=subprocess.Popen(command,cwd=str(cwd),env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,encoding='utf-8',errors='replace',bufsize=1)\n    try:\n        with log_path.open('a',encoding='utf-8') as log:\n            for line in proc.stdout:\n                print(line,end='',flush=True);log.write(line);log.flush()\n        code=proc.wait()",
+        "detail": "train_track2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train_track2",
+        "description": "train_track2",
+        "peekOfCode": "def main():\n    p=argparse.ArgumentParser()\n    p.add_argument('--source-root',type=Path,required=True)\n    p.add_argument('--repo-root',type=Path,required=True)\n    p.add_argument('--checkpoint-dir',type=Path,required=True)\n    p.add_argument('--result-dir',type=Path,required=True)\n    p.add_argument('--seed',type=int,action='append',default=None)\n    p.add_argument('--epochs',type=int,default=24)\n    p.add_argument('--batch-size',type=int,default=12)\n    p.add_argument('--eval-batch-size',type=int,default=24)",
+        "detail": "train_track2",
+        "documentation": {}
+    }
+]
