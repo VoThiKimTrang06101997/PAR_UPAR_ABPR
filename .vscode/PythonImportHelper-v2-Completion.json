@@ -136,6 +136,48 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -422,30 +464,12 @@
         "documentation": {}
     },
     {
-        "label": "torch",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "torch",
-        "description": "torch",
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
         "label": "torch.nn",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "torch.nn",
         "description": "torch.nn",
         "detail": "torch.nn",
-        "documentation": {}
-    },
-    {
-        "label": "torch.nn.functional",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "torch.nn.functional",
-        "description": "torch.nn.functional",
-        "detail": "torch.nn.functional",
         "documentation": {}
     },
     {
@@ -1042,6 +1066,55 @@
         "documentation": {}
     },
     {
+        "label": "pathlib,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib.sys",
+        "description": "pathlib.sys",
+        "detail": "pathlib.sys",
+        "documentation": {}
+    },
+    {
+        "label": "multilabel_supcon",
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "isExtraImport": true,
+        "detail": "abpr.attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "query_hard_negative_loss",
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "isExtraImport": true,
+        "detail": "abpr.attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeAwareContrastive",
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "isExtraImport": true,
+        "detail": "abpr.attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "multilabel_supcon",
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "isExtraImport": true,
+        "detail": "abpr.attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "query_hard_negative_loss",
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "isExtraImport": true,
+        "detail": "abpr.attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
         "label": "csv,",
         "kind": 6,
         "isExtraImport": true,
@@ -1526,6 +1599,15 @@
         "documentation": {}
     },
     {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
         "label": "ABPRRuntime",
         "importPath": "abpr.runtime",
         "description": "abpr.runtime",
@@ -1614,6 +1696,33 @@
         "importPath": "argparse.csv.json.os.subprocess.sys.time",
         "description": "argparse.csv.json.os.subprocess.sys.time",
         "detail": "argparse.csv.json.os.subprocess.sys.time",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeAwareContrastive",
+        "kind": 6,
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "peekOfCode": "class AttributeAwareContrastive:\n    \"\"\"Wrap the original InfoNCE without replacing classification/prototype losses.\n    Increasing warmup slowly is safer than injecting strong contrastive gradients\n    into an already trained model on the first update.\n    \"\"\"\n    def __init__(self, original, supcon_weight: float = 0.40,\n                 hard_weight: float = 0.70, warmup_steps: int = 250):\n        self.original = original\n        self.supcon_weight = float(supcon_weight)\n        self.hard_weight = float(hard_weight)",
+        "detail": "abpr.attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "multilabel_supcon",
+        "kind": 2,
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "peekOfCode": "def multilabel_supcon(image_emb: torch.Tensor, queries: torch.Tensor,\n                      temperature: float = 0.12, min_shared: int = 4,\n                      min_agreement: float = 0.80):\n    \"\"\"Soft-positive SupCon. Valid image pairs need known, agreeing labels and\n    at least one shared positive label. Unknown attributes are ignored.\"\"\"\n    z = F.normalize(image_emb.float(), dim=-1)\n    b = z.shape[0]\n    if b < 2:\n        return z.sum() * 0.0\n    shared, agree, disagree, pos = _labels_and_masks(queries)",
+        "detail": "abpr.attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "query_hard_negative_loss",
+        "kind": 2,
+        "importPath": "abpr.attribute_aware_contrastive",
+        "description": "abpr.attribute_aware_contrastive",
+        "peekOfCode": "def query_hard_negative_loss(image_emb: torch.Tensor, query_emb: torch.Tensor,\n                             queries: torch.Tensor, margin: float = 0.12,\n                             min_shared: int = 4, min_matching: int = 2,\n                             max_disagree: int = 4):\n    \"\"\"Within minibatch rank the matched image above a similar but provably\n    contradictory image (at least one conflicting *known* query attribute).\n    Does not treat missing labels as 0, and does not mine from VAL.\n    \"\"\"\n    z = F.normalize(image_emb.float(), dim=-1)\n    qz = F.normalize(query_emb.float(), dim=-1)",
+        "detail": "abpr.attribute_aware_contrastive",
         "documentation": {}
     },
     {
@@ -2463,6 +2572,33 @@
         "documentation": {}
     },
     {
+        "label": "test_backward",
+        "kind": 2,
+        "importPath": "tests.test_attribute_aware_contrastive",
+        "description": "tests.test_attribute_aware_contrastive",
+        "peekOfCode": "def test_backward():\n    torch.manual_seed(4)\n    z=torch.randn(5,12,requires_grad=True)\n    qz=torch.randn(5,12,requires_grad=True)\n    q=torch.tensor([[1,0,1,0,1,0], [1,0,1,0,0,0], [1,0,1,0,1,0], [1,0,1,1,0,0], [0,0,0,0,0,0]],dtype=torch.float)\n    sup=multilabel_supcon(z,q)\n    hn=query_hard_negative_loss(z,qz,q)\n    assert torch.isfinite(sup) and torch.isfinite(hn)\n    (sup+hn).backward()\n    assert z.grad is not None and torch.isfinite(z.grad).all()",
+        "detail": "tests.test_attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_labels_not_imputed",
+        "kind": 2,
+        "importPath": "tests.test_attribute_aware_contrastive",
+        "description": "tests.test_attribute_aware_contrastive",
+        "peekOfCode": "def test_missing_labels_not_imputed():\n    z=torch.randn(3,8,requires_grad=True)\n    q=torch.tensor([[1,-1,0,-1],[1,0,0,-1],[1,-1,1,-1]],dtype=torch.float)\n    sup=multilabel_supcon(z,q,min_shared=4)\n    assert sup.item()==0.0\n    assert torch.isfinite(query_hard_negative_loss(z,z,q,min_shared=4))\ndef test_wrapped_loss_updates_embedding():\n    z=torch.randn(4,16,requires_grad=True)\n    qz=torch.randn(4,16,requires_grad=True)\n    q=torch.tensor([[1,0,1,0,1],[1,0,1,0,0],[1,0,1,0,1],[1,0,0,0,0]],dtype=torch.float)",
+        "detail": "tests.test_attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "test_wrapped_loss_updates_embedding",
+        "kind": 2,
+        "importPath": "tests.test_attribute_aware_contrastive",
+        "description": "tests.test_attribute_aware_contrastive",
+        "peekOfCode": "def test_wrapped_loss_updates_embedding():\n    z=torch.randn(4,16,requires_grad=True)\n    qz=torch.randn(4,16,requires_grad=True)\n    q=torch.tensor([[1,0,1,0,1],[1,0,1,0,0],[1,0,1,0,1],[1,0,0,0,0]],dtype=torch.float)\n    def original(image_emb,query_emb,query_states,temperature=0.08):\n        return (image_emb-query_emb).pow(2).mean()\n    fn=AttributeAwareContrastive(original,warmup_steps=1)\n    objective=fn(z,qz,q)\n    objective.backward()\n    assert fn.steps==1 and torch.isfinite(objective)",
+        "detail": "tests.test_attribute_aware_contrastive",
+        "documentation": {}
+    },
+    {
         "label": "ImageResolver",
         "kind": 6,
         "importPath": "tests.test_builder_integration",
@@ -2715,6 +2851,33 @@
         "documentation": {}
     },
     {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "finetune_prototype_contrastive",
+        "description": "finetune_prototype_contrastive",
+        "peekOfCode": "def parse_args():\n    p=argparse.ArgumentParser(description='Warm-start Prototype and fine-tune its backbone')\n    p.add_argument('--source-root',type=Path,required=True)\n    p.add_argument('--repo-root',type=Path,required=True)\n    p.add_argument('--baseline-checkpoint',type=Path,required=True)\n    p.add_argument('--checkpoint-dir',type=Path,required=True)\n    p.add_argument('--result-dir',type=Path,required=True)\n    p.add_argument('--seed',type=int,default=42)\n    p.add_argument('--epochs',type=int,default=8)\n    p.add_argument('--batch-size',type=int,default=8)",
+        "detail": "finetune_prototype_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "verify_training_graph",
+        "kind": 2,
+        "importPath": "finetune_prototype_contrastive",
+        "description": "finetune_prototype_contrastive",
+        "peekOfCode": "def verify_training_graph(path:Path):\n    source=path.read_text(encoding='utf-8')\n    tree=ast.parse(source)\n    main=next((n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='main'),None)\n    if main is None:\n        raise RuntimeError('train_abpr.py lacks main()')\n    names={n.id for n in ast.walk(main) if isinstance(n,ast.Name)}\n    required={'full_q','sparse_q','z','qz','loss','l_supcon','l_hard','extra','finetune_from'}\n    missing=required-names\n    if missing:",
+        "detail": "finetune_prototype_contrastive",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "finetune_prototype_contrastive",
+        "description": "finetune_prototype_contrastive",
+        "peekOfCode": "def run(a):\n    root=a.source_root.resolve(); trainer=root/'train_abpr.py'; baseline=a.baseline_checkpoint.resolve()\n    ckdir=a.checkpoint_dir.resolve(); result=a.result_dir.resolve()\n    if not trainer.is_file():\n        raise FileNotFoundError(trainer)\n    if not baseline.is_file():\n        raise FileNotFoundError(baseline)\n    if a.restart:\n        raise RuntimeError('Restart is disabled for baseline safety. Use a different new fine-tune directory.')\n    if ckdir==baseline.parent:",
+        "detail": "finetune_prototype_contrastive",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "predict_task2",
@@ -2827,7 +2990,7 @@
         "kind": 2,
         "importPath": "train_abpr",
         "description": "train_abpr",
-        "peekOfCode": "def evaluate_retrieval(model, loader, device, queries, train_priors, max_queries=450, seed=42):\n    probs,proto_probs,emb,labels,valid,domains=encode_loader(model,loader,device,tta_flip=False)\n    q=select_query_subset(np.asarray(queries,dtype=np.float32),max_queries,seed)\n    with torch.inference_mode():\n        qz=model.query_encoder(torch.as_tensor(q,dtype=torch.float32,device=device)).float().cpu()\n    candidates=[]\n    for proto_mix in (0.0, 0.15, 0.30, 0.45, 0.60):\n        mixed=blend_attribute_probabilities(probs,proto_probs,proto_mix)\n        weights=attribute_error_weights(mixed,labels,valid,tau=.20)\n        d=calibrated_attribute_distances(",
+        "peekOfCode": "def evaluate_retrieval(model, loader, device, queries, train_priors, max_queries=450, seed=42):\n    probs,proto_probs,emb,labels,valid,domains=encode_loader(model,loader,device,tta_flip=False)\n    q=select_query_subset(np.asarray(queries,dtype=np.float32),max_queries,seed)\n    with torch.inference_mode():\n        qz=model.query_encoder(torch.as_tensor(q,dtype=torch.float32,device=device)).float().cpu()\n    candidates=[]\n    for proto_mix in (0.0, 0.15, 0.30, 0.45, 0.60):\n        mixed=blend_attribute_probabilities(probs,proto_probs,proto_mix)\n        weights=attribute_error_weights(mixed,labels,valid,tau=.20)",
         "detail": "train_abpr",
         "documentation": {}
     },
@@ -2836,7 +2999,7 @@
         "kind": 2,
         "importPath": "train_abpr",
         "description": "train_abpr",
-        "peekOfCode": "def append_history(path: Path, row: dict):\n    path.parent.mkdir(parents=True,exist_ok=True)\n    frame=pd.DataFrame([row])\n    if path.exists():\n        old=pd.read_csv(path)\n        if 'epoch' in old.columns:\n            old=old[old['epoch']!=row['epoch']]\n        frame=pd.concat([old,frame],ignore_index=True)\n    frame.to_csv(path,index=False)\ndef capture_rng_state():",
+        "peekOfCode": "def append_history(path: Path, row: dict):\n    path.parent.mkdir(parents=True,exist_ok=True)\n    frame=pd.DataFrame([row])\n    if path.exists():\n        old=pd.read_csv(path)\n        if 'epoch' in old.columns:\n            old=old[old['epoch']!=row['epoch']]\n        frame=pd.concat([old,frame],ignore_index=True)\n    frame.to_csv(path,index=False)",
         "detail": "train_abpr",
         "documentation": {}
     },
@@ -2845,7 +3008,7 @@
         "kind": 2,
         "importPath": "train_abpr",
         "description": "train_abpr",
-        "peekOfCode": "def capture_rng_state():\n    state={'torch':torch.get_rng_state(),'numpy':np.random.get_state()}\n    if torch.cuda.is_available(): state['cuda']=torch.cuda.get_rng_state_all()\n    return state\ndef restore_rng_state(state):\n    if not state: return\n    try: torch.set_rng_state(state['torch'])\n    except Exception: pass\n    try: np.random.set_state(state['numpy'])\n    except Exception: pass",
+        "peekOfCode": "def capture_rng_state():\n    state={'torch':torch.get_rng_state(),'numpy':np.random.get_state()}\n    if torch.cuda.is_available(): state['cuda']=torch.cuda.get_rng_state_all()\n    return state\ndef restore_rng_state(state):\n    if not state: return\n    try: torch.set_rng_state(state['torch'])\n    except Exception: pass",
         "detail": "train_abpr",
         "documentation": {}
     },
@@ -2854,7 +3017,7 @@
         "kind": 2,
         "importPath": "train_abpr",
         "description": "train_abpr",
-        "peekOfCode": "def restore_rng_state(state):\n    if not state: return\n    try: torch.set_rng_state(state['torch'])\n    except Exception: pass\n    try: np.random.set_state(state['numpy'])\n    except Exception: pass\n    if torch.cuda.is_available() and state.get('cuda') is not None:\n        try: torch.cuda.set_rng_state_all(state['cuda'])\n        except Exception: pass\ndef make_scheduler(optimizer, total_steps: int, warmup_ratio: float):",
+        "peekOfCode": "def restore_rng_state(state):\n    if not state: return\n    try: torch.set_rng_state(state['torch'])\n    except Exception: pass\n    try: np.random.set_state(state['numpy'])\n    except Exception: pass\n    if torch.cuda.is_available() and state.get('cuda') is not None:\n        try: torch.cuda.set_rng_state_all(state['cuda'])\n        except Exception: pass",
         "detail": "train_abpr",
         "documentation": {}
     },
@@ -2863,7 +3026,7 @@
         "kind": 2,
         "importPath": "train_abpr",
         "description": "train_abpr",
-        "peekOfCode": "def make_scheduler(optimizer, total_steps: int, warmup_ratio: float):\n    warmup=max(1,int(total_steps*warmup_ratio))\n    def fn(step):\n        if step < warmup: return max(step,1)/warmup\n        progress=(step-warmup)/max(total_steps-warmup,1)\n        return 0.5*(1.0+math.cos(math.pi*min(max(progress,0.0),1.0)))\n    return torch.optim.lr_scheduler.LambdaLR(optimizer,fn)\ndef main():\n    args=parse_args(); seed_everything(args.seed)\n    repo=Path(args.repo_root); data_root=repo/'data'",
+        "peekOfCode": "def make_scheduler(optimizer, total_steps: int, warmup_ratio: float):\n    warmup=max(1,int(total_steps*warmup_ratio))\n    def fn(step):\n        if step < warmup: return max(step,1)/warmup\n        progress=(step-warmup)/max(total_steps-warmup,1)\n        return 0.5*(1.0+math.cos(math.pi*min(max(progress,0.0),1.0)))\n    return torch.optim.lr_scheduler.LambdaLR(optimizer,fn)\ndef main():",
         "detail": "train_abpr",
         "documentation": {}
     },
@@ -2872,7 +3035,7 @@
         "kind": 2,
         "importPath": "train_abpr",
         "description": "train_abpr",
-        "peekOfCode": "def main():\n    args=parse_args(); seed_everything(args.seed)\n    repo=Path(args.repo_root); data_root=repo/'data'\n    ckdir=Path(args.checkpoint_dir); outdir=Path(args.result_dir); ckdir.mkdir(parents=True,exist_ok=True); outdir.mkdir(parents=True,exist_ok=True)\n    train_csv=discover_labeled_csv(repo,'train')\n    try: val_csv=discover_labeled_csv(repo,'val')\n    except FileNotFoundError: val_csv=None\n    train_df=pd.read_csv(train_csv)\n    if val_csv is not None: val_df=pd.read_csv(val_csv)\n    else: train_df,val_df=split_train_val(train_df,args.val_fraction,args.seed)",
+        "peekOfCode": "def main():\n    args=parse_args(); seed_everything(args.seed)\n    if args.finetune_from and (args.supcon_weight + args.hard_weight <= 0):\n        raise ValueError('Fine-tune requested but both contrastive loss weights are zero')\n    repo=Path(args.repo_root); data_root=repo/'data'\n    ckdir=Path(args.checkpoint_dir); outdir=Path(args.result_dir); ckdir.mkdir(parents=True,exist_ok=True); outdir.mkdir(parents=True,exist_ok=True)\n    train_csv=discover_labeled_csv(repo,'train')\n    try: val_csv=discover_labeled_csv(repo,'val')\n    except FileNotFoundError: val_csv=None\n    train_df=pd.read_csv(train_csv)",
         "detail": "train_abpr",
         "documentation": {}
     },
@@ -2989,7 +3152,7 @@
         "kind": 2,
         "importPath": "train_retrieval_ranker",
         "description": "train_retrieval_ranker",
-        "peekOfCode": "def exact_validation_queries(official, val_selection, seed, n_queries):\n    \"\"\"Prefer organizer query/ids protocol. Never invent positives for official mAP.\"\"\"\n    split=official/'data/annotations/task2/val'\n    qpath=split/'queries.csv';ipath=split/'ids.csv'\n    if not (qpath.is_file() and ipath.is_file()):\n        raise FileNotFoundError('Official query/ids.csv files required for selecting learned blend')\n    from abpr.model import load_query_csv\n    query_names, q=load_query_csv(qpath)\n    q=np.asarray(q,dtype=np.float32)\n    from abpr.core import ATTRIBUTE_NAMES",
+        "peekOfCode": "def exact_validation_queries(official, val_selection, seed, n_queries, val_paths):\n    \"\"\"Align official (image path, query ID) rows to gt.csv before VAL subset mAP.\n    The released task2/val/ids.csv has NO header and two columns:\n      Market1501/query/0001_....jpg,2352\n    Never assume ids.csv row order equals gt.csv row order.\n    \"\"\"\n    split = official / 'data' / 'annotations' / 'task2' / 'val'\n    qpath, ipath = split / 'queries.csv', split / 'ids.csv'\n    if not (qpath.is_file() and ipath.is_file()):\n        raise FileNotFoundError(f'Missing official query files under {split}')",
         "detail": "train_retrieval_ranker",
         "documentation": {}
     },

@@ -168,38 +168,103 @@ def val_pairs(labels, count, known_min, known_max, seed):
     return q,ids
 
 
-def exact_validation_queries(official, val_selection, seed, n_queries):
-    """Prefer organizer query/ids protocol. Never invent positives for official mAP."""
-    split=official/'data/annotations/task2/val'
-    qpath=split/'queries.csv';ipath=split/'ids.csv'
+def exact_validation_queries(official, val_selection, seed, n_queries, val_paths):
+    """Align official (image path, query ID) rows to gt.csv before VAL subset mAP.
+
+    The released task2/val/ids.csv has NO header and two columns:
+      Market1501/query/0001_....jpg,2352
+    Never assume ids.csv row order equals gt.csv row order.
+    """
+    split = official / 'data' / 'annotations' / 'task2' / 'val'
+    qpath, ipath = split / 'queries.csv', split / 'ids.csv'
     if not (qpath.is_file() and ipath.is_file()):
-        raise FileNotFoundError('Official query/ids.csv files required for selecting learned blend')
+        raise FileNotFoundError(f'Missing official query files under {split}')
+
     from abpr.model import load_query_csv
-    query_names, q=load_query_csv(qpath)
-    q=np.asarray(q,dtype=np.float32)
     from abpr.core import ATTRIBUTE_NAMES
-    attr=list(ATTRIBUTE_NAMES)
-    if query_names is not None and len(query_names)==40:
-        lookup={str(k):i for i,k in enumerate(query_names)}
-        if set(attr)==set(lookup): q=q[:,[lookup[n] for n in attr]]
-        elif list(map(str,query_names)) != attr:
-            raise ValueError('Official query attributes have a different order/names from the model')
-    df=pd.read_csv(ipath)
-    idcols=[c for c in df.columns if str(c).lower().strip() in ('id','ids','query_id','queryid','semantic_id')]
-    if idcols: ids=pd.to_numeric(df[idcols[0]],errors='raise').to_numpy(dtype=np.int64)
-    elif df.shape[1]==1: ids=pd.to_numeric(df.iloc[:,0],errors='raise').to_numpy(dtype=np.int64)
+    query_names, q = load_query_csv(qpath)
+    q = np.asarray(q, dtype=np.float32)
+    attr = list(ATTRIBUTE_NAMES)
+    if q.ndim != 2 or q.shape[1] != len(attr) or len(attr) != 40:
+        raise ValueError(f'Expected official queries [Q,40], got {q.shape}')
+    if query_names is not None and len(query_names) == 40:
+        lookup = {str(k): i for i, k in enumerate(query_names)}
+        if set(attr) == set(lookup):
+            q = q[:, [lookup[n] for n in attr]]
+        elif list(map(str, query_names)) != attr:
+            raise ValueError('Official query attributes have different order/names')
+
+    # Read first line as DATA, not as a pandas header.
+    df = pd.read_csv(ipath, header=None, dtype=str, keep_default_na=False)
+    if df.shape[1] not in (1, 2):
+        raise ValueError(f'Unsupported ids.csv format: expected 1 or 2 columns, got {df.shape[1]}')
+    if df.empty:
+        raise ValueError(f'Empty ids.csv: {ipath}')
+
+    # Also accept an explicitly named header, without treating a data row as a header.
+    first = [str(x).strip().lower() for x in df.iloc[0].tolist()]
+    is_header = (df.shape[1] == 2 and first[0] in
+                 ('# image', 'image', 'image_path', 'path', 'filename')
+                 and first[1] in ('id', 'ids', 'query_id', 'queryid', 'semantic_id'))
+    is_header = is_header or (df.shape[1] == 1 and first[0] in
+                              ('id', 'ids', 'query_id', 'queryid', 'semantic_id'))
+    if is_header:
+        df = df.iloc[1:].reset_index(drop=True)
+
+    def parse_ids(values):
+        values = values.astype(str).str.strip()
+        invalid = ~values.str.fullmatch(r'[+-]?\d+')
+        if invalid.any():
+            raise ValueError(f'ids.csv has non-integer query IDs: {values[invalid].head(4).tolist()}')
+        ids_array = pd.to_numeric(values, errors='raise').to_numpy(dtype=np.int64)
+        if len(ids_array) and (ids_array.min() < 0 or ids_array.max() >= len(q)):
+            raise ValueError(f'ids.csv ID outside [0,{len(q)-1}]')
+        return ids_array
+
+    val_selection = np.asarray(val_selection, dtype=np.int64)
+    if not len(val_selection):
+        raise ValueError('Empty validation gallery selection')
+    if len(val_paths) <= int(val_selection.max()) or val_selection.min() < 0:
+        raise ValueError('Validation gallery selection is not aligned with gt.csv')
+
+    if df.shape[1] == 2:
+        # Align BY PATH. An order-only join can silently corrupt mAP.
+        def norm_path(value):
+            value = str(value).strip().replace('\\', '/')
+            while value.startswith('./'):
+                value = value[2:]
+            return value
+
+        keys = df.iloc[:, 0].map(norm_path)
+        if keys.duplicated().any():
+            sample = keys[keys.duplicated()].head(3).tolist()
+            raise ValueError(f'Duplicate image paths in ids.csv: {sample}')
+        ids = parse_ids(df.iloc[:, 1])
+        id_map = dict(zip(keys, ids))
+        selected_paths = [norm_path(val_paths[i]) for i in val_selection]
+        missing = [name for name in selected_paths if name not in id_map]
+        if missing:
+            raise ValueError(
+                f'{len(missing)}/{len(selected_paths)} VAL images not in ids.csv. '
+                f'Example missing={missing[:3]}; sample ids.csv paths={keys.head(3).tolist()}.'
+            )
+        gallery_ids = np.asarray([id_map[name] for name in selected_paths], dtype=np.int64)
+        print(f'Official IDs: headerless/path-mapped, {len(df)} rows; '
+              f'{len(gallery_ids)} selected VAL images', flush=True)
     else:
-        raise ValueError(f'Could not identify query IDs in {ipath}: {df.columns.tolist()}')
-    if len(ids)<int(val_selection.max())+1: raise ValueError('ids.csv not aligned to validation gallery')
-    ids=ids[val_selection]
-    if ids.min()<0 or ids.max()>=len(q): raise ValueError('ids.csv out of range for queries.csv')
-    # Only evaluate queries with at least one selected gallery match.
-    options=np.unique(ids)
-    rng=np.random.default_rng(seed)
-    sampled=rng.choice(options,size=min(n_queries,len(options)),replace=False)
-    queries=q[sampled]
-    if queries.shape[1]!=40:raise ValueError('Official query dimension must be 40')
-    return queries, ids, sampled
+        # Older single-column format has no paths; positional alignment only.
+        ids = parse_ids(df.iloc[:, 0])
+        if len(ids) != len(val_paths):
+            raise ValueError(f'Positional IDs ({len(ids)}) != gt.csv ({len(val_paths)})')
+        gallery_ids = ids[val_selection]
+        print('Official IDs: single-column positional format', flush=True)
+
+    options = np.unique(gallery_ids)
+    rng = np.random.default_rng(seed)
+    sampled = rng.choice(options, size=min(int(n_queries), len(options)), replace=False)
+    queries = q[sampled]
+    assert queries.shape[1] == 40
+    return queries, gallery_ids, sampled
 
 
 def evaluate_exact_retrieval(d, gallery_ids, query_ids):
@@ -265,7 +330,7 @@ def main():
     val_pred,val_emb=encode_images(runtime,[val_paths[i] for i in val_inds],resolver,a.batch_size,a.cache_dir/f'val_probs_{fingerprint}_{len(val_inds)}.npz')
     device='cuda' if torch.cuda.is_available() else 'cpu'
     ranker,logs=train_ranker(train_pred,train_gt[train_inds],steps=a.steps,seed=a.seed,device=device)
-    q, val_gallery_ids, val_query_ids=exact_validation_queries(a.repo_root,val_inds,a.seed+2,a.val_queries)
+    q, val_gallery_ids, val_query_ids=exact_validation_queries(a.repo_root,val_inds,a.seed+2,a.val_queries,val_paths)
     # Compare the exact exported runtime's baseline distance vs learned distance.
     with torch.no_grad():
         try:
@@ -296,3 +361,6 @@ def main():
     print(json.dumps(report,indent=2),flush=True)
 
 if __name__=='__main__':main()
+
+
+

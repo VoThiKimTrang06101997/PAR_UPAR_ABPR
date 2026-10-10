@@ -209,33 +209,65 @@ def main():
     val_df,val_labels,val_paths=load_data(args.repo_root,'val',names)
     train_ids=select_evenly(train_df,args.max_train_images,args.seed)
     val_ids=select_evenly(val_df,args.max_val_images,args.seed+1)
-    tp,te=encode_images(runtime,[train_paths[i] for i in train_ids],resolver,args.batch_size,
+    train_probs,train_embeddings=encode_images(runtime,[train_paths[i] for i in train_ids],resolver,args.batch_size,
                        args.cache_dir/f'train_probs_{fingerprint}_{len(train_ids)}.npz')
-    vp,ve=encode_images(runtime,[val_paths[i] for i in val_ids],resolver,args.batch_size,
+    val_probs,val_embeddings=encode_images(runtime,[val_paths[i] for i in val_ids],resolver,args.batch_size,
                        args.cache_dir/f'val_probs_{fingerprint}_{len(val_ids)}.npz')
     # Make domain labels from image directory, no domain leakage from VAL.
     domains=np.array([str(train_paths[i]).split('/')[0].lower() for i in train_ids])
     _,domain_ids=np.unique(domains,return_inverse=True)
     device='cuda' if torch.cuda.is_available() else 'cpu'
-    print(f'Prototype cache: train={len(tp)} val={len(vp)} emb_dim={te.shape[1]} device={device}',flush=True)
+    # encode_images returns (40 attribute probabilities, image embeddings).
+    # Contrastive projection MUST train on image embeddings, never attribute probabilities.
+    if train_probs.shape != (len(train_ids), 40) or val_probs.shape != (len(val_ids), 40):
+        raise RuntimeError(f'Invalid probability shape: train={train_probs.shape}, val={val_probs.shape}')
+    if train_embeddings.ndim != 2 or val_embeddings.ndim != 2:
+        raise RuntimeError('Image embeddings must be 2-D matrices')
+    if (train_embeddings.shape[0] != len(train_ids) or
+            val_embeddings.shape[0] != len(val_ids) or
+            train_embeddings.shape[1] != val_embeddings.shape[1]):
+        raise RuntimeError(
+            f'TRAIN/VAL image embedding mismatch: train={train_embeddings.shape}, '
+            f'val={val_embeddings.shape}')
+    print(f'Prototype cache: TRAIN probs={train_probs.shape}, TRAIN embedding={train_embeddings.shape}; '
+          f'VAL probs={val_probs.shape}, VAL embedding={val_embeddings.shape}; device={device}',flush=True)
     if args.reset_train_state and args.train_state is not None and args.train_state.exists():
         args.train_state.unlink()
-    ranker,history=train_contrastive(te,train_labels[train_ids],domain_ids,
+    # A previous failed run may have saved an incompatible 40-D projection state.
+    # Preserve it for inspection; do not reuse it to train a 320-D image embedding head.
+    if args.train_state is not None and args.train_state.is_file():
+        import time
+        saved = torch.load(args.train_state, map_location='cpu', weights_only=False)
+        saved_dim = saved.get('input_dim')
+        if saved_dim != train_embeddings.shape[1]:
+            backup = args.train_state.with_name(
+                args.train_state.stem + '_incompatible_' + str(saved_dim) +
+                '_to_' + str(train_embeddings.shape[1]) + '_' +
+                time.strftime('%Y%m%d_%H%M%S') + args.train_state.suffix
+            )
+            args.train_state.rename(backup)
+            print(f'Archived incompatible contrastive resume state: {backup}', flush=True)
+    ranker,history=train_contrastive(train_embeddings,train_labels[train_ids],domain_ids,
                          steps=args.steps,seed=args.seed,output_dim=args.output_dim,
                          batch_size=args.train_batch_size,device=device,
                          resume_path=args.train_state,fingerprint=fingerprint)
-    q,vg_ids,vq_ids=exact_validation_queries(args.repo_root,val_ids,args.seed+2,args.val_queries)
+    q,vg_ids,vq_ids=exact_validation_queries(args.repo_root,val_ids,args.seed+2,args.val_queries,val_paths)
     with torch.no_grad():
         base=runtime.distance(torch.as_tensor(q,dtype=torch.float32),
-                              torch.as_tensor(vp,dtype=torch.float32),
-                              torch.as_tensor(ve,dtype=torch.float32))
+                              torch.as_tensor(val_probs,dtype=torch.float32),
+                              torch.as_tensor(val_embeddings,dtype=torch.float32))
         if hasattr(base,'detach'):base=base.detach().cpu().numpy()
     base=np.asarray(base,dtype=np.float32)
     if args.reliability_checkpoint is not None:
         reliability=AttributeRanker.load(args.reliability_checkpoint)
         if reliability.blend>0:
-            base=fuse_reliability(base,reliability.distance(q,vp),reliability.blend)
-    novel=ranker.distance(q,ve)
+            base=fuse_reliability(base,reliability.distance(q,val_probs),reliability.blend)
+    if ranker.projection.shape[0] != val_embeddings.shape[1]:
+        raise RuntimeError(
+            f'Contrastive projection input={ranker.projection.shape[0]} does not match '
+            f'VAL embedding dimension={val_embeddings.shape[1]}. '
+            'Do not train on attribute probabilities (40-D).')
+    novel=ranker.distance(q,val_embeddings)
     candidates=[]
     for strength in [0.,0.1,0.2,0.35,0.5,0.7,1.0]:
         score=evaluate_exact_retrieval(fuse_distances(base,novel,strength),vg_ids,vq_ids)
@@ -249,7 +281,7 @@ def main():
     ranker.save(args.output)
     report={'method':'multi-label multi-positive contrastive + query-aware hard-negative + soft label SupCon',
             'source_train_images':len(train_ids),'public_val_images':len(val_ids),
-            'embedding_dim':int(te.shape[1]),'output_dim':args.output_dim,'train_steps':args.steps,
+            'embedding_dim':int(train_embeddings.shape[1]),'output_dim':args.output_dim,'train_steps':args.steps,
             'baseline_reliability_included':args.reliability_checkpoint is not None,
             'baseline':candidates[0],'val_trials':candidates,'best_blend':ranker.blend,
             'min_val_gain':args.min_val_gain,'rank1_no_regression_guard':0.01,
@@ -260,3 +292,4 @@ def main():
 
 
 if __name__=='__main__':main()
+
