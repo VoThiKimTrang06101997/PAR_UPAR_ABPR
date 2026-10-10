@@ -168,6 +168,62 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "torch",
         "kind": 6,
         "isExtraImport": true,
@@ -183,6 +239,46 @@
         "importPath": "torch.nn.functional",
         "description": "torch.nn.functional",
         "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -770,6 +866,202 @@
         "documentation": {}
     },
     {
+        "label": "argparse,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse.",
+        "description": "argparse.",
+        "detail": "argparse.",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "fuse",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "fuse",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "fuse",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "sample_sparse_queries",
         "importPath": "abpr.model",
         "description": "abpr.model",
@@ -1264,15 +1556,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "pytest",
         "kind": 6,
         "isExtraImport": true,
@@ -1282,51 +1565,43 @@
         "documentation": {}
     },
     {
-        "label": "score",
-        "importPath": "abpr.query_aware_ranking",
-        "description": "abpr.query_aware_ranking",
+        "label": "calibrate_probabilities",
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
         "isExtraImport": true,
-        "detail": "abpr.query_aware_ranking",
+        "detail": "abpr.domain_robust_calibration",
         "documentation": {}
     },
     {
-        "label": "fuse",
-        "importPath": "abpr.query_aware_ranking",
-        "description": "abpr.query_aware_ranking",
+        "label": "query_distance",
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
         "isExtraImport": true,
-        "detail": "abpr.query_aware_ranking",
+        "detail": "abpr.domain_robust_calibration",
         "documentation": {}
     },
     {
-        "label": "retrieval_metrics",
-        "importPath": "abpr.query_aware_ranking",
-        "description": "abpr.query_aware_ranking",
+        "label": "fuse_distances",
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
         "isExtraImport": true,
-        "detail": "abpr.query_aware_ranking",
+        "detail": "abpr.domain_robust_calibration",
         "documentation": {}
     },
     {
-        "label": "score",
-        "importPath": "abpr.query_aware_ranking",
-        "description": "abpr.query_aware_ranking",
+        "label": "semantic_metrics",
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
         "isExtraImport": true,
-        "detail": "abpr.query_aware_ranking",
+        "detail": "abpr.domain_robust_calibration",
         "documentation": {}
     },
     {
-        "label": "fuse",
-        "importPath": "abpr.query_aware_ranking",
-        "description": "abpr.query_aware_ranking",
+        "label": "domain_macro",
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
         "isExtraImport": true,
-        "detail": "abpr.query_aware_ranking",
-        "documentation": {}
-    },
-    {
-        "label": "retrieval_metrics",
-        "importPath": "abpr.query_aware_ranking",
-        "description": "abpr.query_aware_ranking",
-        "isExtraImport": true,
-        "detail": "abpr.query_aware_ranking",
+        "detail": "abpr.domain_robust_calibration",
         "documentation": {}
     },
     {
@@ -1396,15 +1671,6 @@
         "documentation": {}
     },
     {
-        "label": "argparse,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "argparse.",
-        "description": "argparse.",
-        "detail": "argparse.",
-        "documentation": {}
-    },
-    {
         "label": "importlib.util,json,numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -1414,67 +1680,21 @@
         "documentation": {}
     },
     {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
+        "label": "argparse,ast,hashlib,json,os,shutil,subprocess,sys,tempfile,zipfile",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "tqdm.auto",
+        "importPath": "argparse.ast.hashlib.json.os.shutil.subprocess.sys.tempfile.zipfile",
+        "description": "argparse.ast.hashlib.json.os.shutil.subprocess.sys.tempfile.zipfile",
+        "detail": "argparse.ast.hashlib.json.os.shutil.subprocess.sys.tempfile.zipfile",
         "documentation": {}
     },
     {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
+        "label": "argparse,json,sys",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "tqdm.auto",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm.auto",
-        "description": "tqdm.auto",
-        "isExtraImport": true,
-        "detail": "tqdm.auto",
+        "importPath": "argparse.json.sys",
+        "description": "argparse.json.sys",
+        "detail": "argparse.json.sys",
         "documentation": {}
     },
     {
@@ -1713,24 +1933,6 @@
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
         "label": "load_data",
         "importPath": "train_retrieval_ranker",
         "description": "train_retrieval_ranker",
@@ -1776,6 +1978,15 @@
         "description": "train_retrieval_ranker",
         "isExtraImport": true,
         "detail": "train_retrieval_ranker",
+        "documentation": {}
+    },
+    {
+        "label": "argparse,hashlib,json,sys,tempfile,zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse.hashlib.json.sys.tempfile.zipfile",
+        "description": "argparse.hashlib.json.sys.tempfile.zipfile",
+        "detail": "argparse.hashlib.json.sys.tempfile.zipfile",
         "documentation": {}
     },
     {
@@ -2211,6 +2422,69 @@
         "documentation": {}
     },
     {
+        "label": "ensure",
+        "kind": 2,
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
+        "peekOfCode": "def ensure(q, p, priors):\n    q=np.asarray(q,np.float32); p=np.asarray(p,np.float32); prior=np.asarray(priors,np.float32)\n    if q.ndim!=2 or q.shape[1]!=N_ATTR or p.ndim!=2 or p.shape[1]!=N_ATTR: raise ValueError('Expected [Q,40] queries and [G,40] probabilities')\n    if prior.shape!=(N_ATTR,): raise ValueError('Priors must have shape (40,)')\n    if not np.isin(q,(-1,0,1)).all(): raise ValueError('Query attributes must be -1/0/1')\n    if not (np.isfinite(p).all() and np.isfinite(prior).all()): raise ValueError('Nonfinite probabilities or priors')\n    return q,np.clip(p,1e-5,1.-1e-5),np.clip(prior,0.01,0.99)\ndef calibrate_probabilities(probabilities, *, scale, bias, priors, shrink=0.0):\n    p=np.asarray(probabilities,np.float32)\n    a=np.asarray(scale,np.float32); b=np.asarray(bias,np.float32); prior=np.asarray(priors,np.float32)",
+        "detail": "abpr.domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "calibrate_probabilities",
+        "kind": 2,
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
+        "peekOfCode": "def calibrate_probabilities(probabilities, *, scale, bias, priors, shrink=0.0):\n    p=np.asarray(probabilities,np.float32)\n    a=np.asarray(scale,np.float32); b=np.asarray(bias,np.float32); prior=np.asarray(priors,np.float32)\n    if p.ndim!=2 or p.shape[1]!=40 or a.shape!=(40,) or b.shape!=(40,) or prior.shape!=(40,):\n        raise ValueError('Invalid calibration parameter dimensions')\n    if not 0.0<=float(shrink)<=0.4:raise ValueError('Shrink must be in [0,0.4]')\n    if not np.isfinite(p).all() or not np.isfinite(a).all() or not np.isfinite(b).all():raise ValueError('Nonfinite input')\n    logit=np.log(np.clip(p,1e-5,1.-1e-5))-np.log1p(-np.clip(p,1e-5,1.-1e-5))\n    x=np.clip(logit*a[None,:]+b[None,:],-30.,30.)\n    adjusted=(1.0/(1.0+np.exp(-x))).astype(np.float32)",
+        "detail": "abpr.domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "query_distance",
+        "kind": 2,
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
+        "peekOfCode": "def query_distance(queries, probabilities, *, method='expected', priors, negative_weight=1.0,\n                   rarity_power=0.0, query_batch=48):\n    q,p,prior=ensure(queries,probabilities,priors)\n    if method not in ('expected','loglik'):raise ValueError('Unknown method')\n    if not 0<=negative_weight<=2 or not 0<=rarity_power<=1:raise ValueError('Invalid ranking weights')\n    pw=(1/np.maximum(prior,.01))**rarity_power\n    nw=(1/np.maximum(1-prior,.01))**rarity_power\n    pw=pw/np.mean(pw);nw=nw/np.mean(nw)\n    a=((1-p) if method=='expected' else -np.log(p)).T\n    b=(p if method=='expected' else -np.log1p(-p)).T",
+        "detail": "abpr.domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "fuse_distances",
+        "kind": 2,
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
+        "peekOfCode": "def fuse_distances(original, robust, blend):\n    baseline=np.asarray(original,np.float32)\n    if not np.isfinite(baseline).all() or baseline.ndim!=2:raise ValueError('Invalid baseline distance')\n    if not 0<=float(blend)<=1:raise ValueError('Invalid fusion coefficient')\n    if float(blend)==0:return baseline.copy()\n    alternative=np.asarray(robust,np.float32)\n    if alternative.shape!=baseline.shape or not np.isfinite(alternative).all():raise ValueError('Invalid alternative distance')\n    def norm(x):\n        mean=np.mean(x,axis=1,keepdims=True,dtype=np.float64)\n        sd=np.std(x,axis=1,keepdims=True,dtype=np.float64)",
+        "detail": "abpr.domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "semantic_metrics",
+        "kind": 2,
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
+        "peekOfCode": "def semantic_metrics(distances, query_ids, gallery_ids):\n    d=np.asarray(distances,np.float32);ids=np.asarray(query_ids,np.int64);g=np.asarray(gallery_ids,np.int64)\n    if d.shape!=(len(ids),len(g)):raise ValueError('Distance/id shape mismatch')\n    if not np.isfinite(d).all():raise ValueError('Nonfinite distances')\n    aps=[];r1=[];r5=[];r10=[];inp=[]\n    for i,qid in enumerate(ids):\n        relevant=(g==qid)\n        n=int(relevant.sum())\n        if n==0:continue\n        order=np.argsort(d[i],kind='stable')",
+        "detail": "abpr.domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "domain_macro",
+        "kind": 2,
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
+        "peekOfCode": "def domain_macro(distances, query_ids, gallery_ids, domains, num_domains=3):\n    \"\"\"Semantic retrieval per named source domain, with a domain-restricted gallery.\n    This is a diagnostic, NOT official hidden challenge mADM.\n    \"\"\"\n    g=np.asarray(gallery_ids,np.int64);domain=np.asarray(domains,np.int32);qid=np.asarray(query_ids,np.int64)\n    d=np.asarray(distances,np.float32)\n    if len(g)!=len(domain) or d.shape!=(len(qid),len(g)):raise ValueError('Domain metric shape mismatch')\n    per_domain={}\n    for k in range(num_domains):\n        mask=(domain==k)",
+        "detail": "abpr.domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "N_ATTR",
+        "kind": 5,
+        "importPath": "abpr.domain_robust_calibration",
+        "description": "abpr.domain_robust_calibration",
+        "peekOfCode": "N_ATTR = 40\ndef ensure(q, p, priors):\n    q=np.asarray(q,np.float32); p=np.asarray(p,np.float32); prior=np.asarray(priors,np.float32)\n    if q.ndim!=2 or q.shape[1]!=N_ATTR or p.ndim!=2 or p.shape[1]!=N_ATTR: raise ValueError('Expected [Q,40] queries and [G,40] probabilities')\n    if prior.shape!=(N_ATTR,): raise ValueError('Priors must have shape (40,)')\n    if not np.isin(q,(-1,0,1)).all(): raise ValueError('Query attributes must be -1/0/1')\n    if not (np.isfinite(p).all() and np.isfinite(prior).all()): raise ValueError('Nonfinite probabilities or priors')\n    return q,np.clip(p,1e-5,1.-1e-5),np.clip(prior,0.01,0.99)\ndef calibrate_probabilities(probabilities, *, scale, bias, priors, shrink=0.0):\n    p=np.asarray(probabilities,np.float32)",
+        "detail": "abpr.domain_robust_calibration",
+        "documentation": {}
+    },
+    {
         "label": "UPARDataset",
         "kind": 6,
         "importPath": "abpr.model",
@@ -2607,6 +2881,177 @@
         "documentation": {}
     },
     {
+        "label": "score",
+        "kind": 2,
+        "importPath": "prerequisites.abpr.query_aware_ranking",
+        "description": "prerequisites.abpr.query_aware_ranking",
+        "peekOfCode": "def score(queries, probabilities, *, method='loglik', negative_weight=1.0,\n          rarity_power=0.0, priors=None, query_batch=64):\n    \"\"\"Smaller-is-better distances. No attribute-label oracle at inference.\"\"\"\n    q, p, prior = _inputs(queries, probabilities, priors)\n    if method not in ('loglik', 'expected', 'margin'):\n        raise ValueError(f'Unknown score method: {method}')\n    if not 0 <= negative_weight <= 3 or not 0 <= rarity_power <= 1:\n        raise ValueError('Weights outside supported ranges')\n    pos_weight = np.power(1.0 / np.maximum(prior, 1e-3), rarity_power)\n    neg_weight = np.power(1.0 / np.maximum(1 - prior, 1e-3), rarity_power)",
+        "detail": "prerequisites.abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "fuse",
+        "kind": 2,
+        "importPath": "prerequisites.abpr.query_aware_ranking",
+        "description": "prerequisites.abpr.query_aware_ranking",
+        "peekOfCode": "def fuse(baseline, novel, blend):\n    baseline = np.asarray(baseline, np.float32)\n    if float(blend) <= 0: return baseline.copy() # EXACT baseline reproduction\n    novel = np.asarray(novel, np.float32)\n    if baseline.shape != novel.shape:\n        raise ValueError(f'Distance shape mismatch {baseline.shape} vs {novel.shape}')\n    if not np.isfinite(baseline).all() or not np.isfinite(novel).all():\n        raise ValueError('Non-finite distances')\n    if not (0.0 <= float(blend) <= 1.0): raise ValueError('Invalid blend')\n    return ((1-blend)*_normalize_per_query(baseline) + blend*_normalize_per_query(novel)).astype(np.float32)",
+        "detail": "prerequisites.abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "kind": 2,
+        "importPath": "prerequisites.abpr.query_aware_ranking",
+        "description": "prerequisites.abpr.query_aware_ranking",
+        "peekOfCode": "def retrieval_metrics(distances, qids, gallery_ids):\n    \"\"\"Exact official semantic-ID AP/Rank-1 proxy for held-out public query IDs.\n    This is NOT the challenge's domain-averaged mADM.\n    \"\"\"\n    distances = np.asarray(distances)\n    qids = np.asarray(qids, np.int64)\n    gids = np.asarray(gallery_ids, np.int64)\n    if distances.shape != (len(qids),len(gids)):\n        raise ValueError('Scoring shape mismatch')\n    aps=[]; top1=[]; skipped=0",
+        "detail": "prerequisites.abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "N_ATTRIBUTES",
+        "kind": 5,
+        "importPath": "prerequisites.abpr.query_aware_ranking",
+        "description": "prerequisites.abpr.query_aware_ranking",
+        "peekOfCode": "N_ATTRIBUTES = 40\ndef _inputs(queries, probabilities, priors=None):\n    q = np.asarray(queries, dtype=np.float32)\n    p = np.asarray(probabilities, dtype=np.float32)\n    if q.ndim != 2 or p.ndim != 2 or q.shape[1] != N_ATTRIBUTES or p.shape[1] != N_ATTRIBUTES:\n        raise ValueError(f'Expected queries [Q,40], probabilities [G,40], got {q.shape}, {p.shape}')\n    if not (np.isfinite(q).all() and np.isfinite(p).all()):\n        raise ValueError('Non-finite query or probabilities')\n    if not np.isin(q, (-1.0, 0.0, 1.0)).all():\n        raise ValueError('Unknown attributes must be exactly -1; known values must be 0 or 1')",
+        "detail": "prerequisites.abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "arguments",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def arguments():\n    p=argparse.ArgumentParser()\n    p.add_argument('--source-root',required=True,type=Path)\n    p.add_argument('--repo-root',required=True,type=Path)\n    p.add_argument('--runtime-zip',required=True,type=Path)\n    p.add_argument('--output',required=True,type=Path)\n    p.add_argument('--cache-dir',required=True,type=Path)\n    p.add_argument('--max-gallery',type=int,default=0,help='0 = complete public VAL gallery')\n    p.add_argument('--fit-queries',type=int,default=240)\n    p.add_argument('--audit-queries',type=int,default=240)",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "paths_to_ids",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def paths_to_ids(repo, frame, col):\n    ids_path=repo/'data/annotations/task2/val/ids.csv'\n    ids=pd.read_csv(ids_path,header=None,dtype=str)\n    # Challenge ids.csv has exactly two columns without headers: image path, query ID.\n    if ids.shape[1]<2: raise ValueError(f'Expected 2 columns in {ids_path}')\n    lookup={}\n    for path,qid in ids.iloc[:,:2].itertuples(index=False,name=None):\n        key=str(path).strip().replace('\\\\','/').lstrip('./')\n        try: val=int(float(qid))\n        except (ValueError,TypeError):",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "get_priors",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def get_priors(repo):\n    from abpr.core import ATTRIBUTE_NAMES\n    train=repo/'data/annotations/task2/train/gt.csv'\n    df=pd.read_csv(train,usecols=list(ATTRIBUTE_NAMES))\n    values=df[list(ATTRIBUTE_NAMES)].to_numpy(dtype=np.float32)\n    mask=(values==0)|(values==1)\n    sums=((values==1)&mask).sum(0)\n    den=mask.sum(0)\n    priors=(sums+1.)/(den+2.)\n    return np.clip(priors.astype(np.float32),0.02,0.98)",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "load_queries",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def load_queries(repo):\n    from abpr.core import ATTRIBUTE_NAMES\n    from abpr.model import load_query_csv\n    _,q=load_query_csv(repo/'data/annotations/task2/val/queries.csv')\n    q=np.asarray(q,np.float32)\n    if q.ndim!=2 or q.shape[1]!=len(ATTRIBUTE_NAMES):\n        raise ValueError(f'Query shape {q.shape} does not match official 40 attributes')\n    return q\ndef extract_model(runtime_zip, directory):\n    with zipfile.ZipFile(runtime_zip) as z:",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "extract_model",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def extract_model(runtime_zip, directory):\n    with zipfile.ZipFile(runtime_zip) as z:\n        required={'abpr_runtime.py','assets/model.pt'}\n        if not required.issubset(z.namelist()):raise ValueError('Runtime ZIP lacks model weights and runtime')\n        for name in required:\n            dst=(directory/name).resolve()\n            if not dst.is_relative_to(directory.resolve()):raise ValueError('Unsafe file path')\n            dst.parent.mkdir(exist_ok=True,parents=True)\n            dst.write_bytes(z.read(name))\n    sys.path.insert(0,str(directory))",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "get_features",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def get_features(a, frame, col):\n    import hashlib\n    from abpr.core import ImageResolver\n    a.cache_dir.mkdir(parents=True,exist_ok=True)\n    identity=hashlib.sha256()\n    with a.runtime_zip.open('rb') as f:\n        for blob in iter(lambda:f.read(2**20),b''):identity.update(blob)\n    identity.update(str(len(frame)).encode());identity.update('|'.join(frame[col].astype(str)).encode())\n    fname=a.cache_dir/f'public_val_features_{identity.hexdigest()[:16]}.npz'\n    if fname.is_file():",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "get_baseline",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def get_baseline(a, query_array, probs, emb, query_indices):\n    with tempfile.TemporaryDirectory(prefix='abpr_runtime_') as tmp:\n        runtime=extract_model(a.runtime_zip,Path(tmp))\n        p=torch.as_tensor(probs,dtype=torch.float32)\n        e=torch.as_tensor(emb,dtype=torch.float32) if emb.shape[1] else None\n        results=[]\n        for ids in tqdm(np.array_split(query_indices,max(1,int(np.ceil(len(query_indices)/48)))),desc='Baseline distance batches'):\n            d=runtime.distance(query_array[ids],p,e)\n            if hasattr(d,'detach'):d=d.detach().cpu().numpy()\n            d=np.asarray(d,np.float32)",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "prerequisites.calibrate_query_aware",
+        "description": "prerequisites.calibrate_query_aware",
+        "peekOfCode": "def main():\n    a=arguments()\n    sys.path.insert(0,str(a.source_root))\n    from abpr.core import detect_image_column, ATTRIBUTE_NAMES\n    from abpr.model import track2_metrics\n    val=a.repo_root/'data/annotations/task2/val/gt.csv'\n    if not val.is_file():raise FileNotFoundError(val)\n    full=pd.read_csv(val)\n    col=detect_image_column(full)\n    q=load_queries(a.repo_root)",
+        "detail": "prerequisites.calibrate_query_aware",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "prerequisites.submission_run",
+        "description": "prerequisites.submission_run",
+        "peekOfCode": "def load_model():\n    global _MODEL\n    if _MODEL is not None: return\n    if os.environ.get('ABPR_FORCE_FALLBACK')=='1':\n        raise RuntimeError('Prior/hash fallback is prohibited; trained model required')\n    if not MODEL_PATH.is_file(): raise FileNotFoundError(f'Trained checkpoint missing: {MODEL_PATH}')\n    # Lazy import: if dependencies fail on worker, report real traceback.\n    from abpr_runtime import ABPRRuntime\n    _MODEL=ABPRRuntime(MODEL_PATH)\n    device=str(getattr(_MODEL,'device','unknown'))",
+        "detail": "prerequisites.submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "predict_attributes",
+        "kind": 2,
+        "importPath": "prerequisites.submission_run",
+        "description": "prerequisites.submission_run",
+        "peekOfCode": "def predict_attributes(gallery, attribute_names):\n    records=_gallery_records(gallery)\n    probs,_=_predict_model(records)\n    model_names=list(getattr(_MODEL,'attribute_names', CANONICAL_NAMES))\n    if len(model_names)!=probs.shape[1]: raise ValueError('Runtime attribute_names length mismatch')\n    return probs[:,_cols(model_names,attribute_names)]\ndef rank_gallery(sample):\n    if not isinstance(sample,dict): raise TypeError('rank_gallery expects a dict sample')\n    gallery=_gallery_records(sample.get('gallery'))\n    names=sample.get('attribute_names',CANONICAL_NAMES)",
+        "detail": "prerequisites.submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "rank_gallery",
+        "kind": 2,
+        "importPath": "prerequisites.submission_run",
+        "description": "prerequisites.submission_run",
+        "peekOfCode": "def rank_gallery(sample):\n    if not isinstance(sample,dict): raise TypeError('rank_gallery expects a dict sample')\n    gallery=_gallery_records(sample.get('gallery'))\n    names=sample.get('attribute_names',CANONICAL_NAMES)\n    names=list(names)\n    queries=np.asarray(sample['queries'],dtype=np.float32)\n    if queries.ndim==1: queries=queries[None,:]\n    if queries.ndim!=2 or queries.shape[1]!=len(names):\n        raise ValueError(f'Query shape {queries.shape} incompatible with {len(names)} names')\n    probs,embeddings=_predict_model(gallery)",
+        "detail": "prerequisites.submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "HERE",
+        "kind": 5,
+        "importPath": "prerequisites.submission_run",
+        "description": "prerequisites.submission_run",
+        "peekOfCode": "HERE = Path(__file__).resolve().parent\nMODEL_PATH = HERE / 'assets' / 'model.pt'\n_MODEL = None\nCANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',",
+        "detail": "prerequisites.submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "kind": 5,
+        "importPath": "prerequisites.submission_run",
+        "description": "prerequisites.submission_run",
+        "peekOfCode": "MODEL_PATH = HERE / 'assets' / 'model.pt'\n_MODEL = None\nCANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',\n    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',",
+        "detail": "prerequisites.submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "_MODEL",
+        "kind": 5,
+        "importPath": "prerequisites.submission_run",
+        "description": "prerequisites.submission_run",
+        "peekOfCode": "_MODEL = None\nCANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',\n    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',\n    'LowerBody-Color-Purple','LowerBody-Color-Red','LowerBody-Color-White','LowerBody-Color-Yellow',",
+        "detail": "prerequisites.submission_run",
+        "documentation": {}
+    },
+    {
+        "label": "CANONICAL_NAMES",
+        "kind": 5,
+        "importPath": "prerequisites.submission_run",
+        "description": "prerequisites.submission_run",
+        "peekOfCode": "CANONICAL_NAMES = [\n    'Age-Young','Age-Adult','Age-Old','Gender-Female',\n    'Hair-Length-Short','Hair-Length-Long','Hair-Length-Bald','UpperBody-Length-Short',\n    'UpperBody-Color-Black','UpperBody-Color-Blue','UpperBody-Color-Brown','UpperBody-Color-Green',\n    'UpperBody-Color-Grey','UpperBody-Color-Orange','UpperBody-Color-Pink','UpperBody-Color-Purple',\n    'UpperBody-Color-Red','UpperBody-Color-White','UpperBody-Color-Yellow','UpperBody-Color-Other',\n    'LowerBody-Length-Short','LowerBody-Color-Black','LowerBody-Color-Blue','LowerBody-Color-Brown',\n    'LowerBody-Color-Green','LowerBody-Color-Grey','LowerBody-Color-Orange','LowerBody-Color-Pink',\n    'LowerBody-Color-Purple','LowerBody-Color-Red','LowerBody-Color-White','LowerBody-Color-Yellow',\n    'LowerBody-Color-Other','LowerBody-Type-Trousers&Shorts','LowerBody-Type-Skirt&Dress',",
+        "detail": "prerequisites.submission_run",
+        "documentation": {}
+    },
+    {
         "label": "test_sparse_queries_preserve_shape_and_known_values",
         "kind": 2,
         "importPath": "tests.test_abpr",
@@ -2778,6 +3223,69 @@
         "documentation": {}
     },
     {
+        "label": "fixture",
+        "kind": 2,
+        "importPath": "tests.test_domain_robust_calibration",
+        "description": "tests.test_domain_robust_calibration",
+        "peekOfCode": "def fixture():\n rng=np.random.default_rng(12)\n return rng.integers(-1,2,(5,40)).astype(np.float32),rng.uniform(.02,.98,(90,40)).astype(np.float32),np.full(40,.4,np.float32)\ndef test_identity_and_shrink():\n _,p,prior=fixture()\n output=calibrate_probabilities(p,scale=np.ones(40),bias=np.zeros(40),priors=prior)\n assert np.allclose(output,p,atol=5e-6)\n reduced=calibrate_probabilities(p,scale=np.ones(40),bias=np.zeros(40),priors=prior,shrink=.12)\n assert np.isfinite(reduced).all() and np.max(np.abs(reduced-p))>0\ndef test_missing_attribute_is_ignored():",
+        "detail": "tests.test_domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "test_identity_and_shrink",
+        "kind": 2,
+        "importPath": "tests.test_domain_robust_calibration",
+        "description": "tests.test_domain_robust_calibration",
+        "peekOfCode": "def test_identity_and_shrink():\n _,p,prior=fixture()\n output=calibrate_probabilities(p,scale=np.ones(40),bias=np.zeros(40),priors=prior)\n assert np.allclose(output,p,atol=5e-6)\n reduced=calibrate_probabilities(p,scale=np.ones(40),bias=np.zeros(40),priors=prior,shrink=.12)\n assert np.isfinite(reduced).all() and np.max(np.abs(reduced-p))>0\ndef test_missing_attribute_is_ignored():\n q,p,pr=fixture()\n q[0,:]=-1\n for method in ('loglik','expected'):",
+        "detail": "tests.test_domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_attribute_is_ignored",
+        "kind": 2,
+        "importPath": "tests.test_domain_robust_calibration",
+        "description": "tests.test_domain_robust_calibration",
+        "peekOfCode": "def test_missing_attribute_is_ignored():\n q,p,pr=fixture()\n q[0,:]=-1\n for method in ('loglik','expected'):\n  dist=query_distance(q,p,method=method,priors=pr)\n  assert dist.shape==(5,90)\n  assert np.max(abs(dist[0]))<1e-6\ndef test_identity_exact_blend_and_ranking():\n q,p,pr=fixture()\n original=query_distance(q,p,priors=pr)",
+        "detail": "tests.test_domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "test_identity_exact_blend_and_ranking",
+        "kind": 2,
+        "importPath": "tests.test_domain_robust_calibration",
+        "description": "tests.test_domain_robust_calibration",
+        "peekOfCode": "def test_identity_exact_blend_and_ranking():\n q,p,pr=fixture()\n original=query_distance(q,p,priors=pr)\n arbitrary=np.random.default_rng(1).random(original.shape,dtype=np.float32)\n assert np.array_equal(fuse_distances(original,arbitrary,0),original)\n score=fuse_distances(original,arbitrary,.2)\n assert np.isfinite(score).all() and score.shape==original.shape\ndef test_semantic_and_macro():\n gids=np.array([7,7,2,2,5,5,8,8]);ids=np.array([7,2,5,8])\n d=np.ones((4,8),np.float32)",
+        "detail": "tests.test_domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "test_semantic_and_macro",
+        "kind": 2,
+        "importPath": "tests.test_domain_robust_calibration",
+        "description": "tests.test_domain_robust_calibration",
+        "peekOfCode": "def test_semantic_and_macro():\n gids=np.array([7,7,2,2,5,5,8,8]);ids=np.array([7,2,5,8])\n d=np.ones((4,8),np.float32)\n for i,qid in enumerate(ids):d[i,gids==qid]=0\n m=semantic_metrics(d,ids,gids)\n assert m['mAP']==1 and m['Rank_1']==1\n macro=domain_macro(d,ids,gids,np.array([0,0,1,1,2,2,0,0]))\n assert set(macro['per_domain'])=={'0','1','2'}\n assert macro['macro']['mAP']==1\ndef test_bad_input_errors():",
+        "detail": "tests.test_domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "test_bad_input_errors",
+        "kind": 2,
+        "importPath": "tests.test_domain_robust_calibration",
+        "description": "tests.test_domain_robust_calibration",
+        "peekOfCode": "def test_bad_input_errors():\n q,p,pr=fixture()\n q[0,0]=.5\n with pytest.raises(ValueError):query_distance(q,p,priors=pr)\n with pytest.raises(ValueError):calibrate_probabilities(p,scale=np.ones(30),bias=np.zeros(40),priors=pr)\n with pytest.raises(ValueError):fuse_distances(np.ones((2,4)),np.ones((2,3)),.1)\ndef test_fit_synthetic_gradient_small():\n # Smoke test parameter training only; not a claimed real-dataset result.\n from train_domain_robust_calibrator import fit_attribute_calibrator\n rng=np.random.default_rng(12)",
+        "detail": "tests.test_domain_robust_calibration",
+        "documentation": {}
+    },
+    {
+        "label": "test_fit_synthetic_gradient_small",
+        "kind": 2,
+        "importPath": "tests.test_domain_robust_calibration",
+        "description": "tests.test_domain_robust_calibration",
+        "peekOfCode": "def test_fit_synthetic_gradient_small():\n # Smoke test parameter training only; not a claimed real-dataset result.\n from train_domain_robust_calibrator import fit_attribute_calibrator\n rng=np.random.default_rng(12)\n y=rng.integers(0,2,(140,40)).astype(np.float32)\n probs=np.clip(y*.7+.15+rng.normal(0,.04,y.shape),.01,.99).astype(np.float32)\n domains=np.arange(len(y))%3\n (scale,bias),report=fit_attribute_calibrator(probs,y,domains,steps=4,lr=.005)\n assert scale.shape==(40,) and bias.shape==(40,)\n assert report['train_images']>0 and np.isfinite(scale).all()",
+        "detail": "tests.test_domain_robust_calibration",
+        "documentation": {}
+    },
+    {
         "label": "test_exact_baseline_blend_zero",
         "kind": 2,
         "importPath": "tests.test_query_aware_ranking",
@@ -2937,6 +3445,51 @@
         "description": "build_codabench_submission",
         "peekOfCode": "def main():\n    p=argparse.ArgumentParser()\n    p.add_argument('--runtime-zip',required=True)\n    p.add_argument('--result-dir',required=True)\n    p.add_argument('--name',default='Submission_ABPR')\n    p.add_argument('--official-root',required=True)\n    p.add_argument('--source-root',required=True)\n    p.add_argument('--smoke-timeout',type=int,default=900)\n    p.add_argument('--smoke-device',choices=['auto','cpu'],default='auto')\n    p.add_argument('--query-aware-checkpoint',type=Path,default=None)",
         "detail": "build_codabench_submission",
+        "documentation": {}
+    },
+    {
+        "label": "sha_file",
+        "kind": 2,
+        "importPath": "build_domain_robust_submission",
+        "description": "build_domain_robust_submission",
+        "peekOfCode": "def sha_file(path):\n h=hashlib.sha256()\n with Path(path).open('rb') as f:\n  for chunk in iter(lambda:f.read(2**20),b''):h.update(chunk)\n return h.hexdigest()\ndef main():\n p=argparse.ArgumentParser()\n p.add_argument('--source-root',type=Path,required=True);p.add_argument('--repo-root',type=Path,required=True)\n p.add_argument('--runtime-zip',type=Path,required=True);p.add_argument('--calibration',type=Path,required=True)\n p.add_argument('--output-dir',type=Path,required=True)",
+        "detail": "build_domain_robust_submission",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build_domain_robust_submission",
+        "description": "build_domain_robust_submission",
+        "peekOfCode": "def main():\n p=argparse.ArgumentParser()\n p.add_argument('--source-root',type=Path,required=True);p.add_argument('--repo-root',type=Path,required=True)\n p.add_argument('--runtime-zip',type=Path,required=True);p.add_argument('--calibration',type=Path,required=True)\n p.add_argument('--output-dir',type=Path,required=True)\n p.add_argument('--smoke-real',action='store_true');p.add_argument('--allow-baseline-build',action='store_true')\n p.add_argument('--extra-data-root',type=Path,action='append',default=[])\n args=p.parse_args();src=args.source_root\n meta=args.repo_root/'examples/task2/sample_code_submission/metadata.yaml'\n for path in (meta,args.runtime_zip,args.calibration,src/'submission_run.py',src/'abpr/domain_robust_calibration.py'):",
+        "detail": "build_domain_robust_submission",
+        "documentation": {}
+    },
+    {
+        "label": "args_parse",
+        "kind": 2,
+        "importPath": "calibrate_domain_robust",
+        "description": "calibrate_domain_robust",
+        "peekOfCode": "def args_parse():\n p=argparse.ArgumentParser()\n p.add_argument('--source-root',type=Path,required=True);p.add_argument('--repo-root',type=Path,required=True)\n p.add_argument('--runtime-zip',type=Path,required=True);p.add_argument('--train-calibrator',type=Path,required=True)\n p.add_argument('--output',type=Path,required=True);p.add_argument('--cache-dir',type=Path,required=True)\n p.add_argument('--fit-queries',type=int,default=300);p.add_argument('--audit-queries',type=int,default=300)\n p.add_argument('--max-gallery',type=int,default=0);p.add_argument('--seed',type=int,default=42)\n p.add_argument('--min-madm-gain',type=float,default=.003);p.add_argument('--max-map-regression',type=float,default=.003)\n p.add_argument('--max-rank1-regression',type=float,default=.005);p.add_argument('--extra-data-root',type=Path,action='append',default=[])\n return p.parse_args()",
+        "detail": "calibrate_domain_robust",
+        "documentation": {}
+    },
+    {
+        "label": "read_trained",
+        "kind": 2,
+        "importPath": "calibrate_domain_robust",
+        "description": "calibrate_domain_robust",
+        "peekOfCode": "def read_trained(path,runtime_sha):\n with np.load(path,allow_pickle=False) as z:\n  scale=z['scale'];bias=z['bias'];priors=z['priors'];hashval=str(z['runtime_sha'].item())\n if hashval!=runtime_sha:raise RuntimeError('Calibrator was trained for DIFFERENT runtime checkpoint: retrain.')\n if scale.shape!=(40,) or bias.shape!=(40,) or priors.shape!=(40,):raise ValueError('Bad calibration dimensions')\n return scale,bias,priors\ndef main():\n a=args_parse();sys.path.insert(0,str(a.source_root))\n from abpr.core import ATTRIBUTE_NAMES, detect_image_column, infer_domain_id\n from abpr.model import track2_metrics",
+        "detail": "calibrate_domain_robust",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "calibrate_domain_robust",
+        "description": "calibrate_domain_robust",
+        "peekOfCode": "def main():\n a=args_parse();sys.path.insert(0,str(a.source_root))\n from abpr.core import ATTRIBUTE_NAMES, detect_image_column, infer_domain_id\n from abpr.model import track2_metrics\n from abpr.domain_robust_calibration import calibrate_probabilities,query_distance,fuse_distances,semantic_metrics,domain_macro\n from train_domain_robust_calibrator import sha_file\n from calibrate_query_aware import get_features,get_baseline,load_queries,paths_to_ids\n import hashlib\n runtime_sha=sha_file(a.runtime_zip)\n scale,bias,priors=read_trained(a.train_calibrator,runtime_sha)",
+        "detail": "calibrate_domain_robust",
         "documentation": {}
     },
     {
@@ -3324,6 +3877,51 @@
         "description": "train_contrastive_retrieval",
         "peekOfCode": "def main():\n    parser=argparse.ArgumentParser()\n    parser.add_argument('--repo-root',type=Path,required=True)\n    parser.add_argument('--source-root',type=Path,required=True)\n    parser.add_argument('--runtime-zip',type=Path,required=True)\n    parser.add_argument('--output',type=Path,required=True)\n    parser.add_argument('--cache-dir',type=Path,required=True)\n    parser.add_argument('--reliability-checkpoint',type=Path,default=None)\n    parser.add_argument('--extra-data-root',type=Path,action='append',default=[])\n    parser.add_argument('--batch-size',type=int,default=48)",
         "detail": "train_contrastive_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "train_domain_robust_calibrator",
+        "description": "train_domain_robust_calibrator",
+        "peekOfCode": "def parse_args():\n p=argparse.ArgumentParser()\n p.add_argument('--source-root',type=Path,required=True);p.add_argument('--repo-root',type=Path,required=True)\n p.add_argument('--runtime-zip',type=Path,required=True);p.add_argument('--output',type=Path,required=True)\n p.add_argument('--cache-dir',type=Path,required=True);p.add_argument('--max-per-domain',type=int,default=5500)\n p.add_argument('--steps',type=int,default=600);p.add_argument('--lr',type=float,default=.015)\n p.add_argument('--seed',type=int,default=42);p.add_argument('--extra-data-root',type=Path,action='append',default=[])\n return p.parse_args()\ndef sha_file(path):\n h=hashlib.sha256()",
+        "detail": "train_domain_robust_calibrator",
+        "documentation": {}
+    },
+    {
+        "label": "sha_file",
+        "kind": 2,
+        "importPath": "train_domain_robust_calibrator",
+        "description": "train_domain_robust_calibrator",
+        "peekOfCode": "def sha_file(path):\n h=hashlib.sha256()\n with Path(path).open('rb') as f:\n  for chunk in iter(lambda:f.read(2**20),b''):h.update(chunk)\n return h.hexdigest()\ndef get_features(a,frame,col):\n from abpr.core import ImageResolver\n a.cache_dir.mkdir(parents=True,exist_ok=True)\n runtime_digest=sha_file(a.runtime_zip)\n h=hashlib.sha256((runtime_digest+'|'.join(frame[col].astype(str))).encode()).hexdigest()[:18]",
+        "detail": "train_domain_robust_calibrator",
+        "documentation": {}
+    },
+    {
+        "label": "get_features",
+        "kind": 2,
+        "importPath": "train_domain_robust_calibrator",
+        "description": "train_domain_robust_calibrator",
+        "peekOfCode": "def get_features(a,frame,col):\n from abpr.core import ImageResolver\n a.cache_dir.mkdir(parents=True,exist_ok=True)\n runtime_digest=sha_file(a.runtime_zip)\n h=hashlib.sha256((runtime_digest+'|'.join(frame[col].astype(str))).encode()).hexdigest()[:18]\n output=a.cache_dir/f'train_pixels_{h}.npz'\n if output.is_file():\n  with np.load(output,allow_pickle=False) as z: probs=z['probs']\n  if probs.shape==(len(frame),40) and np.isfinite(probs).all():\n   print('TRAIN feature cache HIT:',output,flush=True);return probs,runtime_digest",
+        "detail": "train_domain_robust_calibrator",
+        "documentation": {}
+    },
+    {
+        "label": "fit_attribute_calibrator",
+        "kind": 2,
+        "importPath": "train_domain_robust_calibrator",
+        "description": "train_domain_robust_calibrator",
+        "peekOfCode": "def fit_attribute_calibrator(probs,y,domains,steps=600,lr=.015,seed=42):\n from torch.nn import functional as F\n rng=np.random.default_rng(seed)\n y=np.asarray(y,np.float32);p=np.asarray(probs,np.float32);d=np.asarray(domains,np.int32)\n valid=np.isin(y,(0,1));yp=np.clip(y,0,1)\n if p.shape!=y.shape or p.shape[1]!=40 or len(d)!=len(y):raise ValueError('TRAIN labels and predictions misaligned')\n ids_fit=[];ids_hold=[]\n for domain in sorted(set(d.tolist())):\n  pool=np.where(d==domain)[0];rng.shuffle(pool)\n  n=max(1,int(len(pool)*.2));ids_hold.extend(pool[:n]);ids_fit.extend(pool[n:])",
+        "detail": "train_domain_robust_calibrator",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train_domain_robust_calibrator",
+        "description": "train_domain_robust_calibrator",
+        "peekOfCode": "def main():\n a=parse_args();sys.path.insert(0,str(a.source_root))\n from abpr.core import ATTRIBUTE_NAMES,detect_image_column,infer_domain_id\n train=a.repo_root/'data/annotations/task2/train/gt.csv'\n if not train.is_file():raise FileNotFoundError(train)\n df=pd.read_csv(train);col=detect_image_column(df)\n rng=np.random.default_rng(a.seed);indices=[]\n for domain in (0,1,2):\n  pool=np.asarray([i for i,v in enumerate(df[col].astype(str)) if infer_domain_id(v)==domain],dtype=np.int32)\n  if len(pool)<100:raise RuntimeError(f'Insufficient genuine TRAIN images for domain {domain}: {len(pool)}')",
+        "detail": "train_domain_robust_calibrator",
         "documentation": {}
     },
     {
