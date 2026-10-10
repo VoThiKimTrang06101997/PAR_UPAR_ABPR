@@ -179,6 +179,24 @@ def rank_gallery(sample):
             _log(f'TRAIN-supervised contrastive ranking applied (blend={contrastive.blend:.2f})')
         else:
             _log('Contrastive public-VAL gate preferred baseline; blend=0')
+    # Optional query-aware calibration selected on disjoint public FIT/AUDIT subsets.
+    # If blend==0, return original baseline bit-for-bit (no normalization).
+    fusion_file=HERE/'assets'/'query_aware.npz'
+    if fusion_file.is_file():
+        from query_aware_ranking import score as query_aware_score, fuse as query_aware_fuse
+        with np.load(fusion_file,allow_pickle=False) as data:
+            fusion_blend=float(data['blend'])
+            if fusion_blend>0:
+                cand=query_aware_score(
+                    queries_model,probs,
+                    method=str(data['method'].item()),
+                    negative_weight=float(data['negative_weight']),
+                    rarity_power=float(data['rarity_power']),
+                    priors=data['priors'])
+                scores=query_aware_fuse(scores,cand,fusion_blend)
+                _log(f'Query-aware FIT/AUDIT-gated calibration active: blend={fusion_blend:.2f}')
+            else:
+                _log('Public FIT/AUDIT gate retained exact baseline ranking')
     expected=(len(queries),len(gallery))
     if scores.shape!=expected: raise RuntimeError(f'Unexpected distance shape {scores.shape}, expected {expected}')
     if not np.isfinite(scores).all(): raise RuntimeError('Non-finite retrieval distance')

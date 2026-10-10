@@ -74,6 +74,7 @@ def main():
     p.add_argument('--source-root',required=True)
     p.add_argument('--smoke-timeout',type=int,default=900)
     p.add_argument('--smoke-device',choices=['auto','cpu'],default='auto')
+    p.add_argument('--query-aware-checkpoint',type=Path,default=None)
     p.add_argument('--ranker-checkpoint',type=Path,default=None)
     p.add_argument('--contrastive-checkpoint',type=Path,default=None)
     a=p.parse_args()
@@ -114,6 +115,15 @@ def main():
         shutil.copy2(source/'abpr'/'contrastive_reranker.py',temp/'contrastive_reranker.py')
         contrastive_applied=ranker.blend>0
         print('Contrastive blend selected by public VAL:',ranker.blend,flush=True)
+    if a.query_aware_checkpoint is not None:
+        qpath=a.query_aware_checkpoint.resolve()
+        if not qpath.is_file():raise FileNotFoundError(qpath)
+        with __import__('numpy').load(qpath,allow_pickle=False) as qdata:
+            assert 0<=float(qdata['blend'])<=1
+            assert qdata['priors'].shape==(40,)
+        (temp/'assets').mkdir(exist_ok=True,parents=True)
+        shutil.copy2(qpath,temp/'assets'/'query_aware.npz')
+        shutil.copy2(source/'abpr'/'query_aware_ranking.py',temp/'query_aware_ranking.py')
     for f in REQUIRED:
         if not (temp/f).is_file():raise FileNotFoundError('Missing in submission: '+f)
     # Do not package unrelated prior-only or prior-jitter assets.
@@ -135,6 +145,7 @@ def main():
         'size_mib':round(archive.stat().st_size/1048576,2),
         'runtime_zip':str(runtime),'trained_model_inference_smoke_test':check,
         'official_metadata_match':True,
+        'query_aware_packaged':a.query_aware_checkpoint is not None,
         'ranker_packaged':a.ranker_checkpoint is not None,
         'ranker_active':ranker_applied,
         'contrastive_packaged':a.contrastive_checkpoint is not None,
