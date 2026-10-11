@@ -240,6 +240,22 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "torch",
         "kind": 6,
         "isExtraImport": true,
@@ -255,6 +271,54 @@
         "importPath": "torch.nn.functional",
         "description": "torch.nn.functional",
         "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -649,6 +713,14 @@
         "documentation": {}
     },
     {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "Dataset",
         "importPath": "torch.utils.data",
         "description": "torch.utils.data",
@@ -1011,6 +1083,38 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
         "label": "score",
         "importPath": "abpr.query_aware_ranking",
         "description": "abpr.query_aware_ranking",
@@ -1068,6 +1172,14 @@
     },
     {
         "label": "fuse",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
         "importPath": "abpr.query_aware_ranking",
         "description": "abpr.query_aware_ranking",
         "isExtraImport": true,
@@ -1255,6 +1367,14 @@
     },
     {
         "label": "calibrated_attribute_distances",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
         "importPath": "abpr.model",
         "description": "abpr.model",
         "isExtraImport": true,
@@ -1943,6 +2063,15 @@
         "documentation": {}
     },
     {
+        "label": "hashlib,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib.",
+        "description": "hashlib.",
+        "detail": "hashlib.",
+        "documentation": {}
+    },
+    {
         "label": "importlib.util,json,numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -2021,6 +2150,14 @@
     },
     {
         "label": "ImageResolver",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
         "importPath": "abpr.core",
         "description": "abpr.core",
         "isExtraImport": true,
@@ -2309,6 +2446,69 @@
         "documentation": {}
     },
     {
+        "label": "base64,zlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64.zlib",
+        "description": "base64.zlib",
+        "detail": "base64.zlib",
+        "documentation": {}
+    },
+    {
+        "label": "sys,json,hashlib,zipfile,shutil,time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.json.hashlib.zipfile.shutil.time",
+        "description": "sys.json.hashlib.zipfile.shutil.time",
+        "detail": "sys.json.hashlib.zipfile.shutil.time",
+        "documentation": {}
+    },
+    {
+        "label": "abpr_error_guided_rerank",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile,tempfile,shutil,subprocess,sys,os,stat,json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile.tempfile.shutil.subprocess.sys.os.stat.json",
+        "description": "zipfile.tempfile.shutil.subprocess.sys.os.stat.json",
+        "detail": "zipfile.tempfile.shutil.subprocess.sys.os.stat.json",
+        "documentation": {}
+    },
+    {
+        "label": "base_run",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base_run",
+        "description": "base_run",
+        "detail": "base_run",
+        "documentation": {}
+    },
+    {
+        "label": "run,base_run",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "run.base_run",
+        "description": "run.base_run",
+        "detail": "run.base_run",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile,hashlib,json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile.hashlib.json",
+        "description": "zipfile.hashlib.json",
+        "detail": "zipfile.hashlib.json",
+        "documentation": {}
+    },
+    {
         "label": "ABPRRuntime",
         "importPath": "abpr.runtime",
         "description": "abpr.runtime",
@@ -2322,6 +2522,63 @@
         "description": "abpr.runtime",
         "isExtraImport": true,
         "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "gc,os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gc.os",
+        "description": "gc.os",
+        "detail": "gc.os",
+        "documentation": {}
+    },
+    {
+        "label": "image_embeddings",
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "isExtraImport": true,
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_distance",
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "isExtraImport": true,
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "adapter_distance",
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "isExtraImport": true,
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "combine",
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "isExtraImport": true,
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "text_pairs",
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "isExtraImport": true,
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "load_siglip",
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "isExtraImport": true,
+        "detail": "abpr_siglip2_pipeline",
         "documentation": {}
     },
     {
@@ -3893,6 +4150,240 @@
         "documentation": {}
     },
     {
+        "label": "domain_from_path",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def domain_from_path(s):\n    t = str(s).lower().replace('\\\\', '/')\n    if 'market1501' in t or 'market-1501' in t:\n        return 0\n    if 'pa100k' in t:\n        return 1\n    if 'peta' in t:\n        return 2\n    return -1\ndef fit_domain_nb(train_attrs, train_domains, smoothing=30.):",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "fit_domain_nb",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def fit_domain_nb(train_attrs, train_domains, smoothing=30.):\n    \"\"\"Bernoulli Naive Bayes calibrated on TRAIN only, not VAL.\n    The input labels may be 0,1,-1 (missing). Domain weights are balanced.\n    \"\"\"\n    y = np.asarray(train_attrs, dtype=np.float32)\n    domains = np.asarray(train_domains, dtype=np.int64)\n    if y.ndim != 2 or y.shape[1] != 40 or not np.isin(y, [-1, 0, 1]).all():\n        raise ValueError('Expected TRAIN annotations of shape [N,40] with -1/0/1')\n    if len(domains) != len(y) or not np.isin(domains, [0,1,2]).all():\n        raise ValueError('Unexpected TRAIN domain IDs')",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "predict_domains",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def predict_domains(query, model, temp=3.0):\n    \"\"\"P(source domain | query), uniform prior, conservative temperature.\"\"\"\n    q = np.asarray(query, np.float32)\n    if q.ndim != 2 or q.shape[1]!=40 or not np.isin(q,[-1,0,1]).all():\n        raise ValueError('Expected query [Q,40] with -1/0/1')\n    p = np.clip(np.asarray(model['prob'],np.float32), 1e-4,1-1e-4)\n    yes=(q==1).astype(np.float32)\n    no=(q==0).astype(np.float32)\n    ll = yes @ np.log(p).T + no @ np.log1p(-p).T\n    # Mean per known attribute to stop the 40-attribute vectors from overconcentrating.",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "standardize",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def standardize(base, eps=1e-5):\n    x=np.asarray(base,np.float32)\n    mu=x.mean(axis=1,keepdims=True,dtype=np.float64)\n    sd=x.std(axis=1,keepdims=True,dtype=np.float64)\n    return ((x-mu)/np.maximum(sd,eps)).astype(np.float32)\ndef domain_adjusted(base, query, gallery_domains, nb_model, alpha=0.0,beta=0.0,\n                    temp=3.0):\n    \"\"\"Return lower-is-better distance. Does not accept relevance labels.\"\"\"\n    dist=np.asarray(base,np.float32)\n    q=np.asarray(query,np.float32)",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "domain_adjusted",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def domain_adjusted(base, query, gallery_domains, nb_model, alpha=0.0,beta=0.0,\n                    temp=3.0):\n    \"\"\"Return lower-is-better distance. Does not accept relevance labels.\"\"\"\n    dist=np.asarray(base,np.float32)\n    q=np.asarray(query,np.float32)\n    domains=np.asarray(gallery_domains)\n    if dist.shape != (len(q),len(domains)) or not np.isfinite(dist).all():\n        raise ValueError('Bad distance shape or nonfinite distance values')\n    if alpha==0 and beta==0:\n        return dist.copy()",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "train_confidence_gate",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def train_confidence_gate(train_feats,train_labels,weight,bias,min_precision=.90,\n                          min_support=12):\n    \"\"\"Train-only thresholds to flag confidently wrong predictions.\n    Note: if adapter was fitted on these rows, reliability can be optimistic;\n    kept as exploratory only. No VAL labels enter thresholds or inference.\n    \"\"\"\n    features=np.asarray(train_feats,np.float32)\n    y=np.asarray(train_labels,np.float32)\n    w=np.asarray(weight,np.float32)\n    b=np.asarray(bias,np.float32)",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "contradiction_penalty",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def contradiction_penalty(queries, image_features, weight,bias,gate,\n                          attr_weights=None,query_batch=48):\n    \"\"\"Positive penalty only when predicted feature contradicts a known query attr.\n    No ground-truth gallery labels; works on unseen gallery images.\n    \"\"\"\n    q=np.asarray(queries,np.float32)\n    features=np.asarray(image_features,np.float32)\n    z=features@np.asarray(weight,np.float32)+np.asarray(bias,np.float32)\n    prob=1/(1+np.exp(-np.clip(z,-50,50)))\n    hi=np.asarray(gate['hi'],np.float32)",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "combine_penalty",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def combine_penalty(base, penalty, gamma):\n    \"\"\"Add score proportional to predicted contradiction; no gallery labels.\"\"\"\n    base=np.asarray(base,np.float32)\n    if gamma==0:return base.copy()\n    penalty=np.asarray(penalty,np.float32)\n    if base.shape!=penalty.shape:raise ValueError('Penalty must match distance shape')\n    # Standardize positive penalty to robust scale, avoid exploding on all-constant rows.\n    scale=np.maximum(penalty.std(axis=1,keepdims=True),0.02)\n    return (standardize(base)+float(gamma)*penalty/scale).astype(np.float32)\ndef apply_candidate(base, query, domains, model, config, penalty=None):",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "apply_candidate",
+        "kind": 2,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "def apply_candidate(base, query, domains, model, config, penalty=None):\n    kind=config['method']\n    if kind=='domain':\n        return domain_adjusted(base,query,domains,model,\n                               alpha=config.get('alpha',0),beta=config.get('beta',0),\n                               temp=config.get('temp',3))\n    if kind=='gate':\n        if penalty is None:raise ValueError('gate candidate requires predicted image features')\n        return combine_penalty(base,penalty,config['gamma'])\n    if kind=='domain_gate':",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "DOMAINS",
+        "kind": 5,
+        "importPath": "abpr_error_guided_rerank",
+        "description": "abpr_error_guided_rerank",
+        "peekOfCode": "DOMAINS = ('Market1501', 'PA100k', 'PETA')\ndef domain_from_path(s):\n    t = str(s).lower().replace('\\\\', '/')\n    if 'market1501' in t or 'market-1501' in t:\n        return 0\n    if 'pa100k' in t:\n        return 1\n    if 'peta' in t:\n        return 2\n    return -1",
+        "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "digest_lines",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def digest_lines(seq):\n    h=hashlib.sha256()\n    for x in seq: h.update(str(x).encode('utf-8'));h.update(b'\\n')\n    return h.hexdigest()\ndef load_siglip(model_path=MODEL_ID, device=None):\n    from transformers import AutoModel, AutoProcessor\n    device=device or ('cuda' if torch.cuda.is_available() else 'cpu')\n    dtype=torch.float16 if str(device).startswith('cuda') else torch.float32\n    processor=AutoProcessor.from_pretrained(str(model_path))\n    try:",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "load_siglip",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def load_siglip(model_path=MODEL_ID, device=None):\n    from transformers import AutoModel, AutoProcessor\n    device=device or ('cuda' if torch.cuda.is_available() else 'cpu')\n    dtype=torch.float16 if str(device).startswith('cuda') else torch.float32\n    processor=AutoProcessor.from_pretrained(str(model_path))\n    try:\n        model=AutoModel.from_pretrained(str(model_path),torch_dtype=dtype)\n    except TypeError:\n        model=AutoModel.from_pretrained(str(model_path),dtype=dtype)\n    model.to(device).eval()",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "tensor_feature",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def tensor_feature(result):\n    if isinstance(result,torch.Tensor):return result\n    for key in ('pooler_output','image_embeds','text_embeds'):\n        value=getattr(result,key,None)\n        if isinstance(value,torch.Tensor):return value\n    if isinstance(result,(tuple,list)) and len(result)>0:\n        return tensor_feature(result[0])\n    raise TypeError(f'Unexpected SigLIP2 feature output: {type(result)}')\ndef _processor_image_batch(processor,imgs,device):\n    x=processor(images=imgs,return_tensors='pt')",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "image_embeddings",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def image_embeddings(paths,model,processor,device,cache,batch_size=16):\n    \"\"\"Resumeable numpy memmap, keyed by model and *ordered* image paths.\"\"\"\n    paths=[str(p) for p in paths]\n    cache=Path(cache);cache.parent.mkdir(parents=True,exist_ok=True)\n    meta=cache.with_suffix('.json')\n    signature=digest_lines([MODEL_ID,len(paths),*paths])\n    shape=None;completed=0\n    if meta.is_file() and cache.is_file():\n        info=json.loads(meta.read_text())\n        if info.get('signature')==signature:",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_pair",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def prompt_pair(attribute):\n    \"\"\"Use the organizer's names; predictable positive/negative captions, no manual label remapping.\"\"\"\n    name=str(attribute).replace('&',' and ').replace('-', ' ').replace('_',' ').lower()\n    tokens=name.split()\n    if tokens[:2]==['upperbody','color']:\n        thing=f'{\" \".join(tokens[2:])} upper-body clothing'\n    elif tokens[:2]==['lowerbody','color']:\n        thing=f'{\" \".join(tokens[2:])} lower-body clothing'\n    elif tokens[0]=='age':\n        thing=f'a person of {\" \".join(tokens[1:])} age'",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "text_pairs",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def text_pairs(names,model,processor,device,batch_size=16):\n    sentences=[]\n    for name in names:sentences.extend(prompt_pair(name))\n    groups=[]\n    for start in tqdm(range(0,len(sentences),batch_size),desc='SigLIP2 attribute prompts'):\n        tok=processor(text=sentences[start:start+batch_size],padding='max_length',max_length=64,return_tensors='pt')\n        inp={k:v.to(device) for k,v in tok.items() if isinstance(v,torch.Tensor) and k in ('input_ids','attention_mask','position_ids')}\n        with torch.inference_mode():vec=tensor_feature(model.get_text_features(**inp)).float()\n        groups.append(F.normalize(vec,dim=-1).cpu().numpy())\n    mat=np.concatenate(groups).reshape(len(names),2,-1)",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "semantic_query_embedding",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def semantic_query_embedding(q,text_matrix):\n    \"\"\"Unknown (-1) attributes contribute nothing; negative labels use negative prompts.\"\"\"\n    q=np.asarray(q,dtype=np.float32)\n    if q.ndim!=2 or q.shape[1]!=text_matrix.shape[0]:raise ValueError('Attribute query order/shape mismatch')\n    one=(q==1).astype(np.float32);zero=(q==0).astype(np.float32)\n    text=np.asarray(text_matrix,np.float32)\n    embedding=one @ text[:,0,:]+zero @ text[:,1,:]\n    embedding/=np.maximum(np.linalg.norm(embedding,axis=1,keepdims=True),1.e-8)\n    return embedding\ndef prompt_distance(q,features,text_matrix):",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_distance",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def prompt_distance(q,features,text_matrix):\n    query=semantic_query_embedding(q,text_matrix)\n    a=np.asarray(features,dtype=np.float32)\n    a=a/np.maximum(np.linalg.norm(a,axis=1,keepdims=True),1e-8)\n    return -(query @ a.T)\ndef adapter_distance(q,features,weight,bias):\n    \"\"\"Negative log-likelihood, with unknown query attributes ignored.\"\"\"\n    q=np.asarray(q,np.float32);x=np.asarray(features,np.float32)\n    w=np.asarray(weight,np.float32);b=np.asarray(bias,np.float32)\n    z=x @ w + b",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "adapter_distance",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def adapter_distance(q,features,weight,bias):\n    \"\"\"Negative log-likelihood, with unknown query attributes ignored.\"\"\"\n    q=np.asarray(q,np.float32);x=np.asarray(features,np.float32)\n    w=np.asarray(weight,np.float32);b=np.asarray(bias,np.float32)\n    z=x @ w + b\n    # Stable log-sigmoid\n    lp=-np.logaddexp(0,-z);ln=-np.logaddexp(0,z)\n    p=(q==1).astype(np.float32);n=(q==0).astype(np.float32)\n    count=np.maximum(p.sum(1)+n.sum(1),1.)\n    return -((p @ lp.T)+(n @ ln.T))/count[:,None]",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "standardize_rows",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def standardize_rows(x):\n    x=np.asarray(x,np.float32)\n    return (x-x.mean(1,keepdims=True))/np.maximum(x.std(1,keepdims=True),1e-5)\ndef combine(base,prompt,adapter,kind,blend):\n    \"\"\"For blend=0 retain exact baseline values, no normalization.\"\"\"\n    if blend==0:return np.asarray(base,np.float32)\n    if kind=='prompt': new=prompt\n    elif kind=='adapter':new=adapter\n    elif kind=='prompt_adapter':new=0.5*standardize_rows(prompt)+0.5*standardize_rows(adapter)\n    else:raise ValueError(f'Unknown candidate {kind}')",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "combine",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def combine(base,prompt,adapter,kind,blend):\n    \"\"\"For blend=0 retain exact baseline values, no normalization.\"\"\"\n    if blend==0:return np.asarray(base,np.float32)\n    if kind=='prompt': new=prompt\n    elif kind=='adapter':new=adapter\n    elif kind=='prompt_adapter':new=0.5*standardize_rows(prompt)+0.5*standardize_rows(adapter)\n    else:raise ValueError(f'Unknown candidate {kind}')\n    return (1-blend)*standardize_rows(base)+blend*standardize_rows(new)\ndef balanced_sample(frame,image_col,domain_of,per_domain,seed=42):\n    rng=np.random.default_rng(seed)",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "balanced_sample",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def balanced_sample(frame,image_col,domain_of,per_domain,seed=42):\n    rng=np.random.default_rng(seed)\n    sampled=[]\n    for domain in (0,1,2):\n        rows=np.flatnonzero(np.array([domain_of(v) for v in frame[image_col].astype(str)],dtype=int)==domain)\n        if not len(rows):raise RuntimeError(f'No TRAIN samples for domain {domain}')\n        sampled.extend(rng.choice(rows,size=min(per_domain,len(rows)),replace=False).tolist())\n    rng.shuffle(sampled)\n    return frame.iloc[sampled].reset_index(drop=True)\ndef train_adapter(features,labels,domain_ids,save_to,epochs=6,batch_size=256,lr=0.002,seed=42,mp_weight=0.08):",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "train_adapter",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def train_adapter(features,labels,domain_ids,save_to,epochs=6,batch_size=256,lr=0.002,seed=42,mp_weight=0.08):\n    \"\"\"One short training run on frozen TRAIN feature vectors only.\"\"\"\n    torch.manual_seed(seed);np.random.seed(seed)\n    device='cuda' if torch.cuda.is_available() else 'cpu'\n    X=torch.as_tensor(np.asarray(features,np.float32),device=device)\n    Y=torch.as_tensor(np.asarray(labels,np.float32),device=device)\n    D=torch.as_tensor(np.asarray(domain_ids,dtype=np.int64),device=device)\n    if X.shape[0]!=Y.shape[0] or Y.shape[1]!=40:raise ValueError('TRAIN feature/label shape mismatch')\n    seen=(Y==0)|(Y==1)\n    positive=((Y==1)&seen).sum(0).float();tot=seen.sum(0).float()",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "ids_from_official",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def ids_from_official(csv_path,raw_image_names):\n    import pandas as pd\n    ids=pd.read_csv(csv_path,header=None,dtype=str)\n    if ids.shape[1]<2:raise ValueError('ids.csv must have path/query-id columns')\n    lookup={}\n    for path,v in ids.iloc[:,:2].itertuples(index=False,name=None):\n        key=str(path).strip().replace('\\\\','/').lstrip('./')\n        try: n=int(float(v))\n        except (ValueError,TypeError):\n            if key.lower() in ('path','image','image_path'):continue",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "semantic_metrics",
+        "kind": 2,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "def semantic_metrics(dist,query_ids,gallery_ids,queries,gt_labels):\n    from abpr.query_aware_ranking import retrieval_metrics\n    from abpr.model import track2_metrics\n    result=retrieval_metrics(dist,np.asarray(query_ids),np.asarray(gallery_ids))\n    result.update(track2_metrics(np.asarray(dist,np.float32),queries,gt_labels))\n    return result",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_ID",
+        "kind": 5,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "peekOfCode": "MODEL_ID = 'google/siglip2-base-patch16-224'\ndef digest_lines(seq):\n    h=hashlib.sha256()\n    for x in seq: h.update(str(x).encode('utf-8'));h.update(b'\\n')\n    return h.hexdigest()\ndef load_siglip(model_path=MODEL_ID, device=None):\n    from transformers import AutoModel, AutoProcessor\n    device=device or ('cuda' if torch.cuda.is_available() else 'cpu')\n    dtype=torch.float16 if str(device).startswith('cuda') else torch.float32\n    processor=AutoProcessor.from_pretrained(str(model_path))",
+        "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
         "label": "safe_extract",
         "kind": 2,
         "importPath": "build_codabench_submission",
@@ -4154,12 +4645,66 @@
         "documentation": {}
     },
     {
+        "label": "eg_metrics",
+        "kind": 2,
+        "importPath": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "description": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "peekOfCode": "def eg_metrics(mat,ids):\n    m=sp.semantic_metrics(np.asarray(mat,np.float32),np.asarray(ids),GIDS,Q[ids],VAL_LABELS)\n    return {k:float(m[k]) for k in ('mADM','mAP','Rank-1')}\nFIT_BASELINE_METRICS=eg_metrics(B_FIT,FIT_IDS)\nGRID=[{'method':'domain','alpha':float(a),'beta':float(b),'temp':float(temperature)}\n      for a,b in [(0,0.08),(0,0.20),(0,0.4),(.15,0),(.35,0),(.15,.08),(.15,.20),(.35,.08),(.35,.20)]\n      for temperature in (.4,1.0)]\nif GATE_AVAILABLE:\n    GRID += [{'method':'gate','gamma':float(g)} for g in (.05,.10,.20,.35)]\n    GRID += [{'method':'domain_gate','alpha':float(a),'beta':float(b),'gamma':float(g),'temp':0.6}",
+        "detail": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "description": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "peekOfCode": "def load_model(*args,**kwargs):\n    return base_run.load_model(*args,**kwargs)\ndef rank_gallery(payload):\n    original=base_run.rank_gallery(payload)\n    if not isinstance(original,dict) or 'distances' not in original:\n        raise RuntimeError('Unexpected original submission output')\n    query=np.asarray(payload['queries'],np.float32)\n    assert query.ndim==2 and query.shape[1]==len(ATTR_ORDER)\n    passed=payload.get('attribute_names')\n    if passed is not None:",
+        "detail": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "documentation": {}
+    },
+    {
+        "label": "rank_gallery",
+        "kind": 2,
+        "importPath": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "description": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "peekOfCode": "def rank_gallery(payload):\n    original=base_run.rank_gallery(payload)\n    if not isinstance(original,dict) or 'distances' not in original:\n        raise RuntimeError('Unexpected original submission output')\n    query=np.asarray(payload['queries'],np.float32)\n    assert query.ndim==2 and query.shape[1]==len(ATTR_ORDER)\n    passed=payload.get('attribute_names')\n    if passed is not None:\n        passed=list(map(str,passed))\n        if passed!=ATTR_ORDER:",
+        "detail": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "predict_task2",
         "description": "predict_task2",
         "peekOfCode": "def main():\n    p=argparse.ArgumentParser(); p.add_argument('--repo-root',required=True); p.add_argument('--model',required=True); p.add_argument('--gallery-csv',required=True); p.add_argument('--query-csv',required=True); p.add_argument('--output-dir',required=True); p.add_argument('--topk',type=int,default=100)\n    a=p.parse_args(); root=Path(a.repo_root); out=Path(a.output_dir); out.mkdir(parents=True,exist_ok=True)\n    gdf=pd.read_csv(a.gallery_csv); _,queries=load_query_csv(a.query_csv); image_col=detect_image_column(gdf); resolver=ImageResolver(root/'data',root)\n    samples=[]\n    for x in tqdm(gdf[image_col].astype(str).tolist(),desc='Resolve gallery',unit='image',dynamic_ncols=True):\n        samples.append({'image_path':str(resolver.resolve(x))})\n    runtime=ABPRRuntime(a.model); probs,emb=runtime.encode_gallery(samples); d=runtime.distance(queries,probs,emb).numpy()\n    topk=min(int(a.topk),d.shape[1]); ranking=np.argsort(d,axis=1,kind='stable')[:,:topk]\n    np.save(out/'rankings_topk.npy',ranking.astype(np.int32)); np.save(out/'distances.npy',d.astype(np.float32))",
         "detail": "predict_task2",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "run_siglip_inference",
+        "description": "run_siglip_inference",
+        "peekOfCode": "def load_model():\n    base_run.load_model()\n    _setup()\ndef predict_attributes(gallery,attribute_names):\n    return base_run.predict_attributes(gallery,attribute_names)\ndef rank_gallery(sample):\n    import tempfile\n    # IMPORTANT: existing best ZIP baseline (e.g. Query-Aware) executes unmodified.\n    output=base_run.rank_gallery(sample)\n    b=np.asarray(output['distances'],np.float32)",
+        "detail": "run_siglip_inference",
+        "documentation": {}
+    },
+    {
+        "label": "predict_attributes",
+        "kind": 2,
+        "importPath": "run_siglip_inference",
+        "description": "run_siglip_inference",
+        "peekOfCode": "def predict_attributes(gallery,attribute_names):\n    return base_run.predict_attributes(gallery,attribute_names)\ndef rank_gallery(sample):\n    import tempfile\n    # IMPORTANT: existing best ZIP baseline (e.g. Query-Aware) executes unmodified.\n    output=base_run.rank_gallery(sample)\n    b=np.asarray(output['distances'],np.float32)\n    alpha=float(_get_config()['blend'])\n    if alpha==0:return output\n    # Free ConvNeXt GPU allocations before loading SigLIP2 to reduce peak usage.",
+        "detail": "run_siglip_inference",
+        "documentation": {}
+    },
+    {
+        "label": "rank_gallery",
+        "kind": 2,
+        "importPath": "run_siglip_inference",
+        "description": "run_siglip_inference",
+        "peekOfCode": "def rank_gallery(sample):\n    import tempfile\n    # IMPORTANT: existing best ZIP baseline (e.g. Query-Aware) executes unmodified.\n    output=base_run.rank_gallery(sample)\n    b=np.asarray(output['distances'],np.float32)\n    alpha=float(_get_config()['blend'])\n    if alpha==0:return output\n    # Free ConvNeXt GPU allocations before loading SigLIP2 to reduce peak usage.\n    if getattr(base_run,'_MODEL',None) is not None:\n        base_run._MODEL=None",
+        "detail": "run_siglip_inference",
         "documentation": {}
     },
     {
