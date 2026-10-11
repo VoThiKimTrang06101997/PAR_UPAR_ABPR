@@ -256,11 +256,91 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "torch",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "torch",
         "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
         "detail": "torch",
         "documentation": {}
     },
@@ -271,6 +351,118 @@
         "importPath": "torch.nn.functional",
         "description": "torch.nn.functional",
         "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -677,6 +869,38 @@
         "isExtraImport": true,
         "importPath": "torch.nn",
         "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
         "detail": "torch.nn",
         "documentation": {}
     },
@@ -1115,6 +1339,166 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
         "label": "score",
         "importPath": "abpr.query_aware_ranking",
         "description": "abpr.query_aware_ranking",
@@ -1172,6 +1556,54 @@
     },
     {
         "label": "fuse",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
+        "importPath": "abpr.query_aware_ranking",
+        "description": "abpr.query_aware_ranking",
+        "isExtraImport": true,
+        "detail": "abpr.query_aware_ranking",
+        "documentation": {}
+    },
+    {
+        "label": "retrieval_metrics",
         "importPath": "abpr.query_aware_ranking",
         "description": "abpr.query_aware_ranking",
         "isExtraImport": true,
@@ -1375,6 +1807,78 @@
     },
     {
         "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "track2_metrics",
+        "importPath": "abpr.model",
+        "description": "abpr.model",
+        "isExtraImport": true,
+        "detail": "abpr.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_query_csv",
         "importPath": "abpr.model",
         "description": "abpr.model",
         "isExtraImport": true,
@@ -2063,12 +2567,39 @@
         "documentation": {}
     },
     {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib,json,os,math,time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib.json.os.math.time",
+        "description": "hashlib.json.os.math.time",
+        "detail": "hashlib.json.os.math.time",
+        "documentation": {}
+    },
+    {
         "label": "hashlib,",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "hashlib.",
         "description": "hashlib.",
         "detail": "hashlib.",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib,json,math,os,random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib.json.math.os.random",
+        "description": "hashlib.json.math.os.random",
+        "detail": "hashlib.json.math.os.random",
         "documentation": {}
     },
     {
@@ -2157,7 +2688,143 @@
         "documentation": {}
     },
     {
+        "label": "infer_domain_id",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
         "label": "detect_image_column",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "infer_domain_id",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "infer_domain_id",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "infer_domain_id",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "infer_domain_id",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "infer_domain_id",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "detect_image_column",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "infer_domain_id",
+        "importPath": "abpr.core",
+        "description": "abpr.core",
+        "isExtraImport": true,
+        "detail": "abpr.core",
+        "documentation": {}
+    },
+    {
+        "label": "ImageResolver",
         "importPath": "abpr.core",
         "description": "abpr.core",
         "isExtraImport": true,
@@ -2446,12 +3113,118 @@
         "documentation": {}
     },
     {
+        "label": "sys,os,json,hashlib,base64,zlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.os.json.hashlib.base64.zlib",
+        "description": "sys.os.json.hashlib.base64.zlib",
+        "detail": "sys.os.json.hashlib.base64.zlib",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "shutil,gc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil.gc",
+        "description": "shutil.gc",
+        "detail": "shutil.gc",
+        "documentation": {}
+    },
+    {
+        "label": "abpr_hata_method",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile,hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile.hashlib",
+        "description": "zipfile.hashlib",
+        "detail": "zipfile.hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys,json,hashlib,subprocess,importlib,zipfile,time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys.json.hashlib.subprocess.importlib.zipfile.time",
+        "description": "os.sys.json.hashlib.subprocess.importlib.zipfile.time",
+        "detail": "os.sys.json.hashlib.subprocess.importlib.zipfile.time",
+        "documentation": {}
+    },
+    {
+        "label": "drive",
+        "importPath": "google.colab",
+        "description": "google.colab",
+        "isExtraImport": true,
+        "detail": "google.colab",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRIBUTE_NAMES",
+        "importPath": "strong_par",
+        "description": "strong_par",
+        "isExtraImport": true,
+        "detail": "strong_par",
+        "documentation": {}
+    },
+    {
         "label": "base64,zlib",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "base64.zlib",
         "description": "base64.zlib",
         "detail": "base64.zlib",
+        "documentation": {}
+    },
+    {
+        "label": "abpr_dino_transfer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "gc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gc",
+        "description": "gc",
+        "detail": "gc",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
         "documentation": {}
     },
     {
@@ -2509,28 +3282,57 @@
         "documentation": {}
     },
     {
-        "label": "ABPRRuntime",
-        "importPath": "abpr.runtime",
-        "description": "abpr.runtime",
-        "isExtraImport": true,
-        "detail": "abpr.runtime",
-        "documentation": {}
-    },
-    {
-        "label": "ABPRRuntime",
-        "importPath": "abpr.runtime",
-        "description": "abpr.runtime",
-        "isExtraImport": true,
-        "detail": "abpr.runtime",
-        "documentation": {}
-    },
-    {
-        "label": "gc,os",
+        "label": "sys,",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "gc.os",
-        "description": "gc.os",
-        "detail": "gc.os",
+        "importPath": "sys.",
+        "description": "sys.",
+        "detail": "sys.",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys,json,hashlib,time,importlib,base64,zlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys.json.hashlib.time.importlib.base64.zlib",
+        "description": "os.sys.json.hashlib.time.importlib.base64.zlib",
+        "detail": "os.sys.json.hashlib.time.importlib.base64.zlib",
+        "documentation": {}
+    },
+    {
+        "label": "abpr_rank_local",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "abpr_rank_local",
+        "description": "abpr_rank_local",
+        "detail": "abpr_rank_local",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile,hashlib,json,time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile.hashlib.json.time",
+        "description": "zipfile.hashlib.json.time",
+        "detail": "zipfile.hashlib.json.time",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys,json,hashlib,base64,zlib,subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys.json.hashlib.base64.zlib.subprocess",
+        "description": "os.sys.json.hashlib.base64.zlib.subprocess",
+        "detail": "os.sys.json.hashlib.base64.zlib.subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "abpr_siglip2_pipeline",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "abpr_siglip2_pipeline",
+        "description": "abpr_siglip2_pipeline",
+        "detail": "abpr_siglip2_pipeline",
         "documentation": {}
     },
     {
@@ -2579,6 +3381,67 @@
         "description": "abpr_siglip2_pipeline",
         "isExtraImport": true,
         "detail": "abpr_siglip2_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "abpr_repr_learning",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "json,hashlib,numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.hashlib.numpy",
+        "description": "json.hashlib.numpy",
+        "detail": "json.hashlib.numpy",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib,json,os,torch,numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib.json.os.torch.numpy",
+        "description": "hashlib.json.os.torch.numpy",
+        "detail": "hashlib.json.os.torch.numpy",
+        "documentation": {}
+    },
+    {
+        "label": "json,hashlib,zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.hashlib.zipfile",
+        "description": "json.hashlib.zipfile",
+        "detail": "json.hashlib.zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRRuntime",
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "isExtraImport": true,
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "ABPRRuntime",
+        "importPath": "abpr.runtime",
+        "description": "abpr.runtime",
+        "isExtraImport": true,
+        "detail": "abpr.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "gc,os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gc.os",
+        "description": "gc.os",
+        "detail": "gc.os",
         "documentation": {}
     },
     {
@@ -4150,6 +5013,159 @@
         "documentation": {}
     },
     {
+        "label": "CrossTokenHead",
+        "kind": 6,
+        "importPath": "abpr_cross_token",
+        "description": "abpr_cross_token",
+        "peekOfCode": "class CrossTokenHead(nn.Module):\n    \"\"\"Residual attribute-token attention model. 40 DINO attribute tokens, 192 channels.\"\"\"\n    def __init__(self,nattr=40,dim=192,dropout=.12,scale=.35):\n        super().__init__()\n        self.scale=float(scale)\n        self.norm=nn.LayerNorm(dim)\n        self.pos=nn.Parameter(torch.randn(nattr,dim)*.012)\n        enc=nn.TransformerEncoderLayer(d_model=dim,nhead=4,dim_feedforward=384,\n                                       dropout=dropout,activation='gelu',batch_first=True,norm_first=True)\n        self.attn=nn.TransformerEncoder(enc,num_layers=1,enable_nested_tensor=False)",
+        "detail": "abpr_cross_token",
+        "documentation": {}
+    },
+    {
+        "label": "digest",
+        "kind": 2,
+        "importPath": "abpr_cross_token",
+        "description": "abpr_cross_token",
+        "peekOfCode": "def digest(*items):\n    h=hashlib.sha256()\n    for item in items:\n        if isinstance(item,np.ndarray):\n            a=np.ascontiguousarray(item)\n            h.update(str(a.shape).encode());h.update(str(a.dtype).encode());h.update(a.tobytes())\n        else:h.update(str(item).encode())\n        h.update(b'\\n')\n    return h.hexdigest()\nclass CrossTokenHead(nn.Module):",
+        "detail": "abpr_cross_token",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 2,
+        "importPath": "abpr_cross_token",
+        "description": "abpr_cross_token",
+        "peekOfCode": "def train(tokens,logits,labels,domains,path,signature,epochs=9,batch=96,lr=.00045,\n          steps_per_epoch=0,seed=73,patience=3):\n    \"\"\"Resumable, strict signature. Per-domain TRAIN-only stratified holdout. Never VAL.\"\"\"\n    labels=np.asarray(labels,np.float32); domains=np.asarray(domains,np.int64)\n    n=len(labels)\n    assert np.shape(tokens)==(n,40,192) and np.shape(logits)==(n,40)\n    assert set(np.unique(domains))=={0,1,2}\n    assert np.isin(labels,[-1,0,1]).all()\n    torch.manual_seed(seed);rng=np.random.default_rng(seed)\n    groups=[];hold=[]",
+        "detail": "abpr_cross_token",
+        "documentation": {}
+    },
+    {
+        "label": "infer",
+        "kind": 2,
+        "importPath": "abpr_cross_token",
+        "description": "abpr_cross_token",
+        "peekOfCode": "def infer(model,tokens,logits,outfile,signature,batch=256):\n    \"\"\"Ordered and resume-safe full gallery logits cache. Never uses gallery labels.\"\"\"\n    outfile=Path(outfile);outfile.parent.mkdir(parents=True,exist_ok=True)\n    meta=outfile.with_suffix('.json');n=len(logits)\n    if outfile.is_file() and meta.is_file():\n        info=json.loads(meta.read_text())\n        if info.get('sig')!=signature or info.get('n')!=n:raise RuntimeError('Old cache differs; use separate run directory')\n        arr=np.load(outfile,mmap_mode='r+');done=int(info['completed'])\n        if arr.shape!=(n,40) or done>n or done<0:raise RuntimeError('Invalid resume state')\n    elif outfile.exists() or meta.exists():raise RuntimeError('Orphan feature/meta file; investigate')",
+        "detail": "abpr_cross_token",
+        "documentation": {}
+    },
+    {
+        "label": "query_distance",
+        "kind": 2,
+        "importPath": "abpr_cross_token",
+        "description": "abpr_cross_token",
+        "peekOfCode": "def query_distance(query,logits,chunk=64):\n    \"\"\"Masked attribute probability NLL; no VAL label use.\"\"\"\n    q=np.asarray(query,np.float32);z=np.asarray(logits,np.float32)\n    if q.ndim!=2 or z.ndim!=2 or q.shape[1]!=40 or z.shape[1]!=40:raise ValueError('40 labels expected')\n    lp=np.logaddexp(0,-z);ln=np.logaddexp(0,z)\n    out=np.empty((len(q),len(z)),np.float32)\n    for a in tqdm(range(0,len(q),chunk),desc='Query-conditioned distances',unit='query-batch'):\n        qb=q[a:a+chunk];p=(qb==1).astype(np.float32);n=(qb==0).astype(np.float32)\n        out[a:a+len(qb)]=(p@lp.T+n@ln.T)/np.maximum((p+n).sum(1,keepdims=True),1)\n    if not np.isfinite(out).all():raise FloatingPointError('Nonfinite distances')",
+        "detail": "abpr_cross_token",
+        "documentation": {}
+    },
+    {
+        "label": "fuse",
+        "kind": 2,
+        "importPath": "abpr_cross_token",
+        "description": "abpr_cross_token",
+        "peekOfCode": "def fuse(base,secondary,alpha):\n    if alpha==0:return np.asarray(base,np.float32)\n    x=np.asarray(base,np.float32);y=np.asarray(secondary,np.float32)\n    if x.shape!=y.shape:raise ValueError('Mismatch ranking matrix shape')\n    def zn(a):return (a-a.mean(1,keepdims=True))/np.maximum(a.std(1,keepdims=True),1.e-6)\n    return (1-alpha)*zn(x)+alpha*zn(y)",
+        "detail": "abpr_cross_token",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeTokenHead",
+        "kind": 6,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "class AttributeTokenHead(nn.Module):\n    def __init__(self,num_attrs=40,dim=192,scale=.3):\n        super().__init__()\n        self.scale=float(scale)\n        self.norm=nn.LayerNorm(dim)\n        self.weight=nn.Parameter(torch.zeros(num_attrs,dim))\n        self.bias=nn.Parameter(torch.zeros(num_attrs))\n    def forward(self,tokens,base_logits):\n        corrections=torch.einsum('bcd,cd->bc',self.norm(tokens),self.weight)/math.sqrt(tokens.shape[-1])+self.bias\n        return base_logits+self.scale*corrections",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "hash_file",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def hash_file(path):\n    h=hashlib.sha256()\n    with open(path,'rb') as f:\n        for b in iter(lambda:f.read(4<<20),b''):h.update(b)\n    return h.hexdigest()\ndef digest_lines(items):\n    h=hashlib.sha256()\n    for x in items:h.update(str(x).encode());h.update(b'\\n')\n    return h.hexdigest()\ndef load_teacher(checkpoint,model_py,device):",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "digest_lines",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def digest_lines(items):\n    h=hashlib.sha256()\n    for x in items:h.update(str(x).encode());h.update(b'\\n')\n    return h.hexdigest()\ndef load_teacher(checkpoint,model_py,device):\n    import importlib.util\n    module_spec=importlib.util.spec_from_file_location('dino_transfer_model_v1',str(model_py))\n    assert module_spec and module_spec.loader\n    import sys\n    module=importlib.util.module_from_spec(module_spec);sys.modules[module_spec.name]=module",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "load_teacher",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def load_teacher(checkpoint,model_py,device):\n    import importlib.util\n    module_spec=importlib.util.spec_from_file_location('dino_transfer_model_v1',str(model_py))\n    assert module_spec and module_spec.loader\n    import sys\n    module=importlib.util.module_from_spec(module_spec);sys.modules[module_spec.name]=module\n    module_spec.loader.exec_module(module)\n    ck=torch.load(checkpoint,map_location='cpu',weights_only=False)\n    cfg=dict(ck.get('dinov2_config',{}));cfg.pop('pretrained',None);cfg['trainable_last']=0\n    net=module.DinoAttributePAR(pretrained=False,**cfg)",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "build_transform",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def build_transform():\n    from torchvision import transforms\n    return transforms.Compose([\n        transforms.Resize((252,126),interpolation=transforms.InterpolationMode.BICUBIC),\n        transforms.ToTensor(), transforms.Normalize([.485,.456,.406],[.229,.224,.225])])\n@torch.inference_mode()\ndef cache_teacher(teacher,paths,out_dir,signature,batch_size=16,flip=True,device='cuda'):\n    \"\"\"Strict cache with byte-level signature and resumable ordered memmaps.\"\"\"\n    from PIL import Image\n    paths=list(map(str,paths));out_dir=Path(out_dir);out_dir.mkdir(parents=True,exist_ok=True)",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "cache_teacher",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def cache_teacher(teacher,paths,out_dir,signature,batch_size=16,flip=True,device='cuda'):\n    \"\"\"Strict cache with byte-level signature and resumable ordered memmaps.\"\"\"\n    from PIL import Image\n    paths=list(map(str,paths));out_dir=Path(out_dir);out_dir.mkdir(parents=True,exist_ok=True)\n    meta_file=out_dir/'meta.json'; feat_file=out_dir/'tokens.npy';logit_file=out_dir/'logits.npy'\n    n=len(paths); expected={'signature':str(signature),'n':n,'flipped':bool(flip),'transform':'bicubic252x126_imagenet_v1'}\n    if meta_file.exists():\n        info=json.loads(meta_file.read_text())\n        if any(info.get(k)!=v for k,v in expected.items()):\n            raise RuntimeError(f'Feature cache signature mismatch: {out_dir}; use different directory')",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "train_head",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def train_head(train_tokens,train_logits,labels,domains,path,epochs=12,batch_size=128,lr=.003,seed=42,rank_weight=.07,steps_per_epoch=0,full_query_probability=.65):\n    \"\"\"Only TRAIN attribute labels and TRAIN image features; no public VAL labels.\"\"\"\n    torch.manual_seed(seed);rng=np.random.default_rng(seed)\n    device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n    T=np.asarray(train_tokens);L=np.asarray(train_logits);Y=np.asarray(labels,np.float32);D=np.asarray(domains,np.int64)\n    assert T.shape==(len(Y),40,192) and L.shape==(len(Y),40) and Y.shape[1]==40\n    valid=np.isin(Y,[0,1]);assert valid.sum()>0\n    train_indices=[]; hold_indices=[]\n    for d in (0,1,2):\n        ix=np.flatnonzero(D==d);rng.shuffle(ix);k=max(1,int(round(.12*len(ix))));hold_indices.extend(ix[:k]);train_indices.extend(ix[k:])",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "head_logits",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def head_logits(head,tokens,logits,batch=512):\n    device=next(head.parameters()).device\n    out=np.empty(np.shape(logits),np.float32)\n    for a in tqdm(range(0,len(logits),batch),desc='DINO attribute-token head inference',unit='batch'):\n        b=min(len(logits),a+batch)\n        x=torch.as_tensor(np.asarray(tokens[a:b],np.float32),device=device)\n        y=torch.as_tensor(np.asarray(logits[a:b],np.float32),device=device)\n        out[a:b]=head(x,y).float().cpu().numpy()\n    return out\ndef query_nll(queries,image_logits,chunk=128):",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "query_nll",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def query_nll(queries,image_logits,chunk=128):\n    \"\"\"[queries, gallery] lower better, no query/gallery labels used.\"\"\"\n    q=np.asarray(queries,np.float32);z=np.asarray(image_logits,np.float32)\n    if q.ndim!=2 or z.ndim!=2 or q.shape[1]!=40 or z.shape[1]!=40:raise ValueError('Expected 40 attributes')\n    lp=np.logaddexp(0,-z);ln=np.logaddexp(0,z)  # -log P(y=1), -log P(y=0)\n    ans=np.empty((len(q),len(z)),np.float32)\n    for a in tqdm(range(0,len(q),chunk),desc='DINO query-conditional distance',unit='query batch'):\n        qb=q[a:a+chunk]\n        pos=(qb==1).astype(np.float32);neg=(qb==0).astype(np.float32)\n        den=(pos+neg).sum(1).clip(1)[:,None]",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "row_z",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def row_z(x):\n    x=np.asarray(x,np.float32)\n    return (x-x.mean(1,keepdims=True))/np.maximum(x.std(1,keepdims=True),1e-6)\ndef fusion(base,candidate,alpha):\n    if alpha==0:return np.asarray(base,np.float32)\n    return (1-alpha)*row_z(base)+alpha*row_z(candidate)",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
+        "label": "fusion",
+        "kind": 2,
+        "importPath": "abpr_dino_transfer",
+        "description": "abpr_dino_transfer",
+        "peekOfCode": "def fusion(base,candidate,alpha):\n    if alpha==0:return np.asarray(base,np.float32)\n    return (1-alpha)*row_z(base)+alpha*row_z(candidate)",
+        "detail": "abpr_dino_transfer",
+        "documentation": {}
+    },
+    {
         "label": "domain_from_path",
         "kind": 2,
         "importPath": "abpr_error_guided_rerank",
@@ -4237,6 +5253,249 @@
         "description": "abpr_error_guided_rerank",
         "peekOfCode": "DOMAINS = ('Market1501', 'PA100k', 'PETA')\ndef domain_from_path(s):\n    t = str(s).lower().replace('\\\\', '/')\n    if 'market1501' in t or 'market-1501' in t:\n        return 0\n    if 'pa100k' in t:\n        return 1\n    if 'peta' in t:\n        return 2\n    return -1",
         "detail": "abpr_error_guided_rerank",
+        "documentation": {}
+    },
+    {
+        "label": "HierarchicalAttributeAdapter",
+        "kind": 6,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "class HierarchicalAttributeAdapter(nn.Module):\n    def __init__(self,group_indices,dim=192,hidden=64,dropout=.10,scale=.35):\n        super().__init__()\n        self.register_buffer('group_indices',torch.as_tensor(group_indices,dtype=torch.long))\n        self.n_groups=int(max(group_indices))+1\n        self.norm=nn.LayerNorm(dim)\n        self.token_projection=nn.Linear(dim,hidden)\n        self.group_projection=nn.Linear(dim,hidden,bias=False)\n        self.attr_embedding=nn.Parameter(torch.randn(40,hidden)*.02)\n        self.readout=nn.Parameter(torch.randn(40,hidden)*.02)",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "digest",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def digest(*items):\n    h=hashlib.sha256()\n    for x in items:\n        if isinstance(x,(np.ndarray,)):\n            a=np.ascontiguousarray(x);h.update(str((a.dtype,a.shape)).encode());h.update(a.tobytes())\n        else:h.update(str(x).encode())\n        h.update(b'\\n')\n    return h.hexdigest()\ndef group_ids(attributes):\n    assert len(attributes)==40 and len(set(attributes))==40",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "group_ids",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def group_ids(attributes):\n    assert len(attributes)==40 and len(set(attributes))==40\n    groups=[]\n    for a in attributes:\n        if a.startswith('Age-'):groups.append(0)\n        elif a.startswith('Gender-'):groups.append(1)\n        elif a.startswith('Hair-'):groups.append(2)\n        elif a.startswith('UpperBody-'):groups.append(3)\n        elif a.startswith('LowerBody-'):groups.append(4)\n        elif a.startswith('Accessory-'):groups.append(5)",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "query_negative_loss",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def query_negative_loss(logits,labels,observed,full_probability=.75,margin=.15,seed_fraction=.16):\n    \"\"\"Batch query ranking: negatives require an explicitly observed attribute conflict.\n    Positive is own image. No unknown label is treated as negative.\n    \"\"\"\n    B,C=logits.shape\n    y=labels.clamp(0,1)\n    keep=((torch.rand((B,1),device=logits.device)<full_probability)&observed) | ((torch.rand_like(logits)<seed_fraction)&observed)\n    insufficient=keep.sum(1)<2\n    if insufficient.any():\n        # Guarantee known labels when possible. Never promote an unknown label.",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "masked_bce",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def masked_bce(pred,target,obs,pos_weights):\n    t=target.clamp(0,1)\n    w=torch.where(t>0.5,pos_weights[None,:],1.)\n    return (F.binary_cross_entropy_with_logits(pred,t,reduction='none')*w*obs).sum()/obs.sum().clamp_min(1)\ndef balanced_indices(y,dom,seed,holdout=0.15):\n    rng=np.random.default_rng(seed)\n    training=[];hold=[]\n    for d in range(3):\n        indices=np.flatnonzero(dom==d)\n        if len(indices)<12:raise RuntimeError(f'TRAIN domain {d} requires >=12 samples')",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "balanced_indices",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def balanced_indices(y,dom,seed,holdout=0.15):\n    rng=np.random.default_rng(seed)\n    training=[];hold=[]\n    for d in range(3):\n        indices=np.flatnonzero(dom==d)\n        if len(indices)<12:raise RuntimeError(f'TRAIN domain {d} requires >=12 samples')\n        rng.shuffle(indices)\n        nh=max(1,int(len(indices)*holdout))\n        hold.extend(indices[:nh]); training.extend(indices[nh:])\n    return np.asarray(training,dtype=np.int64),np.asarray(hold,dtype=np.int64)",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "fit",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def fit(tokens,base_logits,labels,domains,attrs,output_dir,signature,epochs=10,batch_size=96,lr=1.e-3,\n        query_weight=.12,feature_weight=.015,seed=42,force=False,patience=4):\n    \"\"\"Frozen DINO tokens -> tiny HATA adapter. Checkpoints best TRAIN holdout, resumes epochs.\"\"\"\n    out=Path(output_dir);out.mkdir(parents=True,exist_ok=True)\n    last=out/'hata_last.pt';best=out/'hata_best.pt'\n    Y=np.asarray(labels,np.float32);D=np.asarray(domains,np.int64)\n    assert Y.ndim==2 and Y.shape[1]==40 and set(np.unique(D))=={0,1,2}\n    assert tokens.shape==(len(Y),40,192) and base_logits.shape==(len(Y),40)\n    assert np.isin(Y,[-1,0,1]).all(), 'Masked training labels must be -1,0,1'\n    grouping=group_ids(attrs)",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "infer",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def infer(net,tokens,base_logits,out_file,batch_size=320,expected_signature=None):\n    \"\"\"Resume-safe inference cache: restart at last fully flushed batch.\"\"\"\n    out_file=Path(out_file);meta=out_file.with_suffix('.json')\n    n=len(tokens);start=0\n    if out_file.is_file() and meta.is_file():\n        info=json.loads(meta.read_text())\n        if info.get('signature')!=expected_signature or info.get('shape')!=[n,40]:\n            raise RuntimeError('Existing inference cache mismatched. Use a new checkpoint/cache directory.')\n        mm=np.load(out_file,mmap_mode='r+')\n        if mm.shape!=(n,40):raise RuntimeError('Malformed cached HATA logits')",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "weighted_query_nll",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def weighted_query_nll(queries,image_logits,weights=None,chunk=40):\n    q=np.asarray(queries,np.float32);img=np.asarray(image_logits,np.float32)\n    assert q.ndim==2 and img.ndim==2 and q.shape[1]==img.shape[1]==40\n    if weights is None:weights=np.ones(40,np.float32)\n    w=np.asarray(weights,np.float32);assert w.shape==(40,) and (w>0).all()\n    pos=np.logaddexp(0,-img);neg=np.logaddexp(0,img)\n    out=np.empty((len(q),len(img)),np.float32)\n    for a in tqdm(range(0,len(q),chunk),desc='HATA query-conditioned distance',unit='query-batch'):\n        s=q[a:a+chunk];p=(s==1).astype(np.float32)*w;n=(s==0).astype(np.float32)*w\n        div=(p+n).sum(1,keepdims=True).clip(1e-6)",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "reliability",
+        "kind": 2,
+        "importPath": "abpr_hata_method",
+        "description": "abpr_hata_method",
+        "peekOfCode": "def reliability(train_logits,labels,domains=None):\n    \"\"\"TRAIN-derived reliability only. Prefer leave-as-is if no labels valid.\"\"\"\n    l=np.asarray(train_logits,np.float32);y=np.asarray(labels,np.float32)\n    assert l.shape==y.shape and y.shape[1]==40\n    correct=((l>0).astype(np.float32)==y)\n    out=np.zeros(40,np.float32)\n    for c in range(40):\n        sel=np.isin(y[:,c],[0,1]);p=sel&(y[:,c]==1);n=sel&(y[:,c]==0)\n        if min(p.sum(),n.sum())<8:out[c]=.5;continue\n        balanced=.5*(correct[p,c].mean()+correct[n,c].mean())",
+        "detail": "abpr_hata_method",
+        "documentation": {}
+    },
+    {
+        "label": "topk_indices",
+        "kind": 2,
+        "importPath": "abpr_rank_local",
+        "description": "abpr_rank_local",
+        "peekOfCode": "def topk_indices(base: np.ndarray, max_k: int) -> np.ndarray:\n    d = np.asarray(base, dtype=np.float32)\n    if d.ndim != 2 or d.shape[1] < 2 or not np.isfinite(d).all():\n        raise ValueError('Invalid baseline distance matrix')\n    k = min(int(max_k), d.shape[1]); assert k >= 2\n    out = np.empty((d.shape[0], k), dtype=np.int32)\n    for i in range(d.shape[0]):\n        part = np.argpartition(d[i], k-1)[:k]\n        out[i] = part[np.argsort(d[i, part], kind='stable')]\n    return out",
+        "detail": "abpr_rank_local",
+        "documentation": {}
+    },
+    {
+        "label": "rank_local_score",
+        "kind": 2,
+        "importPath": "abpr_rank_local",
+        "description": "abpr_rank_local",
+        "peekOfCode": "def rank_local_score(base: np.ndarray, predicted_penalty: np.ndarray,\n                     sorted_top_indices: np.ndarray, *, top_k: int,\n                     strength: float, tau: float, cap: float = 0.65) -> np.ndarray:\n    \"\"\"Keep baseline scores outside top_k, penalize predicted contradictions locally.\n    Local scale and damped adjustments depend only on the model's distances/predictions.\n    The same function can run on unseen gallery if runtime embeddings are available.\n    \"\"\"\n    b = np.asarray(base, dtype=np.float32)\n    p = np.asarray(predicted_penalty, dtype=np.float32)\n    idx = np.asarray(sorted_top_indices)",
+        "detail": "abpr_rank_local",
+        "documentation": {}
+    },
+    {
+        "label": "perquery_ranking_stats",
+        "kind": 2,
+        "importPath": "abpr_rank_local",
+        "description": "abpr_rank_local",
+        "peekOfCode": "def perquery_ranking_stats(distances, ids, gallery_ids):\n    \"\"\"AP, reciprocal rank and R1 by exact semantic-ID relevance (evaluation only).\"\"\"\n    dist = np.asarray(distances, np.float32)\n    ids = np.asarray(ids, np.int64)\n    gallery_ids = np.asarray(gallery_ids, np.int64)\n    if dist.shape != (len(ids), len(gallery_ids)):\n        raise ValueError('Evaluation mismatch')\n    ap = np.zeros(len(ids), np.float64)\n    rank1 = np.zeros(len(ids), np.float64)\n    first_rank = np.zeros(len(ids), np.int64)",
+        "detail": "abpr_rank_local",
+        "documentation": {}
+    },
+    {
+        "label": "paired_bootstrap_perquery",
+        "kind": 2,
+        "importPath": "abpr_rank_local",
+        "description": "abpr_rank_local",
+        "peekOfCode": "def paired_bootstrap_perquery(before, after, repeats=400, seed=2027):\n    \"\"\"Simple paired bootstrap for AP and Rank1 only; NOT a CI for mADM.\"\"\"\n    rng = np.random.default_rng(seed)\n    out = {}\n    for metric in ('ap', 'rank1'):\n        diffs = np.asarray(after[metric], np.float64) - np.asarray(before[metric], np.float64)\n        idx = rng.integers(0, len(diffs), size=(repeats, len(diffs)))\n        boot = diffs[idx].mean(axis=1)\n        out[metric] = {'delta': float(diffs.mean()),\n                       'bootstrap_ci_95': [float(np.quantile(boot, .025)),",
+        "detail": "abpr_rank_local",
+        "documentation": {}
+    },
+    {
+        "label": "AttributeQueryNet",
+        "kind": 6,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "class AttributeQueryNet(nn.Module):\n    def __init__(self, input_dim, hidden=256, embed_dim=128, dropout=.12):\n        super().__init__()\n        self.image_net=nn.Sequential(nn.Linear(input_dim,hidden),nn.LayerNorm(hidden),nn.GELU(),nn.Dropout(dropout),nn.Linear(hidden,embed_dim))\n        self.attr_net=nn.Linear(embed_dim,40)\n        self.query_tokens=nn.Parameter(torch.randn(40,2,embed_dim)*.025)\n        self.query_norm=nn.LayerNorm(embed_dim)\n        self.input_dim=input_dim;self.embed_dim=embed_dim;self.hidden=hidden;self.dropout=dropout\n    def image_features(self,x):\n        h=self.image_net(F.normalize(x.float(),dim=-1))",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "seed_all",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def seed_all(seed):\n    random.seed(seed);np.random.seed(seed);torch.manual_seed(seed)\n    if torch.cuda.is_available():torch.cuda.manual_seed_all(seed)\ndef sample_query(y,epoch,total_epochs,generator):\n    \"\"\"Curriculum: sparse/mid/full known attributes with no fabricated annotations.\"\"\"\n    out=np.full_like(y,-1,dtype=np.float32)\n    for i in range(len(y)):\n        valid=np.flatnonzero((y[i]==0)|(y[i]==1))\n        if not len(valid):continue\n        u=generator.random()",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "sample_query",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def sample_query(y,epoch,total_epochs,generator):\n    \"\"\"Curriculum: sparse/mid/full known attributes with no fabricated annotations.\"\"\"\n    out=np.full_like(y,-1,dtype=np.float32)\n    for i in range(len(y)):\n        valid=np.flatnonzero((y[i]==0)|(y[i]==1))\n        if not len(valid):continue\n        u=generator.random()\n        if u < .30: low,high=2,6\n        elif u < .65: low,high=6,14\n        elif u < .85: low,high=14,25",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "train_loss",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def train_loss(model,x,y,domain,epoch,epochs,generator,pos_weight,ranking_w=.30,hard_w=.06,domain_w=.008):\n    q_np=sample_query(y.detach().cpu().numpy(),epoch,epochs,generator)\n    q=torch.as_tensor(q_np,device=x.device)\n    z,logits=model.image_features(x)\n    qz=model.query_features(q)\n    known=(y==0)|(y==1)\n    targets=y.clamp(0,1)\n    weight=torch.where(targets==1,pos_weight[None,:],torch.ones_like(targets))\n    loss_attr=(F.binary_cross_entropy_with_logits(logits,targets,reduction='none')*known.float()*weight).sum()/known.sum().clamp_min(1)\n    q_known=(q==0)|(q==1)",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "masked_bce",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def masked_bce(model,x,y,device,batch=256):\n    model.eval();total=0.;den=0.\n    with torch.no_grad():\n        for s in range(0,len(x),batch):\n            X=torch.tensor(np.asarray(x[s:s+batch],np.float32),device=device)\n            Y=torch.tensor(np.asarray(y[s:s+batch],np.float32),device=device)\n            _,logits=model.image_features(X)\n            valid=(Y==0)|(Y==1)\n            total+=float((F.binary_cross_entropy_with_logits(logits,Y.clamp(0,1),reduction='none')*valid).sum())\n            den+=int(valid.sum())",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "save_checkpoint",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def save_checkpoint(path,model,opt,epoch,best,signature,config,history):\n    path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)\n    tmp=path.with_suffix('.partial.pt')\n    torch.save({'model':model.state_dict(),'optimizer':opt.state_dict(),'epoch':epoch,'best':best,'signature':signature,'config':config,'history':history},tmp)\n    os.replace(tmp,path)\ndef fit_model(X,Y,D,output,signature,epochs=12,batch_size=192,lr=.0007,seed=2027,holdout=.18,force=False):\n    output=Path(output);output.mkdir(parents=True,exist_ok=True)\n    latest=output/'repr_latest.pt';best_path=output/'repr_best.pt'\n    X=np.asarray(X,np.float32);Y=np.asarray(Y,np.float32);D=np.asarray(D,np.int64)\n    assert X.ndim==2 and Y.shape==(len(X),40) and len(D)==len(X)",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "fit_model",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def fit_model(X,Y,D,output,signature,epochs=12,batch_size=192,lr=.0007,seed=2027,holdout=.18,force=False):\n    output=Path(output);output.mkdir(parents=True,exist_ok=True)\n    latest=output/'repr_latest.pt';best_path=output/'repr_best.pt'\n    X=np.asarray(X,np.float32);Y=np.asarray(Y,np.float32);D=np.asarray(D,np.int64)\n    assert X.ndim==2 and Y.shape==(len(X),40) and len(D)==len(X)\n    assert np.isfinite(X).all() and np.isin(Y,[-1,0,1]).all() and np.isin(D,[0,1,2]).all()\n    seed_all(seed);device='cuda' if torch.cuda.is_available() else 'cpu';gen=np.random.default_rng(seed)\n    # Separate source-stratified TRAIN holdout, never use public VAL for epochs.\n    train=[];valid=[]\n    for d in (0,1,2):",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def load_model(path,device=None):\n    ck=torch.load(path,map_location='cpu',weights_only=False)\n    cfg=ck['config'];device=device or ('cuda' if torch.cuda.is_available() else 'cpu')\n    model=AttributeQueryNet(cfg['input_dim'],cfg['hidden'],cfg['embed_dim'],cfg['dropout']).to(device)\n    model.load_state_dict(ck['model']);model.eval()\n    return model,device,ck\n@torch.inference_mode()\ndef image_outputs(model,features,device,chunk=2048):\n    # Returns normalized learned embeddings + logits, in original gallery order.\n    z=[];l=[]",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "image_outputs",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def image_outputs(model,features,device,chunk=2048):\n    # Returns normalized learned embeddings + logits, in original gallery order.\n    z=[];l=[]\n    for start in tqdm(range(0,len(features),chunk),desc='Representation gallery features',unit='batch'):\n        x=torch.tensor(np.asarray(features[start:start+chunk],np.float32),device=device)\n        zi,li=model.image_features(x);z.append(zi.cpu().numpy().astype('float32'));l.append(li.cpu().numpy().astype('float32'))\n    return np.concatenate(z),np.concatenate(l)\n@torch.inference_mode()\ndef query_outputs(model,queries,device,chunk=256):\n    zs=[]",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "query_outputs",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def query_outputs(model,queries,device,chunk=256):\n    zs=[]\n    for start in range(0,len(queries),chunk):\n        q=torch.tensor(np.asarray(queries[start:start+chunk],np.float32),device=device)\n        zs.append(model.query_features(q).cpu().numpy().astype('float32'))\n    return np.concatenate(zs)\ndef distances(query_z,gallery_z,logits,queries,chunk=48):\n    \"\"\"RETURN two score matrices. 0=best distance. Scores from learned outputs only.\"\"\"\n    query_z=np.asarray(query_z,np.float32);gallery_z=np.asarray(gallery_z,np.float32)\n    queries=np.asarray(queries,np.float32); logits=np.asarray(logits,np.float32)",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "distances",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def distances(query_z,gallery_z,logits,queries,chunk=48):\n    \"\"\"RETURN two score matrices. 0=best distance. Scores from learned outputs only.\"\"\"\n    query_z=np.asarray(query_z,np.float32);gallery_z=np.asarray(gallery_z,np.float32)\n    queries=np.asarray(queries,np.float32); logits=np.asarray(logits,np.float32)\n    assert len(logits)==len(gallery_z) and queries.shape==(len(query_z),40)\n    learned=[];attributes=[]\n    lp=-np.logaddexp(0,-logits);ln=-np.logaddexp(0,logits)\n    for s in tqdm(range(0,len(queries),chunk),desc='Representation retrieval queries',unit='batch'):\n        q=queries[s:s+chunk];positive=(q==1).astype(np.float32);negative=(q==0).astype(np.float32)\n        denom=np.maximum((positive+negative).sum(1,keepdims=True),1.)",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "std_rows",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def std_rows(x):\n    x=np.asarray(x,np.float32)\n    return (x-x.mean(1,keepdims=True))/np.maximum(x.std(1,keepdims=True),1e-5)\ndef combine_scores(base,semantic,attributes,method,alpha):\n    base=np.asarray(base,np.float32)\n    if alpha==0:return base.copy()\n    new={'embedding':semantic,'attribute':attributes,'mix':.5*std_rows(semantic)+.5*std_rows(attributes)}[method]\n    return ((1-alpha)*std_rows(base)+alpha*std_rows(new)).astype('float32')",
+        "detail": "abpr_repr_learning",
+        "documentation": {}
+    },
+    {
+        "label": "combine_scores",
+        "kind": 2,
+        "importPath": "abpr_repr_learning",
+        "description": "abpr_repr_learning",
+        "peekOfCode": "def combine_scores(base,semantic,attributes,method,alpha):\n    base=np.asarray(base,np.float32)\n    if alpha==0:return base.copy()\n    new={'embedding':semantic,'attribute':attributes,'mix':.5*std_rows(semantic)+.5*std_rows(attributes)}[method]\n    return ((1-alpha)*std_rows(base)+alpha*std_rows(new)).astype('float32')",
+        "detail": "abpr_repr_learning",
         "documentation": {}
     },
     {
@@ -4591,6 +5850,42 @@
         "documentation": {}
     },
     {
+        "label": "DinoBlock",
+        "kind": 6,
+        "importPath": "dino_transfer_model",
+        "description": "dino_transfer_model",
+        "peekOfCode": "class DinoBlock(nn.Module):\n    def __init__(self, dim=384, heads=6):\n        super().__init__()\n        self.heads = heads\n        self.norm1 = nn.LayerNorm(dim, eps=1e-6)\n        self.q = nn.Linear(dim, dim)\n        self.k = nn.Linear(dim, dim)\n        self.v = nn.Linear(dim, dim)\n        self.attn_out = nn.Linear(dim, dim)\n        self.ls1 = nn.Parameter(torch.ones(dim))",
+        "detail": "dino_transfer_model",
+        "documentation": {}
+    },
+    {
+        "label": "DinoSmall",
+        "kind": 6,
+        "importPath": "dino_transfer_model",
+        "description": "dino_transfer_model",
+        "peekOfCode": "class DinoSmall(nn.Module):\n    def __init__(self, layers=12, dim=384, heads=6, patch=14):\n        super().__init__()\n        self.patch = patch\n        self.patch_embed = nn.Conv2d(3,dim,kernel_size=patch,stride=patch)\n        self.cls_token = nn.Parameter(torch.zeros(1,1,dim))\n        self.pos_embed = nn.Parameter(torch.zeros(1,1370,dim))\n        self.blocks = nn.ModuleList([DinoBlock(dim,heads) for _ in range(layers)])\n        self.norm = nn.LayerNorm(dim,eps=1e-6)\n        self.trainable_last = 0",
+        "detail": "dino_transfer_model",
+        "documentation": {}
+    },
+    {
+        "label": "DinoAttributePAR",
+        "kind": 6,
+        "importPath": "dino_transfer_model",
+        "description": "dino_transfer_model",
+        "peekOfCode": "class DinoAttributePAR(nn.Module):\n    def __init__(self, num_attributes=40, prototype_dim=192,\n                 prototype_temperature=.22, prototype_gate_init=.25,\n                 pretrained=False, trainable_last=0):\n        super().__init__()\n        self.num_attributes=int(num_attributes)\n        self.prototype_dim=int(prototype_dim)\n        self.prototype_temperature=float(prototype_temperature)\n        self.dino=DinoSmall()\n        self.dino.set_trainable_last(trainable_last)",
+        "detail": "dino_transfer_model",
+        "documentation": {}
+    },
+    {
+        "label": "config_for_checkpoint",
+        "kind": 2,
+        "importPath": "dino_transfer_model",
+        "description": "dino_transfer_model",
+        "peekOfCode": "def config_for_checkpoint(model):\n    return {'num_attributes':model.num_attributes,'prototype_dim':model.prototype_dim,\n            'prototype_temperature':model.prototype_temperature,'trainable_last':0}",
+        "detail": "dino_transfer_model",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "evaluate_abpr",
@@ -4645,6 +5940,15 @@
         "documentation": {}
     },
     {
+        "label": "dino_metrics",
+        "kind": 2,
+        "importPath": "PAR_UPAR_ABPR_DINO_Transfer_Cells",
+        "description": "PAR_UPAR_ABPR_DINO_Transfer_Cells",
+        "peekOfCode": "def dino_metrics(dist,ids,gt=VAL_LABELS):\n    m=retrieval_metrics(np.asarray(dist,np.float32),np.asarray(ids),GIDS)\n    m.update(track2_metrics(np.asarray(dist,np.float32),Q[ids],gt))\n    return {k:float(m[k]) for k in ('mADM','mAP','Rank-1')}\nDATA_ROOT=OFFICIAL_ROOT/'data'\nDINO_RESOLVER=ImageResolver(DATA_ROOT,OFFICIAL_ROOT,\n    extra_roots=[p for p in [DINO_ROOT/'datasets',DINO_ROOT/'ABPR_Data',DINO_ROOT/'data'] if p.is_dir()])\n# Reuse VAL_PATHS only if exact correspondence to VAL_NAMES can be checked.\nprint('[PREPARE] Resolve source image paths; no recursive Google Drive scan')\nVAL_PATHS=[str(DINO_RESOLVER.resolve(x)) for x in tqdm(VAL_NAMES,desc='Exact gallery filenames',unit='img')]",
+        "detail": "PAR_UPAR_ABPR_DINO_Transfer_Cells",
+        "documentation": {}
+    },
+    {
         "label": "eg_metrics",
         "kind": 2,
         "importPath": "PAR_UPAR_ABPR_ErrorGuided_Cells",
@@ -4669,6 +5973,33 @@
         "description": "PAR_UPAR_ABPR_ErrorGuided_Cells",
         "peekOfCode": "def rank_gallery(payload):\n    original=base_run.rank_gallery(payload)\n    if not isinstance(original,dict) or 'distances' not in original:\n        raise RuntimeError('Unexpected original submission output')\n    query=np.asarray(payload['queries'],np.float32)\n    assert query.ndim==2 and query.shape[1]==len(ATTR_ORDER)\n    passed=payload.get('attribute_names')\n    if passed is not None:\n        passed=list(map(str,passed))\n        if passed!=ATTR_ORDER:",
         "detail": "PAR_UPAR_ABPR_ErrorGuided_Cells",
+        "documentation": {}
+    },
+    {
+        "label": "NEED",
+        "kind": 5,
+        "importPath": "PAR_UPAR_ABPR_HATA_Cells",
+        "description": "PAR_UPAR_ABPR_HATA_Cells",
+        "peekOfCode": "NEED = ['DINO_TRAIN_TOKENS','DINO_TRAIN_LOGITS','DINO_VAL_TOKENS','DINO_VAL_LOGITS',\n        'DINO_TRAIN_LABELS','DINO_TRAIN_DOMAINS','DINO_TRAIN_PATHS','VAL_PATHS',\n        'DINO_RUN_SIGNATURE','DINO_OUTPUT','DINO_CHECKPOINT','DINO_CK_SHA',\n        'DINO_HEAD','DINO_HEAD_PATH','DINO_TO_TRACK2','DINO_RAW_DIST','DINO_HEAD_DIST',\n        'BASE_DIST','FIT_IDS','AUDIT_IDS','SELECT_IDS','GIDS','Q','VAL_LABELS','VAL_NAMES',\n        'ATTR','TRACK1_ATTR','dt','dino_metrics','DINO_WIN','DINO_TTA_FLIP']\nmissing=[x for x in NEED if x not in globals()]\nif missing:\n    raise RuntimeError('Colab lost source/cache variables: '+str(missing)+\n        '. Restore via Cells 39–44 (and 43/44 evaluation) in the uploaded notebook, without retraining frozen DINO.')",
+        "detail": "PAR_UPAR_ABPR_HATA_Cells",
+        "documentation": {}
+    },
+    {
+        "label": "check_cache",
+        "kind": 2,
+        "importPath": "PAR_UPAR_ABPR_Representation_Learning_Cells",
+        "description": "PAR_UPAR_ABPR_Representation_Learning_Cells",
+        "peekOfCode": "def check_cache(p,ordered_paths):\n    p=Path(p);met=p.with_suffix('.json')\n    if not p.is_file() or not met.is_file():\n        raise FileNotFoundError(f'{p}: missing feature file/metadata. Run Cells 10–11, no re-training needed.')\n    j=json.loads(met.read_text())\n    expected=sp.digest_lines([SIGLIP_MODEL_ID,len(ordered_paths),*ordered_paths])\n    if j.get('signature')!=expected or j.get('completed')!=len(ordered_paths):\n        raise RuntimeError(f'Image path ordering/model cache mismatch for {p}. Do not train on misaligned features. Restore original symlinks or rerun Cell 10/11.')\n    arr=np.load(p,mmap_mode='r',allow_pickle=False)\n    assert arr.shape[0]==len(ordered_paths) and arr.ndim==2 and np.isfinite(arr).all()",
+        "detail": "PAR_UPAR_ABPR_Representation_Learning_Cells",
+        "documentation": {}
+    },
+    {
+        "label": "hash_file",
+        "kind": 2,
+        "importPath": "PAR_UPAR_ABPR_Representation_Learning_Cells",
+        "description": "PAR_UPAR_ABPR_Representation_Learning_Cells",
+        "peekOfCode": "def hash_file(path):\n    h=hashlib.sha256()\n    with open(path,'rb') as f:\n        for piece in iter(lambda:f.read(4*1024*1024),b''):h.update(piece)\n    return h.hexdigest()\nREPR_MODEL,REPR_DEVICE,REPR_CK=reprlearn.load_model(REPR_CHECKPOINT)\nassert REPR_CK['signature']==REPR_SIGNATURE\nREPR_ART=REPR_DIR/'val_repr_features.npz'\nREPR_META=REPR_DIR/'val_repr_features.json'\nFEATURE_SIGNATURE=sp.digest_lines([hash_file(REPR_CHECKPOINT),VAL_META['signature'],sp.digest_lines(ATTR)])",
+        "detail": "PAR_UPAR_ABPR_Representation_Learning_Cells",
         "documentation": {}
     },
     {
